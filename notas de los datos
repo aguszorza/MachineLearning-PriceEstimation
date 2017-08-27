@@ -1,0 +1,7 @@
+el csv de colectivos usa ";" como separador. Asi que hay que asegurarse de usar eso
+como separador y no la "," porque sino queda cualquier cosa. 
+
+Otro posible problema en ese archivo es que los numeros de la posicion usan la coma en vez del punto
+para los numeros fraccionarios por lo que no se si python los reconocera. De ultima seguro se pueda
+convertir de alguna forma. Sino desde geany o similar hacemos ctrl+h y ponemos que reemplace las comas por puntos
+pero traeria como desventaja que va a cambiar comas de otras cosas (como los nombres de las calles)
