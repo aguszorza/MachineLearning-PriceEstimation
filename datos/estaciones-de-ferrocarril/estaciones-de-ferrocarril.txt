@@ -1,0 +1,10 @@
+Nombre: Estaciones de Ferrocarril
+ Descripcion: <p>Referencia geogr&aacute;fica de las l&iacute;neas de ferrocarril en la Ciudad.</p>
+
+<p>**Datasets Relacionados**: [*Autopistas*](/dataset//autopistas), [*Subterraneos*](/dataset/subterraneos).</p>
+
+ Notas: 
+ Categorias:  Infraestructura y Obra Pública Urbanismo y Territorio Movilidad y Transporte
+ Etiquetas:  transporte servicios trenes
+ Publicacion: Mon Feb 20 2017 11:16:23 GMT-0300 (ART)
+ Ultima modificacion: Mon Feb 20 2017 11:16:23 GMT-0300 (ART)

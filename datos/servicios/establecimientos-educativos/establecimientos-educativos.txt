@@ -1,0 +1,10 @@
+Nombre: Establecimientos Educativos
+ Descripcion: <p>Listado de los establecimientos educativos de la Ciudad. Incluye ubicaci&oacute;n geogr&aacute;fica y datos de contacto.</p>
+
+<p>**Datasets Relacionados**: [*Distritos Escolares*](/dataset/distritos-escolares).</p>
+
+ Notas: 
+ Categorias:  Urbanismo y Territorio Educación
+ Etiquetas:  cursos servicios educación escuelas talleres colegios
+ Publicacion: Wed Oct 26 2016 10:38:37 GMT-0300 (ART)
+ Ultima modificacion: Tue Jan 31 2017 10:43:23 GMT-0300 (ART)

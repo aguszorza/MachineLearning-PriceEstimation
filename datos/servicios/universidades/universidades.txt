@@ -1,0 +1,8 @@
+Nombre: Universidades
+ Descripcion: <p>Listado con referencia geogr&aacute;fica y datos de contacto de las Universidades en la Ciudad.</p>
+
+ Notas: 
+ Categorias:  Educación
+ Etiquetas:  mapa cursos servicios educación
+ Publicacion: Fri Feb 03 2017 12:50:28 GMT-0300 (ART)
+ Ultima modificacion: Fri Feb 03 2017 12:50:29 GMT-0300 (ART)

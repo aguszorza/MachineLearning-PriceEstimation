@@ -1,0 +1,8 @@
+Nombre: Bibliotecas
+ Descripcion: <p>Listado con ubicaci&oacute;n geogr&aacute;fica de las bibliotecas de la Red del gobierno de la Ciudad Aut&oacute;noma de Buenos Aires.</p>
+
+ Notas: 
+ Categorias:  Urbanismo y Territorio Cultura y Turismo Administración Pública y Normativa
+ Etiquetas:  mapa cultura literatura
+ Publicacion: Fri Oct 28 2016 16:05:03 GMT-0300 (ART)
+ Ultima modificacion: Tue Jan 31 2017 10:51:30 GMT-0300 (ART)
