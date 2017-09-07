@@ -1,8 +1,0 @@
-Nombre: Centros de Salud Privados
- Descripcion: <p>Hospitales, sanatorios y cl&iacute;nicas privadas de la Ciudad de Buenos Aires no dependientes del Gobierno de la Ciudad de Buenos Aires.</p>
-
- Notas: 
- Categorias:  Salud y Servicios Sociales
- Etiquetas:  hospitales salud
- Publicacion: Thu Oct 27 2016 09:47:17 GMT-0300 (ART)
- Ultima modificacion: Tue Jan 31 2017 10:51:30 GMT-0300 (ART)

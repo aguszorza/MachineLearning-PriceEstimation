@@ -1,8 +1,0 @@
-Nombre: Cuarteles y Destacamentos de Bomberos
- Descripcion: <p>Listado con referencia geogr&aacute;fica y datos de contacto de los Cuarteles de Bomberos de la Polic&iacute;a Federal Argentina en la Ciudad.</p>
-
- Notas: 
- Categorias:  Infraestructura y Obra Pública Salud y Servicios Sociales Seguridad
- Etiquetas:  emergencias mapa seguridad
- Publicacion: Mon Feb 20 2017 11:22:10 GMT-0300 (ART)
- Ultima modificacion: Mon Feb 20 2017 11:22:11 GMT-0300 (ART)

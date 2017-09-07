@@ -1,8 +1,0 @@
-Nombre: Centros Médicos Barriales
- Descripcion: <p>Centros m&eacute;dicos en los distintos barrios de la Ciudad.</p>
-
- Notas: 
- Categorias:  Salud y Servicios Sociales
- Etiquetas:  mapa servicios vacunas salud
- Publicacion: Thu Feb 09 2017 13:27:37 GMT-0300 (ART)
- Ultima modificacion: Thu Feb 09 2017 13:27:37 GMT-0300 (ART)

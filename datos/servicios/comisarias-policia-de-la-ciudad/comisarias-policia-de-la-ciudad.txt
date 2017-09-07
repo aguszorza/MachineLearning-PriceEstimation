@@ -1,8 +1,0 @@
-Nombre: Comisarías Policía de la Ciudad
- Descripcion: <p>Mapa de las comisar&iacute;as de la Metropolitana de la ciudad. Incluye direcci&oacute;n, barrio, comuna y circunscripci&oacute;n.</p>
-
- Notas: 
- Categorias:  Urbanismo y Territorio Seguridad
- Etiquetas:  emergencias comisarías servicios seguridad
- Publicacion: null
- Ultima modificacion: Tue May 30 2017 10:33:33 GMT-0300 (ART)
