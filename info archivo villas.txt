@@ -1,0 +1,9 @@
+No logre encontrar un archivo que tenga los poligonos.
+Lo que encontre fueron las posiciones lat,lon y en algunos
+casos su superficie y otras cosas.
+
+Se me ocurre que, en los casos que se tienen esos datos extras,
+calcular un radio y ver si las propiedades estan dentro de ese radio
+o un poco mas lejos y ver la relacion con los precios.
+
+Para los que no tienen esos datos, hacemos lo mismo pero estableciendo un radio nosotros
