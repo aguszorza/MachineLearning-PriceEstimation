@@ -1,8 +1,0 @@
-Nombre: Contaminación Sonora
- Descripcion: <p>Niveles de contaminaci&oacute;n sonora medidos por la red de monitoreo de la Ciudad. Se brinda informaci&oacute;n diaria pero acorde a las mejores pr&aacute;cticas se recomienda no considerar los niveles correspondiente a los fines de semana.</p>
-
- Notas: 
- Categorias:  Medio Ambiente
- Etiquetas:  sonido polución contaminación ruido ambiente
- Publicacion: Mon Oct 24 2016 14:36:07 GMT-0300 (ART)
- Ultima modificacion: Tue Jan 31 2017 10:43:23 GMT-0300 (ART)
