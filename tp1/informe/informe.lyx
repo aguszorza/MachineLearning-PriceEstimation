@@ -543,15 +543,8 @@ es.
 \end_layout
 
 \begin_layout Itemize
-Construcción: los datos presentan la superficie total y la superficie cubierta,
- por lo que se podría llegar a obtener como varía el precio según cómo varían
- estos datos.
- Borramos esos datos 
-\end_layout
-
-\begin_layout Itemize
-El efecto que produce el valor del dólar.
- 
+Otro elemento a analizar serían las comodidades que presenta la propiedad,
+ como por ejemplo las piletas, gimnasios, seguridad, etc.
 \end_layout
 
 \begin_layout Standard
@@ -2684,10 +2677,7 @@ key "key-1"
 
 \end_inset
 
-
 Datos de villas y asentamientos: 
-\lang spanish
-
 \begin_inset Flex URL
 status open
 

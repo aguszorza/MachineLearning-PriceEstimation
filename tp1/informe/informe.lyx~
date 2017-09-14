@@ -543,15 +543,8 @@ es.
 \end_layout
 
 \begin_layout Itemize
-Construcción: los datos presentan la superficie total y la superficie cubierta,
- por lo que se podría llegar a obtener como varía el precio según cómo varían
- estos datos.
- Borramos esos datos 
-\end_layout
-
-\begin_layout Itemize
-El efecto que produce el valor del dólar.
- 
+Otro elemento a analizar serian las comodidades que presenta la propiedad,
+ como por ejemplo las piletas, gimnasios, seguridad, etc.
 \end_layout
 
 \begin_layout Standard
@@ -649,10 +642,6 @@ El set de datos incluye publicaciones únicamente de Capital Federal y Gran
  En este análisis comparamos el precio por metro cuadrado en cada una de
  ellas.
  
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -2189,7 +2178,8 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-PONER CONCLUSION CON EL NUEVO GRAFICO
+Como se puede observar en el gráfico, la cercania a las villas no produce
+ una disminución en los precios.
 \end_layout
 
 \begin_layout Subsection
@@ -2687,10 +2677,7 @@ key "key-1"
 
 \end_inset
 
-
 Datos de villas y asentamientos: 
-\lang spanish
-
 \begin_inset Flex URL
 status open
 
