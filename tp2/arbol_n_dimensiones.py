@@ -45,7 +45,7 @@ class Nodo_hoja:
 
 class Arbol_n_dimensiones:
 	
-	def __init__(self, dataframe, columnas):
+	def __init__(self, dataframe, columnas, minimo_datos_en_hoja):
 		self.raiz = crear_nodos(dataframe,columnas,0)
 		
 	def obtener_dataframe(self, dato):
@@ -53,9 +53,7 @@ class Arbol_n_dimensiones:
 		
 		
 		
-def crear_nodos(dataframe, columnas, i):
-	
-	minimo_datos_en_hoja = 1500
+def crear_nodos(dataframe, columnas, i,minimo_datos_en_hoja):
 	
 	if (len(dataframe) <= minimo_datos_en_hoja):
 		hoja = 	Nodo_hoja(dataframe.reset_index())
@@ -68,8 +66,8 @@ def crear_nodos(dataframe, columnas, i):
 	df_izq = dataframe.loc[dataframe[col] <= promedio,:]
 	df_der = dataframe.loc[dataframe[col] > promedio, :]
 	
-	nodo.set_izquierdo(crear_nodos(df_izq, columnas, i+1))
-	nodo.set_derecho(crear_nodos(df_der, columnas, i+1))
+	nodo.set_izquierdo(crear_nodos(df_izq, columnas, i+1,minimo_datos_en_hoja))
+	nodo.set_derecho(crear_nodos(df_der, columnas, i+1,minimo_datos_en_hoja))
 	
 	return nodo
 	
