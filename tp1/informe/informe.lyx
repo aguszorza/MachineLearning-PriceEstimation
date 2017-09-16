@@ -1280,7 +1280,7 @@ end{center}
 \begin_layout Standard
 Luego, se agruparon datos según el tipo de propiedad y se evaluaron los
  datos para cada uno.
- En el siguiente gráfico se muestra el resultado.
+ En los siguientes gráficos se muestran los resultados.
  
 \end_layout
 
@@ -1319,6 +1319,40 @@ end{center}
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_segun_tipo_propiedad.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Se puede ver que los negocios tienen en general precios mayores que las
  otras propiedades.
  Esto puede ser debido a que estos deben cumplir con ciertas leyes y regulacione
@@ -1327,9 +1361,14 @@ s que las otras propiedades no, lo cual hace que sea constructivamente más
  Comparando las casas con los departamentos, que son los tipos de propiedad
  que puede comprar una familia, se puede observar que las casas son mucho
  más caras que los departamentos, tanto en general como en promedio.
+ Sin embargo, si se analiza el precio por metro cuadrado, las casas son
+ más baratas que los departamentos.
+ Lo cual indica que el precio elevado de las casas sea debido a que tienen
+ una superficie mayor, como era esperado.
  Este dato puede ser importante para una familia o persona que quiera comprar
- una propiedad, ya que deberán analizar si pagar más para vivir en una casa,
- o querer algo más barato y decidirse por un departamento en un edificio.
+ una propiedad, ya que deberán analizar si pagar más para vivir en una casa
+ y tener más espacio, o querer algo más barato y decidirse por un departamento
+ en un edificio.
  
 \end_layout
 
@@ -2274,6 +2313,297 @@ Conclusiones
  En general se puede observar que estar cerca del medio de transporte o
  de algun lugar turistico significa pagar un mayor precio por la propiedad.
  
+\end_layout
+
+\begin_layout Section
+Comodidades
+\end_layout
+
+\begin_layout Standard
+Queremos ver qué como la presencia o ausencia de ciertas comodidades en
+ la propiedad pueden afectar el precio de ésta.
+ Para ello, tomaremos algunos de los datos propuestos en las descripciones
+ para contrastarlos con los precios.
+\end_layout
+
+\begin_layout Subsection
+Pileta y similares
+\end_layout
+
+\begin_layout Standard
+Las propiedades que presentan piletas y jacuzzis suelen ser sinónimo de
+ propiedades caras.
+ El resultado obtenido se presenta en el siguiente gráfico.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_pileta.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede observar que en las propiedades que presentan piletas o jacuzzis
+ pueden llegar a alcanzar un precio por metro cuadrado más elevado pero
+ no distan mucho del precio de las propiedades que no presentan esta comodidad.
+\end_layout
+
+\begin_layout Subsection
+Elementos de climatización
+\end_layout
+
+\begin_layout Standard
+Existen distintos aparatos para mantener la propiedad a una temperatura
+ agradable.
+ Algunos de estos son: aires acondicionados, splits, radiadores, losa radiantes,
+ entre otros.
+ La presencia de estos elementos en la propiedad podría llegar a aumentar
+ el precio de la propiedad.
+ El resultado obtenido es el siguiente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_climatizacion.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que se alcanzan precios más altos con la presencia de estos
+ elementos.
+ Por lo que si se desea comprar una casa que presente estos elementos, se
+ deberá pagar un precio más elevado.
+\end_layout
+
+\begin_layout Subsection
+Presencia de cochera
+\end_layout
+
+\begin_layout Standard
+La presencia de una cochera en la propiedad puede ser importante para un
+ comprador puesto que el vehículo quedará resguardado de posibles robos
+ o factores clímaticos.
+ Es por esto que la presencia de la cochera podría llegar a afectar el precio
+ de la propiedad.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_cochera.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que el rango de precios entre ambos casos es similar, con la
+ única diferencia que en los casos que se tiene cochera, se alcanzan precios
+ un poco más elevados.
+\end_layout
+
+\begin_layout Subsection
+Presencia de un gimnasio
+\end_layout
+
+\begin_layout Standard
+Se encontró que algunas propiedades presentaban gimnasios.
+ Un servicio como este puede aumentar significativamente el precio.
+ Al analizarlo se obtuvo el siguiente resultado:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_gimnasio.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que las propiedades que presentan gimnasios pueden alcanzar
+ precios por metro cuadrado de aproximadamente el doble que en los casos
+ que no.
+\end_layout
+
+\begin_layout Subsection
+Seguridad
+\end_layout
+
+\begin_layout Standard
+Una propiedad segura puede atraer a un comprador pero la presencia de estos
+ servicios podrían llegar a aumentar el precio.
+ Se analizaron las propiedades que poseían vigilancia, alarmas, guardias,
+ entre otras cosas, y se obtuvo el siguiente gráfico
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_vigilancia.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que el precio en las propiedades que presentan elementos de
+ seguridad suelen ser más caras.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+Conclusiones
+\series default
+\bar default
+: Mostramos algunas comodidades que puede presentar la propiedad factores
+ que creemos que pueden influir en el precio, y comprobamos de qué manera
+ lo afectan.
+ En algunos casos el aumento del precio fue más notorio, pero en general,
+ la presencia de alguna de estas comodidades provocan un aumento en el precio
+ de la propiedad.
 \end_layout
 
 \begin_layout Section
