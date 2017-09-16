@@ -777,7 +777,7 @@ s que las otras propiedades no, lo cual hace que sea constructivamente más
 \end_layout
 
 \begin_layout Subsection
-Análisis del precio por zona 
+Análisis por zona 
 \end_layout
 
 \begin_layout Standard
@@ -826,11 +826,63 @@ end{center}
 \begin_layout Standard
 Como era de esperarse, el precio en Capital Federal supera ampliamente a
  los de Gran Buenos Aires, tanto en promedio como en el 75% de las propiedades,
- ya que es una zona mas centrica, con mayor cantidad de servicios y lugares
+ ya que es una zona mas céntrica, con mayor cantidad de servicios y lugares
  turísticos.
  Con respecto a Gran Buenos Aires, podemos ver que la zona norte y la zona
  sur tienen el mismo promedio y el mismo rango de precios, mientras que
  la zona oeste está un poco por debajo, aunque se mantiene con cierta similitud.
+\end_layout
+
+\begin_layout Standard
+Por otro lado, queremos ver como es la distribución de las casas y los departame
+ntos en cada zona.
+ El resultado obtenido es el siguiente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/distribucion_casas_deptos.png}
+\backslash
+
+\backslash
+[1cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se puede observar, Capital Federal es una zona con muchos más departamentos
+ que casas, mientras que en Gran Buenos Aires, aunque están parejos, hay
+ mayor cantidad de casas.
+ Esto significa que Gran Buenos Aires es una zona más residencial en comparación
+ con Capital.
+ Se puede notar que la cantidad de casas en Capital es muy baja comparado
+ con Gran Buenos Aires.
+ Esto es entendible teniendo en cuenta que la superficie de Capital es mucho
+ menor, por lo que se aprovecha mejor construyendo edificios.
 \end_layout
 
 \begin_layout Subsection
