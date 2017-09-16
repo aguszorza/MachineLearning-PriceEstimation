@@ -214,7 +214,7 @@ huge Analisis Exploratorio}
 \backslash
 textsc{
 \backslash
-small Matias Feld, Padrón: 99170}
+small Matias Leandro Feld, Padrón: 99170}
 \backslash
 
 \backslash
@@ -632,6 +632,151 @@ A continuación presentaremos los distintos análisis realizados, incluyendo
 \end_layout
 
 \begin_layout Subsection
+Análisis del tipo de propiedad 
+\end_layout
+
+\begin_layout Standard
+Otro factor a tener en cuenta es el tipo de propiedad, ya que constructivamente
+ son diferentes, y pueden destinarse a distintos usos o a distintos tipos
+ de compradores, pudiendo variar los precios.
+ Primero analizamos los distintos tipos de propiedades que presentaba el
+ set de datos, y cuáles de ellos son los que más se ofrecen en venta.
+ En el siguiente gráfico se puede apreciar que el set de datos tiene cuatro
+ tipos diferentes de propiedades, donde los departamentos y las casas son
+ mayoría.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/publicaciones_por_tipo_propiedad.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego, se agruparon datos según el tipo de propiedad y se evaluaron los
+ datos para cada uno.
+ En los siguientes gráficos se muestran los resultados.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_segun_tipo_propiedad.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_segun_tipo_propiedad.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que los negocios tienen en general precios mayores que las
+ otras propiedades.
+ Esto puede ser debido a que estos deben cumplir con ciertas leyes y regulacione
+s que las otras propiedades no, lo cual hace que sea constructivamente más
+ costoso.
+ Comparando las casas con los departamentos, que son los tipos de propiedad
+ que puede comprar una familia, se puede observar que las casas son mucho
+ más caras que los departamentos, tanto en general como en promedio.
+ Sin embargo, si se analiza el precio por metro cuadrado, las casas son
+ más baratas que los departamentos.
+ Lo cual indica que el precio elevado de las casas sea debido a que tienen
+ una superficie mayor, como era esperado.
+ Este dato puede ser importante para una familia o persona que quiera comprar
+ una propiedad, ya que deberán analizar si pagar más para vivir en una casa
+ y tener más espacio, o querer algo más barato y decidirse por un departamento
+ en un edificio.
+ 
+\end_layout
+
+\begin_layout Subsection
 Análisis del precio por zona 
 \end_layout
 
@@ -900,6 +1045,98 @@ Se puede ver que en general es muy similar al anterior, pero con algunas
  más baratos, pero considerando el precio por metro cuadrado están más arriba
  en el orden.
  
+\end_layout
+
+\begin_layout Standard
+Por otro lado, como se vio en el primer análisis, teniendo en cuenta el
+ precio por metro cuadrado los departamentos son más caros que las casas.
+ En los siguientes gráficos se podrá analizar si para el promedio influyen
+ más las casas o los departamentos.
+\end_layout
+
+\begin_layout Standard
+Barrios más caros:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.5]{/imagenes/comparacion_casas_deptos.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Barrios más baratos:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.5]{/imagenes/comparacion_casas_deptos2.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se puede ver, los barrios más caros son zonas de muchos edificios,
+ ya que hay muchos más departamentos que casas.
+ Esto significa que el promedio de precios está mayormente influido por
+ los departamentos, que son más caros.
+ Por el contrario, en los barrios más baratos hay mayor influencia de las
+ casas, cuyo precio por metro cuadrado es menor.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1224,151 +1461,6 @@ Conclusiones
  contradiciendo lo dicho anteriormente, aunque esto puede deberse a que
  unicamente se estan viendo diez barrios, sin tener en cuenta cuantos son
  en cada zona, mientras que en el primer análisis se tienen en cuenta todos.
- 
-\end_layout
-
-\begin_layout Subsection
-Análisis del tipo de propiedad 
-\end_layout
-
-\begin_layout Standard
-Otro factor a tener en cuenta es el tipo de propiedad, ya que constructivamente
- son diferentes, y pueden destinarse a distintos usos o a distintos tipos
- de compradores, pudiendo variar los precios.
- Primero analizamos los distintos tipos de propiedades que presentaba el
- set de datos, y cuáles de ellos son los que más se ofrecen en venta.
- En el siguiente gráfico se puede apreciar que el set de datos tiene cuatro
- tipos diferentes de propiedades, donde los departamentos y las casas son
- mayoría.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/publicaciones_por_tipo_propiedad.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Luego, se agruparon datos según el tipo de propiedad y se evaluaron los
- datos para cada uno.
- En los siguientes gráficos se muestran los resultados.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_segun_tipo_propiedad.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2_segun_tipo_propiedad.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Se puede ver que los negocios tienen en general precios mayores que las
- otras propiedades.
- Esto puede ser debido a que estos deben cumplir con ciertas leyes y regulacione
-s que las otras propiedades no, lo cual hace que sea constructivamente más
- costoso.
- Comparando las casas con los departamentos, que son los tipos de propiedad
- que puede comprar una familia, se puede observar que las casas son mucho
- más caras que los departamentos, tanto en general como en promedio.
- Sin embargo, si se analiza el precio por metro cuadrado, las casas son
- más baratas que los departamentos.
- Lo cual indica que el precio elevado de las casas sea debido a que tienen
- una superficie mayor, como era esperado.
- Este dato puede ser importante para una familia o persona que quiera comprar
- una propiedad, ya que deberán analizar si pagar más para vivir en una casa
- y tener más espacio, o querer algo más barato y decidirse por un departamento
- en un edificio.
  
 \end_layout
 
@@ -2218,7 +2310,7 @@ end{center}
 
 \begin_layout Standard
 Como se puede observar en el gráfico, la cercania a las villas no produce
- una disminución en los precios.
+ una disminución en los precios como era esperable, sino que ocurre lo contrario.
 \end_layout
 
 \begin_layout Subsection
@@ -2784,6 +2876,62 @@ A partir del gráfico se puede ver que la gran mayoría de las publicaciones
  
 \end_layout
 
+\begin_layout Subsection
+Zonas más céntricas
+\end_layout
+
+\begin_layout Standard
+Es interesante saber si la zona de la propiedad es una zona céntrica o no.
+ Consideramos que una zona es céntrica si en ella hay muchos negocios.
+ Hay que tener en cuenta que los datos que tenemos son únicamente de negocios
+ en venta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/negocios_capital.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como puede verse, los barrios con mayor cantidad de negocios en venta, para
+ Capital Federal, se encuentran al norte y al este.
+ Interesantemente, son las mismas zonas que eran más oscuras en el mapa
+ donde se mostró el precio para cada barrio.
+ A su vez, al principio del análisis mostramos que los negocios podían ser
+ más caros que el resto de las propiedades.
+ Teniendo ambas cosas en cuenta, podemos decir que los negocios influyen
+ en gran medida en el precio promedio de un barrio.
+\end_layout
+
 \begin_layout Section
 Apéndice: Cálculos de distancia 
 \end_layout
@@ -2868,7 +3016,7 @@ def haversine(lat1,long1,lat2,long2):
 
 \begin_layout Plain Layout
 
-	a = ( sin(dlat * 0.5)**2 + cos(lat1) * cos(lat2) * sin(dlon * 0.5)**2 )
+	a = (sin(dlat * 0.5)**2 + cos(lat1) * cos(lat2) * sin(dlon*0.5)**2)
 \end_layout
 
 \begin_layout Plain Layout
@@ -2986,13 +3134,13 @@ key "key-5"
 
 \end_inset
 
-Análisis exploratorio realizado en: 
+Datos de villas y asentamientos: 
 \begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
 
-https://github.com/feldmatias/tpDatos
+relevamiento.techo.org.ar
 \end_layout
 
 \end_inset
@@ -3007,13 +3155,13 @@ key "key-1"
 
 \end_inset
 
-Datos de villas y asentamientos: 
+Análisis exploratorio realizado en: 
 \begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
 
-relevamiento.techo.org.ar
+https://github.com/feldmatias/tpDatos
 \end_layout
 
 \end_inset
