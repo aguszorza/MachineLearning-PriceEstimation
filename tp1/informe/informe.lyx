@@ -1044,8 +1044,11 @@ end{center}
 \begin_layout Standard
 Como se puede ver, los barrios más al norte tienen mayor precio promedio,
  mientras que los del sur tienen menor promedio.
- Por otro lado, Puerto Madero aparece como el barrio más caro, al igual
- que ocurre en el gráfico mostrado anteriormente.
+\end_layout
+
+\begin_layout Standard
+Por otro lado, Puerto Madero aparece como el barrio más caro, al igual que
+ ocurre en el gráfico mostrado anteriormente.
  
 \end_layout
 
@@ -1097,6 +1100,13 @@ Se puede ver que en general es muy similar al anterior, pero con algunas
  más baratos, pero considerando el precio por metro cuadrado están más arriba
  en el orden.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1189,6 +1199,61 @@ Como se puede ver, los barrios más caros son zonas de muchos edificios,
  los departamentos, que son más caros.
  Por el contrario, en los barrios más baratos hay mayor influencia de las
  casas, cuyo precio por metro cuadrado es menor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por último, queremos analizar por qué Puerto Madero es mucho más caro que
+ los demás barrios.
+ Para eso, realizamos un gráfico donde se puede ver como se distribuyen
+ los precios para cada tipo de propiedad.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.5]{/imagenes/puerto_madero.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que el precio alto viene dado principalmente por los negocios,
+ ya que tienen un precio por metro cuadrado bastante alto.
+ A su vez, los departamentos también contribuyen con un precio alto, mientras
+ que entre las casas los precios están más distribuidos.
 \end_layout
 
 \begin_layout Subsubsection
