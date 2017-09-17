@@ -826,11 +826,73 @@ end{center}
 \begin_layout Standard
 Como era de esperarse, el precio en Capital Federal supera ampliamente a
  los de Gran Buenos Aires, tanto en promedio como en el 75% de las propiedades,
- ya que es una zona mas céntrica, con mayor cantidad de servicios y lugares
+ ya que es una zona más céntrica, con mayor cantidad de servicios y lugares
  turísticos.
  Con respecto a Gran Buenos Aires, podemos ver que la zona norte y la zona
  sur tienen el mismo promedio y el mismo rango de precios, mientras que
  la zona oeste está un poco por debajo, aunque se mantiene con cierta similitud.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ahora realizaremos el mismo análisis pero con el precio total:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio__por_zona.png}
+\backslash
+
+\backslash
+[1cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que en promedio, GBA zona oeste y zona sur son muy similares
+ y a su vez son los más bajos.
+ Sin embargo, a diferencia del gráfico anterior, GBA zona norte supera por
+ mucho a Capital Federal, tanto en promedio como en los precios más altos.
+ Esto significa que en zona norte las propiedades tienen mayor superficie
+ que en Capital, haciendo que el precio sea más alto a pesar de que el precio
+ por metro cuadrado sea más bajo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1656,8 +1718,111 @@ Como se puede observar, se produjo una baja en los precios por metro cuadrado
 \end_layout
 
 \begin_layout Standard
-En el segundo gráfico, se muestra como fue la evolución del precio de las
- propiedades a través de los años.
+Para desglosar estos datos, analizamos lo mismo pero para los distintos
+ tipos de propiedad que hay.
+ Esto se muestra a continuación:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/evolucion_precio_m2_por_tipo.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede observar lo mismo que en el gráfico anterior, entre 2014 y 2015
+ se produce una baja en el precio y luego vuelve a subir.
+ Esto significa que los precios de todas las propiedades se comportaron
+ de igual manera.
+\end_layout
+
+\begin_layout Standard
+También queremos ver cómo se comportaron los precios para las distintas
+ zonas.
+ El resultado es el siguiente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/evolucion_precio_m2_por_zona.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que tanto en Capital como en GBA zona norte y zona oeste lso
+ precios se comportaron mas o menos de la misma manera.
+ Sin embargo, en la zona sur ocurrió todo lo contrario.
+ Entre 2014 y 2015 su precio promedio creció mucho, tanto que superó incluso
+ a Capital Federal, y luego tuvo un gran descenso hacia 2016.
+ En 2017 vuelve a remontar al igual que todos los demás.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Siguiendo con el análisis, en el siguiente gráfico se muestra como fue la
+ evolución del precio de las propiedades a través de los años.
  Para ello, se calculó el promedio para cada uno de los años.
 \end_layout
 
@@ -1743,6 +1908,66 @@ end{center}
 Efectivamente, en 2015, que es cuando los precios por metro cuadrado son
  más bajos, las superficies de las propiedades en venta son mayores, haciendo
  que los precios totales crezcan.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ahora veremos lo mismo por zona, para ver si ocurrió lo mismo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/evolucion_precio_total_por_zona.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Efectivamente, excepto para GBA zona sur que tuvo una leve bajada ente 2015
+ y 2016, en todos los casos los precios se mantienen constantes o crecen.
+ Se puede ver que el aumento de precios es mucho más notorio para Capital
+ y zona norte, especialmente entre 2015 y 2017, ya que tienen una pendiente
+ mayor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
