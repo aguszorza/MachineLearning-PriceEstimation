@@ -2198,13 +2198,10 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Se puede observar que las propiedades más baratas no tienen más de 5 habitacione
-s, aunque igualmente son muy pocas las que tienen 6 o más.
- Como son muy pocas las propiedades con más de 6 habitaciones no podemos
- sacar conclusiones con respecto a eso.
- Lo que sí se puede decir es que para cualquier rango de precios hay cualquier
- cantidad de habitaciones entre 1 y 5.
- 
+Se puede observar que a medida que aumenta la cantidad de habitaciones el
+ precio tiende a ser mayor, pero son muy pocas las que tienen más de seis.
+ Creemos que esto se debe a que cuantas más habitaciones tiene generalmente
+ tiene mayor superficie, lo que aumenta el precio total.
 \end_layout
 
 \begin_layout Subsection
@@ -2268,10 +2265,10 @@ El valor de distancia representa la menor distancia que hay entre la propiedad
 \end_layout
 
 \begin_layout Standard
-Se puede observar que en las propiedades que se encuentran alejadas del
- subte tienen mayormente precios bajos.
- Mientras que las propiedades con precios más altos se ubican entre 0 y
- 1 km , comprobando la hipótesis planteada.
+Se puede observar que a medida que aumenta la distancia las propiedades
+ con precio alto son cada vez menos, mientras que las propiedades con precios
+ más altos se ubican entre 0 y 1 km del subte, comprobando la hipótesis
+ planteada.
  
 \end_layout
 
@@ -2363,9 +2360,10 @@ El valor de distancia representa la menor distancia que hay entre la propiedad
 
 \begin_layout Standard
 Efectivamente, cuanto más grande es la distancia entre la propiedad y algún
- lugar turístico, el precio es cada vez más bajo.
- Asimismo, la mayoría de las propiedades con mayor precio se encuentran
- a menos de 3 km.
+ lugar turístico, la cantidad de propiedades con precios altos comienza
+ a disminuir.
+ Asimismo, la mayoría de las propiedades con mayor precio tienen distancia
+ menor a 3,5 km.
  
 \end_layout
 
@@ -2504,10 +2502,9 @@ El valor de distancia representa la menor distancia que hay entre la propiedad
 \end_layout
 
 \begin_layout Standard
-Se puede observar en el gráfico que ocurre la segunda hipótesis.
- Las propiedades más cercanas tienen mayor precio por metro cuadrado que
- aquellas que están más lejos.
- 
+Como se puede observar en el gráfico, las propiedades más cercanas (entre
+ 1 y 2 cuadras) tienen menor precio por metro cuadrado, y éste va aumentando
+ a medida que lo hace la distancia.
 \end_layout
 
 \begin_layout Subsection
@@ -2613,8 +2610,9 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Como se puede observar en el gráfico, la cercanía a las villas no produce
- una disminución en los precios como era esperable, sino que ocurre lo contrario.
+Se puede observar en el gráfico que las propiedades de menor distancia son
+ muy baratas, y que el precio comienza a aumentar a medida que se va agrandando
+ la distancia.
 \end_layout
 
 \begin_layout Subsection
