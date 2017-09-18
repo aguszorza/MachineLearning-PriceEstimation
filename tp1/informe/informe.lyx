@@ -190,7 +190,7 @@ small 2do.
 \backslash
 Huge 
 \backslash
-bfseries Trabajo práctico}
+bfseries Trabajo práctico 1}
 \backslash
 
 \backslash
@@ -354,7 +354,7 @@ Los principales factores que inciden en la valoración del suelo son:
 La ubicación: su distancia al casco urbano, conexión vial, su entorno.
  La ubicación es una variable, “invariable” en la evaluación de compra de
  todo inmueble.
- Por ejemplo los terrenos sobre rutas o avenidas incrementan un precio mayor
+ Por ejemplo los terrenos sobre rutas o avenidas implican un precio mayor
  en referencia a un lote que está sobre una calle interna.
  
 \end_layout
@@ -481,46 +481,6 @@ Los puntos fundamentales a evaluar para fijar el monto de la tasación son
 \end_layout
 
 \begin_layout Standard
-“Si el dólar se aprecia en relación con la moneda local, se necesitarán
- menos dólares para cubrir los costos de construcción (que se abonan en
- moneda local).
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Así, se produce un aumento de la oferta de propiedades y una tendencia a
- la caída de su precio.
- Si el dólar se deprecia en relación con la moneda local, aumenta la capacidad
- de ahorro del consumidor.
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Así, a mediano plazo, es posible esperar un aumento de la demanda de propiedades.
-“[3]
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Según la información recolectada, se observa que el precio de los inmuebles
  depende de varios factores.
  Según el set de datos que presentado hay ciertos factores que podrán ser
@@ -627,7 +587,7 @@ Análisis de los datos
 \begin_layout Standard
 A continuación presentaremos los distintos análisis realizados, incluyendo
  gráficos descriptivos y algunas conclusiones pertinentes.
- Si no se indica los contrario, los precios estarán indicados en dólares.
+ Si no se indica los contrario, los precios estarán expresados en dólares.
  
 \end_layout
 
@@ -636,8 +596,8 @@ Análisis del tipo de propiedad
 \end_layout
 
 \begin_layout Standard
-Otro factor a tener en cuenta es el tipo de propiedad, ya que constructivamente
- son diferentes, y pueden destinarse a distintos usos o a distintos tipos
+Uno de los factores para analizar es el tipo de propiedad, ya que constructivame
+nte son diferentes, y pueden destinarse a distintos usos o a distintos tipos
  de compradores, pudiendo variar los precios.
  Primero analizamos los distintos tipos de propiedades que presentaba el
  set de datos, y cuáles de ellos son los que más se ofrecen en venta.
@@ -952,7 +912,7 @@ Análisis barrial
 \end_layout
 
 \begin_layout Standard
-Uno de los factores a tener en cuenta es la ubicación de la propiedad.
+Otro de los factores a analizar es la ubicación de la propiedad.
  Dentro de esta categoría se debe tener en cuenta cómo afecta el barrio
  en el precio de la propiedad.
  Es por esto que se realizó un análisis de la variación del precio por metro
@@ -1260,7 +1220,8 @@ Como se puede ver, los barrios más caros son zonas de muchos edificios,
  Esto significa que el promedio de precios está mayormente influido por
  los departamentos, que son más caros.
  Por el contrario, en los barrios más baratos hay mayor influencia de las
- casas, cuyo precio por metro cuadrado es menor.
+ casas, cuyo precio por metro cuadrado es menor, aunque sigue habiendo mayoría
+ de departamentos.
 \end_layout
 
 \begin_layout Standard
@@ -1274,7 +1235,7 @@ Como se puede ver, los barrios más caros son zonas de muchos edificios,
 Por último, queremos analizar por qué Puerto Madero es mucho más caro que
  los demás barrios.
  Para eso, realizamos un gráfico donde se puede ver como se distribuyen
- los precios para cada tipo de propiedad.
+ los precios para cada tipo de propiedad dentro del barrio.
 \end_layout
 
 \begin_layout Standard
@@ -1632,7 +1593,7 @@ Conclusiones
 \bar default
 : Si no tenemos en cuenta aquellos barrios que tienen una gran diferencia
  con respecto al resto (como Lanús y Delta), se puede observar que se mantiene
- lo obtenido en el primer análisis.
+ lo obtenido en el análisis por zona.
  Podemos ver que los precios de los diez barrios más caros de Capital Federal
  son más altos que los de Gran Buenos Aires, a la vez que los de zona sur
  y zona oeste son similares, como se mencionó al principio.
@@ -1805,7 +1766,7 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Se puede ver que tanto en Capital como en GBA zona norte y zona oeste lso
+Se puede ver que tanto en Capital como en GBA zona norte y zona oeste los
  precios se comportaron mas o menos de la misma manera.
  Sin embargo, en la zona sur ocurrió todo lo contrario.
  Entre 2014 y 2015 su precio promedio creció mucho, tanto que superó incluso
@@ -1906,8 +1867,8 @@ end{center}
 
 \begin_layout Standard
 Efectivamente, en 2015, que es cuando los precios por metro cuadrado son
- más bajos, las superficies de las propiedades en venta son mayores, haciendo
- que los precios totales crezcan.
+ más bajos, las superficies de las propiedades en venta son mayores en promedio,
+ haciendo que los precios totales crezcan.
 \end_layout
 
 \begin_layout Standard
@@ -1972,7 +1933,8 @@ Efectivamente, excepto para GBA zona sur que tuvo una leve bajada ente 2015
 
 \begin_layout Standard
 A continuación se mostrará la misma información del primer gráfico, es decir
- la evolución del precio por metro cuadrado, pero mostrando mes a mes.
+ la evolución del precio por metro cuadrado, pero mostrando la evolución
+ mes a mes.
  
 \end_layout
 
@@ -2011,10 +1973,10 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Se puede ver que el 2014 (línea verde) fue bajando el precio constantemente,
- hasta Marzo de 2015 (línea naranja).
- A partir de ahí, durante todo el resto de 2015 y todo 2016 (línea azul),
- el precio no para de subir.
+Se puede ver que el 2014 fue bajando el precio constantemente, hasta Marzo
+ de 2015 .
+ A partir de ahí, durante todo el resto de 2015 y todo 2016, el precio no
+ para de subir.
  Esto es lo mismo que se puede observar en el primer gráfico, la bajada
  durante el año 2014 hasta 2015 y luego la subida constante.
  
@@ -2144,7 +2106,7 @@ Piso
 \begin_layout Standard
 Primero analizaremos cómo afecta al precio en que piso del edificio se encuentra
  la propiedad.
- Por obvias razones, solo se tendrán en cuenta departamentos.
+ Por obvias razones, solo se tendrán en cuenta los departamentos.
  
 \end_layout
 
@@ -2183,9 +2145,9 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Como se puede observar, a medida que aumenta el precio por metro cuadrado
- los pisos son cada vez más bajos, por lo que podemos concluir que cuanto
- más alto se encuentra el departamento más barato será.
+Como se puede observar, a medida que aumenta piso los precios tienden a
+ disminuir, por lo que podemos concluir que cuanto más alto se encuentra
+ el departamento más barato será.
  
 \end_layout
 
@@ -2416,8 +2378,8 @@ Ahora analizaremos cómo influye en el precio de una propiedad la cercanía
  a algún estadio.
  Creemos que las propiedades que se encuentran cerca de estadios deberían
  ser más baratas, debido a la gran cantidad de gente que puede ir a ellos
- y porque generalmente se cierran los alrededores a los transportes.
- 
+ y porque generalmente se cierran los alrededores a los transportes cuando
+ hay algún evento en ellos.
 \end_layout
 
 \begin_layout Standard
@@ -2428,7 +2390,7 @@ Ahora analizaremos cómo influye en el precio de una propiedad la cercanía
 \end_layout
 
 \begin_layout Standard
-Solo se utilizaron estadios de Capital Federal, por lo que solo se analizaran
+Solo se utilizaron estadios de Capital Federal, por lo que solo se analizarán
  propiedades que se encuentren en esa zona.
  
 \end_layout
@@ -2488,14 +2450,14 @@ Cercania a los trenes
 Por otro lado analizaremos cómo influye en el precio de una propiedad la
  cercanía al tren.
  En este caso no sabemos qué esperar, ya que estar muy cerca del tren puede
- ser malo ya que las zonas de vías generalmente son mas feas, pero por otro
+ ser malo ya que las zonas de vías generalmente son más feas, pero por otro
  lado puede ser bueno porque se está cerca de un medio de transporte que
  cruza toda la ciudad.
  
 \end_layout
 
 \begin_layout Standard
-Solo se utilizaron trenes de Capital Federal, por lo que solo se analizaran
+Solo se utilizaron trenes de Capital Federal, por lo que solo se analizarán
  propiedades que se encuentren en esa zona.
  
 \end_layout
@@ -2549,7 +2511,7 @@ Se puede observar en el gráfico que ocurre la segunda hipótesis.
 \end_layout
 
 \begin_layout Subsection
-Zona inundación
+Zona de inundación
 \end_layout
 
 \begin_layout Standard
@@ -2604,15 +2566,15 @@ Como se puede observar en el gráfico, no hay una diferencia notable entre
 \end_layout
 
 \begin_layout Subsection
-Cercania a villas o asentamientos
+Cercanía a villas o asentamientos
 \end_layout
 
 \begin_layout Standard
-Como se dijo anteriormente la zona en la que se encuentra la propiedad influye
- en el precio.
- En este caso veremos como afecta al precio la cercania de la propiedad
+Como se dijo anteriormente, la zona en la que se encuentra la propiedad
+ influye en el precio.
+ En este caso veremos cómo afecta al precio la cercanía de la propiedad
  a los asentamientos.
- Esperamos que el precio de las propiedades en estas zonas se vea afectado.
+ Esperamos que el precio de las propiedades en estas zonas se vea disminuído.
  
 \end_layout
 
@@ -2651,7 +2613,7 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Como se puede observar en el gráfico, la cercania a las villas no produce
+Como se puede observar en el gráfico, la cercanía a las villas no produce
  una disminución en los precios como era esperable, sino que ocurre lo contrario.
 \end_layout
 
@@ -2754,10 +2716,10 @@ Comodidades
 \end_layout
 
 \begin_layout Standard
-Queremos ver qué como la presencia o ausencia de ciertas comodidades en
- la propiedad pueden afectar el precio de ésta.
+Queremos ver cómo la presencia o ausencia de ciertas comodidades en la propiedad
+ pueden afectar el precio de ésta.
  Para ello, tomaremos algunos de los datos propuestos en las descripciones
- para contrastarlos con los precios.
+ de las publicaciones para contrastarlos con los precios.
 \end_layout
 
 \begin_layout Subsection
@@ -2817,10 +2779,10 @@ Elementos de climatización
 \begin_layout Standard
 Existen distintos aparatos para mantener la propiedad a una temperatura
  agradable.
- Algunos de estos son: aires acondicionados, splits, radiadores, losa radiantes,
+ Algunos de estos son: aires acondicionados, splits, radiadores, losa radiante,
  entre otros.
  La presencia de estos elementos en la propiedad podría llegar a aumentar
- el precio de la propiedad.
+ el precio de venta de la propiedad.
  El resultado obtenido es el siguiente:
 \end_layout
 
@@ -2924,7 +2886,8 @@ Presencia de un gimnasio
 
 \begin_layout Standard
 Se encontró que algunas propiedades presentaban gimnasios.
- Un servicio como este puede aumentar significativamente el precio.
+ Un servicio como este puede aumentar significativamente el precio, especialment
+e por las máquinas y el mantenimiento que un gimnasio requiere.
  Al analizarlo se obtuvo el siguiente resultado:
 \end_layout
 
@@ -2973,10 +2936,10 @@ Seguridad
 \end_layout
 
 \begin_layout Standard
-Una propiedad segura puede atraer a un comprador pero la presencia de estos
- servicios podrían llegar a aumentar el precio.
+Una propiedad segura puede atraer a un comprador, pero la presencia de estos
+ servicios podrían llegar a aumentar mucho el precio.
  Se analizaron las propiedades que poseían vigilancia, alarmas, guardias,
- entre otras cosas, y se obtuvo el siguiente gráfico
+ entre otras cosas, y se obtuvo el siguiente gráfico:
 \end_layout
 
 \begin_layout Standard
@@ -3015,7 +2978,7 @@ end{center}
 
 \begin_layout Standard
 Se puede ver que el precio en las propiedades que presentan elementos de
- seguridad suelen ser más caras.
+ seguridad suelen ser más caras en promedio.
 \end_layout
 
 \begin_layout Standard
@@ -3032,9 +2995,8 @@ Se puede ver que el precio en las propiedades que presentan elementos de
 Conclusiones
 \series default
 \bar default
-: Mostramos algunas comodidades que puede presentar la propiedad factores
- que creemos que pueden influir en el precio, y comprobamos de qué manera
- lo afectan.
+: Mostramos algunas comodidades que puede presentar la propiedad y que creemos
+ que pueden influir en el precio, y comprobamos de qué manera lo afectan.
  En algunos casos el aumento del precio fue más notorio, pero en general,
  la presencia de alguna de estas comodidades provocan un aumento en el precio
  de la propiedad.
