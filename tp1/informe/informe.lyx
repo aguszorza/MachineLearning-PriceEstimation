@@ -1157,7 +1157,7 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/comparacion_casas_deptos.png}
+includegraphics[scale=0.7]{/imagenes/comparacion_casas_deptos.png}
 \backslash
 
 \backslash
@@ -1195,7 +1195,7 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/comparacion_casas_deptos2.png}
+includegraphics[scale=0.7]{/imagenes/comparacion_casas_deptos2.png}
 \backslash
 
 \backslash
@@ -1253,7 +1253,7 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/puerto_madero.png}
+includegraphics[scale=0.7]{/imagenes/puerto_madero.png}
 \backslash
 
 \backslash
@@ -2448,9 +2448,9 @@ Cercania a los trenes
 Por otro lado analizaremos cómo influye en el precio de una propiedad la
  cercanía al tren.
  En este caso no sabemos qué esperar, ya que estar muy cerca del tren puede
- ser malo ya que las zonas de vías generalmente son más feas, pero por otro
- lado puede ser bueno porque se está cerca de un medio de transporte que
- cruza toda la ciudad.
+ ser malo ya que las zonas de vías generalmente son más feas y ruidosas,
+ pero por otro lado puede ser bueno porque se está cerca de un medio de
+ transporte que cruza toda la ciudad.
  
 \end_layout
 
