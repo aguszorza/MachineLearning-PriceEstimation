@@ -17,6 +17,7 @@
 \usepackage{charter}
 \usepackage{xcolor}
 \hypersetup{urlcolor=blue}
+
 %-------------------------------------------------------------------------------
 %Modificaciones de leyendas en figuras
 %\usepackage[footnotesize, labelsep=quad]{caption}
@@ -189,7 +190,7 @@ small 2do.
 \backslash
 Huge 
 \backslash
-bfseries Trabajo práctico}
+bfseries Trabajo práctico 1}
 \backslash
 
 \backslash
@@ -213,7 +214,7 @@ huge Analisis Exploratorio}
 \backslash
 textsc{
 \backslash
-small Matias Feld, Padrón: 99170}
+small Matias Leandro Feld, Padrón: 99170}
 \backslash
 
 \backslash
@@ -287,20 +288,14 @@ end{titlepage}
 \end_layout
 
 \begin_layout Section
-
-\lang english
 Análisis del problema
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 A continuación se cita la información obtenida sobre el problema a tratar:
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -308,16 +303,12 @@ A continuación se cita la información obtenida sobre el problema a tratar:
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 “Los inmuebles son bienes de valores altos y representan decisiones económicas
  trascendentales en la vida de las personas.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -325,8 +316,6 @@ A continuación se cita la información obtenida sobre el problema a tratar:
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Son muchos los elementos que inciden en el valor de un terreno: su ubicación,
  uso y ocupación del suelo, superficie, entorno y servicios en la zona,
  entre otros.
@@ -344,8 +333,6 @@ Son muchos los elementos que inciden en el valor de un terreno: su ubicación,
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -353,14 +340,10 @@ Son muchos los elementos que inciden en el valor de un terreno: su ubicación,
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Los principales factores que inciden en la valoración del suelo son: 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -368,19 +351,15 @@ Los principales factores que inciden en la valoración del suelo son:
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 La ubicación: su distancia al casco urbano, conexión vial, su entorno.
  La ubicación es una variable, “invariable” en la evaluación de compra de
  todo inmueble.
- Por ejemplo los terrenos sobre rutas o avenidas incrementan un precio mayor
+ Por ejemplo los terrenos sobre rutas o avenidas implican un precio mayor
  en referencia a un lote que está sobre una calle interna.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -388,16 +367,12 @@ La ubicación: su distancia al casco urbano, conexión vial, su entorno.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Otro factor a tener en cuenta es si el lote está en esquina o a mitad de
  cuadra.
  Un lote en esquina siempre valdrá más que un lote sobre calles internas.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -405,8 +380,6 @@ Otro factor a tener en cuenta es si el lote está en esquina o a mitad de
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Asimismo, si un terreno no es uniforme, es decir, no tiene proporcionalidad
  su medida de frente con su medida de fondo o su forma no es cuadrada o
  rectangular, repercutirá en su “óptimo” aprovechamiento constructivo al
@@ -419,8 +392,6 @@ Asimismo, si un terreno no es uniforme, es decir, no tiene proporcionalidad
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -428,8 +399,6 @@ Asimismo, si un terreno no es uniforme, es decir, no tiene proporcionalidad
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Como habíamos anticipado, los valores de los inmuebles también dependen
  de los servicios públicos que ofrezca el inmueble o el entorno donde se
  encuentra ubicado.
@@ -441,8 +410,6 @@ Como habíamos anticipado, los valores de los inmuebles también dependen
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -450,8 +417,6 @@ Como habíamos anticipado, los valores de los inmuebles también dependen
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Que un inmueble disponga o no de dichos servicios influirá en el precio
  final del inmueble.
  A contracara de ello, también podemos encontrar factores negativos que
@@ -460,8 +425,6 @@ Que un inmueble disponga o no de dichos servicios influirá en el precio
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -469,8 +432,6 @@ Que un inmueble disponga o no de dichos servicios influirá en el precio
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 También podemos hablar de la calidad constructiva en el caso de una casa.
  Por más bien ubicada que esté la casa, no será lo mismo una propiedad a
  demoler que una propiedad nueva.
@@ -482,8 +443,6 @@ También podemos hablar de la calidad constructiva en el caso de una casa.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -491,16 +450,12 @@ También podemos hablar de la calidad constructiva en el caso de una casa.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-"No se puede tasar diciendo 60 m2, promedio en la zona 2000 dólares el m2,
+“No se puede tasar diciendo 60 m2, promedio en la zona 2000 dólares el m2,
  lo que equivale a 120.000 dólares, porque cada inmueble es único.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -508,8 +463,6 @@ También podemos hablar de la calidad constructiva en el caso de una casa.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Los puntos fundamentales a evaluar para fijar el monto de la tasación son
  los siguientes: La ubicación; categoría; antigüedad y estado de conservación
  del edificio y del departamento; metros cubiertos y descubiertos, incluyendo
@@ -517,12 +470,10 @@ Los puntos fundamentales a evaluar para fijar el monto de la tasación son
  de usos múltiples, pileta de natación al aire libre o cubierta, cancha
  de tenis, gimnasio, lugar de juegos para niños, cocheras y bauleras; valor
  de las expensas e impuestos, entre otros.
- También los medios de locomoción, el entorno del barrio y los vecinos"[2]
+ También los medios de locomoción, el entorno del barrio y los vecinos“[2]
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -530,60 +481,6 @@ Los puntos fundamentales a evaluar para fijar el monto de la tasación son
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-“Si el dólar se aprecia en relación con la moneda local, se necesitarán
- menos dólares para cubrir los costos de construcción (que se abonan en
- moneda local).
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Así, se produce un aumento de la oferta de propiedades y una tendencia a
- la caída de su precio.
- Si el dólar se deprecia en relación con la moneda local, aumenta la capacidad
- de ahorro del consumidor.
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Así, a mediano plazo, es posible esperar un aumento de la demanda de propiedades.
-”[3]
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 Según la información recolectada, se observa que el precio de los inmuebles
  depende de varios factores.
  Según el set de datos que presentado hay ciertos factores que podrán ser
@@ -592,8 +489,6 @@ Según la información recolectada, se observa que el precio de los inmuebles
 \end_layout
 
 \begin_layout Itemize
-
-\lang english
 La ubicación de las propiedades: debido a que en los datos se presenta la
  latitud y la longitud de la casa, se pueden obtener las ubicaciones de
  puntos importantes, de servicios públicos, espacios verdes, medios de transport
@@ -608,24 +503,11 @@ es.
 \end_layout
 
 \begin_layout Itemize
-
-\lang english
-Construcción: los datos presentan la superficie total y la superficie cubierta,
- por lo que se podría llegar a obtener como varía el precio según cómo varían
- estos datos.
- Borramos esos datos 
-\end_layout
-
-\begin_layout Itemize
-
-\lang english
-El efecto que produce el valor del dólar.
- 
+Otro elemento a analizar serían las comodidades que presenta la propiedad,
+ como por ejemplo las piletas, gimnasios, seguridad, etc.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Otros factores como la calidad constructiva, antigüedad, la uniformidad
  del terreno, entre otros, no podrán ser analizados puesto que no pueden
  ser obtenidos del set de datos.
@@ -633,14 +515,10 @@ Otros factores como la calidad constructiva, antigüedad, la uniformidad
 \end_layout
 
 \begin_layout Section
-
-\lang english
 Análisis previo y preparación del set de datos 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 El set de datos utilizado en este análisis, proporcionado por la empresa
  Properati, consiste en un conjunto de archivos con las publicaciones correspond
 ientes a cada mes.
@@ -651,8 +529,6 @@ ientes a cada mes.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -660,8 +536,6 @@ ientes a cada mes.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Observando el archivo correspondiente a las publicaciones de cada mes, observamo
 s que existen publicaciones creadas ese mismo mes, pero que también aparecen
  algunas creadas en fechas anteriores.
@@ -676,8 +550,6 @@ s que existen publicaciones creadas ese mismo mes, pero que también aparecen
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -685,8 +557,6 @@ s que existen publicaciones creadas ese mismo mes, pero que también aparecen
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Por otro lado, encontramos algunas inconsistencias en los datos que pudimos
  solucionar con facilidad.
  Por ejemplo, nos encontramos con una gran cantidad de publicaciones que
@@ -698,8 +568,6 @@ Por otro lado, encontramos algunas inconsistencias en los datos que pudimos
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -707,57 +575,39 @@ Por otro lado, encontramos algunas inconsistencias en los datos que pudimos
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Una vez solucionadas estas inconsistencias, pudimos comenzar con el análisis
  de los datos.
  
 \end_layout
 
 \begin_layout Section
-
-\lang english
 Análisis de los datos 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 A continuación presentaremos los distintos análisis realizados, incluyendo
  gráficos descriptivos y algunas conclusiones pertinentes.
- Si no se indica los contrario, los precios estarán indicados en dólares.
+ Si no se indica los contrario, los precios estarán expresados en dólares.
  
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
-Análisis del precio por zona 
+Análisis del tipo de propiedad 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-El set de datos incluye publicaciones únicamente de Capital Federal y Gran
- Buenos Aires, que a su vez este último se divide en zona norte, oeste y
- sur.
- En este análisis comparamos el precio por metro cuadrado en cada una de
- ellas.
+Uno de los factores para analizar es el tipo de propiedad, ya que constructivame
+nte son diferentes, y pueden destinarse a distintos usos o a distintos tipos
+ de compradores, pudiendo variar los precios.
+ Primero analizamos los distintos tipos de propiedades que presentaba el
+ set de datos, y cuáles de ellos son los que más se ofrecen en venta.
+ En el siguiente gráfico se puede apreciar que el set de datos tiene cuatro
+ tipos diferentes de propiedades, donde los departamentos y las casas son
+ mayoría.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -772,11 +622,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/precio_m2.png}
+includegraphics[scale=0.75]{/imagenes/publicaciones_por_tipo_propiedad.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -792,8 +642,158 @@ end{center}
 \end_layout
 
 \begin_layout Standard
+Luego, se agruparon datos según el tipo de propiedad y se evaluaron los
+ datos para cada uno.
+ En los siguientes gráficos se muestran los resultados.
+ 
+\end_layout
 
-\lang english
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_segun_tipo_propiedad.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_segun_tipo_propiedad.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que los negocios tienen en general precios mayores que las
+ otras propiedades.
+ Esto puede ser debido a que estos deben cumplir con ciertas leyes y regulacione
+s que las otras propiedades no, lo cual hace que sea constructivamente más
+ costoso.
+ Comparando las casas con los departamentos, que son los tipos de propiedad
+ que puede comprar una familia, se puede observar que las casas son mucho
+ más caras que los departamentos, tanto en general como en promedio.
+ Sin embargo, si se analiza el precio por metro cuadrado, las casas son
+ más baratas que los departamentos.
+ Lo cual indica que el precio elevado de las casas sea debido a que tienen
+ una superficie mayor, como era esperado.
+ Este dato puede ser importante para una familia o persona que quiera comprar
+ una propiedad, ya que deberán analizar si pagar más para vivir en una casa
+ y tener más espacio, o querer algo más barato y decidirse por un departamento
+ en un edificio.
+ 
+\end_layout
+
+\begin_layout Subsection
+Análisis por zona 
+\end_layout
+
+\begin_layout Standard
+El set de datos incluye publicaciones únicamente de Capital Federal y Gran
+ Buenos Aires, que a su vez este último se divide en zona norte, oeste y
+ sur.
+ En este análisis comparamos el precio por metro cuadrado en cada una de
+ ellas.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2.png}
+\backslash
+
+\backslash
+[1cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como era de esperarse, el precio en Capital Federal supera ampliamente a
+ los de Gran Buenos Aires, tanto en promedio como en el 75% de las propiedades,
+ ya que es una zona más céntrica, con mayor cantidad de servicios y lugares
+ turísticos.
+ Con respecto a Gran Buenos Aires, podemos ver que la zona norte y la zona
+ sur tienen el mismo promedio y el mismo rango de precios, mientras que
+ la zona oeste está un poco por debajo, aunque se mantiene con cierta similitud.
+\end_layout
+
+\begin_layout Standard
 \begin_inset space ~
 \end_inset
 
@@ -801,27 +801,118 @@ end{center}
 \end_layout
 
 \begin_layout Standard
+Ahora realizaremos el mismo análisis pero con el precio total:
+\end_layout
 
-\lang english
-Como era de esperarse, el precio en Capital Federal supera ampliamente a
- los de Gran Buenos Aires, tanto en promedio como en el 75% de las propiedades,
- ya que es una zona mas centrica, con mayor cantidad de servicios y lugares
- turísticos.
- Con respecto a Gran Buenos Aires, podemos ver que la zona norte y la zona
- sur tienen el mismo promedio y el mismo rango de precios, mientras que
- la zona oeste está un poco por debajo, aunque se mantiene con cierta similitud.
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio__por_zona.png}
+\backslash
+
+\backslash
+[1cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que en promedio, GBA zona oeste y zona sur son muy similares
+ y a su vez son los más bajos.
+ Sin embargo, a diferencia del gráfico anterior, GBA zona norte supera por
+ mucho a Capital Federal, tanto en promedio como en los precios más altos.
+ Esto significa que en zona norte las propiedades tienen mayor superficie
+ que en Capital, haciendo que el precio sea más alto a pesar de que el precio
+ por metro cuadrado sea más bajo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, queremos ver como es la distribución de las casas y los departame
+ntos en cada zona.
+ El resultado obtenido es el siguiente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/distribucion_casas_deptos.png}
+\backslash
+
+\backslash
+[1cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se puede observar, Capital Federal es una zona con muchos más departamentos
+ que casas, mientras que en Gran Buenos Aires, aunque están parejos, hay
+ mayor cantidad de casas.
+ Esto significa que Gran Buenos Aires es una zona más residencial en comparación
+ con Capital.
+ Se puede notar que la cantidad de casas en Capital es muy baja comparado
+ con Gran Buenos Aires.
+ Esto es entendible teniendo en cuenta que la superficie de Capital es mucho
+ menor, por lo que se aprovecha mejor construyendo edificios.
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Análisis barrial 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Uno de los factores a tener en cuenta es la ubicación de la propiedad.
+Otro de los factores a analizar es la ubicación de la propiedad.
  Dentro de esta categoría se debe tener en cuenta cómo afecta el barrio
  en el precio de la propiedad.
  Es por esto que se realizó un análisis de la variación del precio por metro
@@ -837,20 +928,14 @@ Uno de los factores a tener en cuenta es la ubicación de la propiedad.
 \end_layout
 
 \begin_layout Subsubsection
-
-\lang english
 Capital Federal 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Analizando el siguiente artículo:
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -858,22 +943,12 @@ Analizando el siguiente artículo:
 \end_layout
 
 \begin_layout Standard
-
-\size small
-\lang english
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://www.apertura.com/realstate/Barrio-por-barrio-cuales-son-los-mas-caros-y-los
--mas-baratos-para-alquilar--20160714-0001.html
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.apertura.com/realstate/Barrio-por-barrio-cuales-son-los-mas-caros-y-los-mas-baratos-para-alquilar--20160714-0001.html"
 
 \end_inset
 
-
-\size default
 , los barrios mas caros para alquilar un departamento son Puerto Madero,
  Palermo, Las Cañitas y Recoleta.
  Veremos si eso se cumple también para la venta de propiedades.
@@ -881,8 +956,6 @@ http://www.apertura.com/realstate/Barrio-por-barrio-cuales-son-los-mas-caros-y-l
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -890,23 +963,10 @@ http://www.apertura.com/realstate/Barrio-por-barrio-cuales-son-los-mas-caros-y-l
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Los resultados obtenidos son los siguientes: 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -921,11 +981,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/precio_m2_capital.png}
+includegraphics[scale=0.75]{/imagenes/precio_m2_capital.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -941,17 +1001,6 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 Como se puede observar en el gráfico los barrios Puerto Madero y Villa Santa
  Rita son los barrios más caros.
  Por otro lado, se puede observar que los precios para los otros barrios
@@ -960,8 +1009,6 @@ Como se puede observar en el gráfico los barrios Puerto Madero y Villa Santa
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -969,8 +1016,6 @@ Como se puede observar en el gráfico los barrios Puerto Madero y Villa Santa
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Se puede ver que al igual que en los alquileres Puerto Madero es el barrio
  más caro para comprar propiedades.
  A su vez, los otros tres barrios mencionados aparecen en el top ten, aunque
@@ -979,16 +1024,12 @@ Se puede ver que al igual que en los alquileres Puerto Madero es el barrio
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 A continuación se muestra un mapa de Capital Federal, donde los barrios
  más oscuros son los que tienen mayor promedio de precio en dolares.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -1007,7 +1048,7 @@ includegraphics[scale=0.5]{/imagenes/mapa_promedio_precios_Capital.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -1023,25 +1064,22 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Como se puede ver, los barrios más al norte tienen mayor precio promedio,
  mientras que los del sur tienen menor promedio.
- Por otro lado, Puerto Madero aparece como el barrio más caro, al igual
- que ocurre en el gráfico mostrado anteriormente.
+\end_layout
+
+\begin_layout Standard
+Por otro lado, Puerto Madero aparece como el barrio más caro, al igual que
+ ocurre en el gráfico mostrado anteriormente.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 En el siguiente gráfico se muestra lo mismo pero en función del precio por
  metro cuadrado.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -1060,7 +1098,7 @@ includegraphics[scale=0.5]{/imagenes/mapa_promedio_precios_m2_Capital.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -1076,8 +1114,6 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Se puede ver que en general es muy similar al anterior, pero con algunas
  diferencias.
  Aunque los del norte siguen siendo los más caros, se pueden ver algunos
@@ -1088,21 +1124,170 @@ Se puede ver que en general es muy similar al anterior, pero con algunas
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
 
-\lang english
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, como se vio en el primer análisis, teniendo en cuenta el
+ precio por metro cuadrado los departamentos son más caros que las casas.
+ En los siguientes gráficos se podrá analizar si para el promedio influyen
+ más las casas o los departamentos.
+\end_layout
+
+\begin_layout Standard
+Barrios más caros:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.7]{/imagenes/comparacion_casas_deptos.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Barrios más baratos:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.7]{/imagenes/comparacion_casas_deptos2.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se puede ver, los barrios más caros son zonas de muchos edificios,
+ ya que hay muchos más departamentos que casas.
+ Esto significa que el promedio de precios está mayormente influido por
+ los departamentos, que son más caros.
+ Por el contrario, en los barrios más baratos hay mayor influencia de las
+ casas, cuyo precio por metro cuadrado es menor, aunque sigue habiendo mayoría
+ de departamentos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por último, queremos analizar por qué Puerto Madero es mucho más caro que
+ los demás barrios.
+ Para eso, realizamos un gráfico donde se puede ver como se distribuyen
+ los precios para cada tipo de propiedad dentro del barrio.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.7]{/imagenes/puerto_madero.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que el precio alto viene dado principalmente por los negocios,
+ ya que tienen un precio por metro cuadrado bastante alto.
+ A su vez, los departamentos también contribuyen con un precio alto, mientras
+ que entre las casas los precios están más distribuidos.
+\end_layout
+
+\begin_layout Subsubsection
 GBA Zona Norte 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Analizando el siguiente artículo:
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1112,7 +1297,6 @@ Analizando el siguiente artículo:
 \begin_layout Standard
 
 \size small
-\lang english
 \begin_inset Flex URL
 status open
 
@@ -1133,8 +1317,6 @@ html
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1142,23 +1324,10 @@ html
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Analizando los datos se obtuvo el siguiente gráfico: 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -1173,11 +1342,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/precio_m2_norte.png}
+includegraphics[scale=0.75]{/imagenes/precio_m2_norte.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -1193,17 +1362,6 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 Al igual que en el caso anterior, se puede observar que los dos barrios
  más caros tienen precios similares y tienen una brecha grande con el precio
  de los otros barrios (en este caso de aproximadamente U$1500), y los otros
@@ -1212,8 +1370,6 @@ Al igual que en el caso anterior, se puede observar que los dos barrios
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1221,8 +1377,6 @@ Al igual que en el caso anterior, se puede observar que los dos barrios
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 En este caso, las tres localidades mencionadas anteriormente pertenecen
  a los barrios más caros ( teniendo en cuenta que Martínez pertenece al
  partido de San Isidro), aunque no en el mismo orden que fueron mencionados.
@@ -1230,20 +1384,14 @@ En este caso, las tres localidades mencionadas anteriormente pertenecen
 \end_layout
 
 \begin_layout Subsubsection
-
-\lang english
 GBA Zona Oeste 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Analizando el siguiente artículo:
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1253,7 +1401,6 @@ Analizando el siguiente artículo:
 \begin_layout Standard
 
 \size small
-\lang english
 \begin_inset Flex URL
 status open
 
@@ -1275,8 +1422,6 @@ html
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1284,23 +1429,10 @@ html
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 El gráfico obtenido es el siguiente: 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -1315,11 +1447,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/precios_m2_oeste.png}
+includegraphics[scale=0.75]{/imagenes/precios_m2_oeste.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -1335,17 +1467,6 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 En este caso, se puede ver que los precios disminuyen de forma proporcional
  hasta La Matanza, luego se produce una caída mayor y continúa decayendo
  pero en menor medida.
@@ -1353,8 +1474,6 @@ En este caso, se puede ver que los precios disminuyen de forma proporcional
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1362,8 +1481,6 @@ En este caso, se puede ver que los precios disminuyen de forma proporcional
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Teniendo en cuenta que Castelar pertenece al partido de Morón, y Villa Bosch
  al de Tres de Febrero, los tres lugares mencionados en el artículo están
  entre las más caras según nuestros datos.
@@ -1371,20 +1488,14 @@ Teniendo en cuenta que Castelar pertenece al partido de Morón, y Villa Bosch
 \end_layout
 
 \begin_layout Subsubsection
-
-\lang english
 GBA Zona Sur 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Analizando el siguiente artículo:
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1394,7 +1505,6 @@ Analizando el siguiente artículo:
 \begin_layout Standard
 
 \size small
-\lang english
 \begin_inset Flex URL
 status open
 
@@ -1415,8 +1525,6 @@ html
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1424,23 +1532,10 @@ html
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 El gráfico obtenido es el siguiente: 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -1455,11 +1550,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/precios_m2_sur.png}
+includegraphics[scale=0.75]{/imagenes/precios_m2_sur.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -1475,17 +1570,6 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 Se puede observar una gran diferencia entre Lanús y los demás barrios, mientras
  que los barrios restantes mantienen leves diferencias de precio.
  En este caso también se encuentran los barrios mencionados en el artículo,
@@ -1494,8 +1578,6 @@ Se puede observar una gran diferencia entre Lanús y los demás barrios, mientra
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1506,13 +1588,12 @@ Se puede observar una gran diferencia entre Lanús y los demás barrios, mientra
 
 \series bold
 \bar under
-\lang english
 Conclusiones
 \series default
 \bar default
 : Si no tenemos en cuenta aquellos barrios que tienen una gran diferencia
  con respecto al resto (como Lanús y Delta), se puede observar que se mantiene
- lo obtenido en el primer análisis.
+ lo obtenido en el análisis por zona.
  Podemos ver que los precios de los diez barrios más caros de Capital Federal
  son más altos que los de Gran Buenos Aires, a la vez que los de zona sur
  y zona oeste son similares, como se mencionó al principio.
@@ -1523,169 +1604,11 @@ Conclusiones
  
 \end_layout
 
-\begin_layout Subsection
-
-\lang english
-Análisis del tipo de propiedad 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Otro factor a tener en cuenta es el tipo de propiedad, ya que constructivamente
- son diferentes, y pueden destinarse a distintos usos o a distintos tipos
- de compradores, pudiendo variar los precios.
- Primero analizamos los distintos tipos de propiedades que presentaba el
- set de datos, y cuáles de ellos son los que más se ofrecen en venta.
- En el siguiente gráfico se puede apreciar que el set de datos tiene cuatro
- tipos diferentes de propiedades, donde los departamentos y las casas son
- mayoría.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=0.5]{/imagenes/publicaciones_por_tipo_propiedad.png}
-\backslash
-
-\backslash
-[1.5cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Luego, se agruparon datos según el tipo de propiedad y se evaluaron los
- datos para cada uno.
- En el siguiente gráfico se muestra el resultado.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=0.5]{/imagenes/precio_segun_tipo_propiedad.png}
-\backslash
-
-\backslash
-[1.5cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Se puede ver que los negocios tienen en general precios mayores que las
- otras propiedades.
- Esto puede ser debido a que estos deben cumplir con ciertas leyes y regulacione
-s que las otras propiedades no, lo cual hace que sea constructivamente más
- costoso.
- Comparando las casas con los departamentos, que son los tipos de propiedad
- que puede comprar una familia, se puede observar que las casas son mucho
- más caras que los departamentos, tanto en general como en promedio.
- Este dato puede ser importante para una familia o persona que quiera comprar
- una propiedad, ya que deberán analizar si pagar más para vivir en una casa,
- o querer algo más barato y decidirse por un departamento en un edificio.
- 
-\end_layout
-
 \begin_layout Section
-
-\lang english
 Evolución de los precios a lo largo del tiempo 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Debido a que el set de datos contiene publicaciones desde el año 2013 hasta
  el 2017, queremos analizar cómo fueron evolucionando los precios a medida
  que avanzó el tiempo.
@@ -1694,8 +1617,6 @@ Debido a que el set de datos contiene publicaciones desde el año 2013 hasta
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1703,8 +1624,6 @@ Debido a que el set de datos contiene publicaciones desde el año 2013 hasta
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 En el primer gráfico, se muestra como fue la evolución del precio por metro
  cuadrado a través de los años.
  Para ello, se calculó el promedio para cada uno de los años.
@@ -1712,17 +1631,6 @@ En el primer gráfico, se muestra como fue la evolución del precio por metro
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -1737,11 +1645,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/evolucion_pecio_m2.png}
+includegraphics[scale=0.75]{/imagenes/evolucion_pecio_m2.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -1757,17 +1665,6 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 Como se puede observar, se produjo una baja en los precios por metro cuadrado
  en los años 2014 y 2015 con respecto al 2013, y luego a partir de 2016
  comenzó a crecer de vuelta.
@@ -1775,8 +1672,6 @@ Como se puede observar, se produjo una baja en los precios por metro cuadrado
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -1784,25 +1679,12 @@ Como se puede observar, se produjo una baja en los precios por metro cuadrado
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-En el segundo gráfico, se muestra como fue la evolución del precio de las
- propiedades a través de los años.
- Para ello, se calculó el promedio para cada uno de los años.
+Para desglosar estos datos, analizamos lo mismo pero para los distintos
+ tipos de propiedad que hay.
+ Esto se muestra a continuación:
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -1817,11 +1699,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/evolucion_precio.png}
+includegraphics[scale=0.75]{/imagenes/evolucion_precio_m2_por_tipo.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -1837,8 +1719,62 @@ end{center}
 \end_layout
 
 \begin_layout Standard
+Se puede observar lo mismo que en el gráfico anterior, entre 2014 y 2015
+ se produce una baja en el precio y luego vuelve a subir.
+ Esto significa que los precios de todas las propiedades se comportaron
+ de igual manera.
+\end_layout
 
-\lang english
+\begin_layout Standard
+También queremos ver cómo se comportaron los precios para las distintas
+ zonas.
+ El resultado es el siguiente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/evolucion_precio_m2_por_zona.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que tanto en Capital como en GBA zona norte y zona oeste los
+ precios se comportaron mas o menos de la misma manera.
+ Sin embargo, en la zona sur ocurrió todo lo contrario.
+ Entre 2014 y 2015 su precio promedio creció mucho, tanto que superó incluso
+ a Capital Federal, y luego tuvo un gran descenso hacia 2016.
+ En 2017 vuelve a remontar al igual que todos los demás.
+\end_layout
+
+\begin_layout Standard
 \begin_inset space ~
 \end_inset
 
@@ -1846,8 +1782,46 @@ end{center}
 \end_layout
 
 \begin_layout Standard
+Siguiendo con el análisis, en el siguiente gráfico se muestra como fue la
+ evolución del precio de las propiedades a través de los años.
+ Para ello, se calculó el promedio para cada uno de los años.
+\end_layout
 
-\lang english
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/evolucion_precio.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Se puede observar que evolucionó muy diferente con respecto a los precios
  por metro cuadrado, ya que en este caso siempre aumentaron o se mantuvieron
  igual, no se observa la caída como en el caso anterior.
@@ -1858,17 +1832,6 @@ Se puede observar que evolucionó muy diferente con respecto a los precios
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -1883,11 +1846,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/evolucion_superficie.png}
+includegraphics[scale=0.75]{/imagenes/evolucion_superficie.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -1903,8 +1866,12 @@ end{center}
 \end_layout
 
 \begin_layout Standard
+Efectivamente, en 2015, que es cuando los precios por metro cuadrado son
+ más bajos, las superficies de las propiedades en venta son mayores en promedio,
+ haciendo que los precios totales crezcan.
+\end_layout
 
-\lang english
+\begin_layout Standard
 \begin_inset space ~
 \end_inset
 
@@ -1912,33 +1879,66 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Efectivamente, en 2015, que es cuando los precios por metro cuadrado son
- más bajos, las superficies de las propiedades en venta son mayores, haciendo
- que los precios totales crezcan.
+Ahora veremos lo mismo por zona, para ver si ocurrió lo mismo:
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
 
-\lang english
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/evolucion_precio_total_por_zona.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Efectivamente, excepto para GBA zona sur que tuvo una leve bajada ente 2015
+ y 2016, en todos los casos los precios se mantienen constantes o crecen.
+ Se puede ver que el aumento de precios es mucho más notorio para Capital
+ y zona norte, especialmente entre 2015 y 2017, ya que tienen una pendiente
+ mayor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 A continuación se mostrará la misma información del primer gráfico, es decir
- la evolución del precio por metro cuadrado, pero mostrando mes a mes.
+ la evolución del precio por metro cuadrado, pero mostrando la evolución
+ mes a mes.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -1953,11 +1953,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/evolucion_precio_m2_por_mes.png}
+includegraphics[scale=0.75]{/imagenes/evolucion_precio_m2_por_mes.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -1973,29 +1973,16 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Se puede ver que el 2014 (línea verde) fue bajando el precio constantemente,
- hasta Marzo de 2015 (línea naranja).
- A partir de ahí, durante todo el resto de 2015 y todo 2016 (línea azul),
- el precio no para de subir.
+Se puede ver que el 2014 fue bajando el precio constantemente, hasta Marzo
+ de 2015 .
+ A partir de ahí, durante todo el resto de 2015 y todo 2016, el precio no
+ para de subir.
  Esto es lo mismo que se puede observar en el primer gráfico, la bajada
  durante el año 2014 hasta 2015 y luego la subida constante.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -2003,8 +1990,6 @@ Se puede ver que el 2014 (línea verde) fue bajando el precio constantemente,
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Para finalizar este apartado, analizaremos cómo fue la evolución del precio
  por metro cuadrado a través de los años para algunos barrios en particular.
  Los barrios seleccionados son: Palermo (Capital Federal), Vicente López
@@ -2013,8 +1998,6 @@ Para finalizar este apartado, analizaremos cómo fue la evolución del precio
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -2022,23 +2005,10 @@ Para finalizar este apartado, analizaremos cómo fue la evolución del precio
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Los resultados obtenidos son los siguientes: 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -2053,11 +2023,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/evolucion_precio_m2_algunos_barrios.png}
+includegraphics[scale=0.75]{/imagenes/evolucion_precio_m2_algunos_barrios.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -2073,17 +2043,6 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 En el gráfico se puede ver cómo se comportan aproximadamente igual al promedio
  general.
  Es decir, que disminuyen entre 2014 y 2015 y luego aumentan.
@@ -2096,17 +2055,6 @@ En el gráfico se puede ver cómo se comportan aproximadamente igual al promedio
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -2121,11 +2069,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/precio_m2_algunos_barrios.png}
+includegraphics[scale=0.75]{/imagenes/precio_m2_algunos_barrios.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -2140,24 +2088,11 @@ end{center}
 
 \end_layout
 
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
-
-\lang english
 Factores que influyen en el precio
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Queremos ver qué factores influyen en el precio de las propiedades, tanto
  positiva como negativamente.
  Para ello, tomaremos algunos de los datos con los que contamos para contrastarl
@@ -2165,32 +2100,17 @@ os con los precios.
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Piso 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Primero analizaremos cómo afecta al precio en que piso del edificio se encuentra
  la propiedad.
- Por obvias razones, solo se tendrán en cuenta departamentos.
+ Por obvias razones, solo se tendrán en cuenta los departamentos.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -2205,11 +2125,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/Relacion_precio_piso.png}
+includegraphics[scale=0.75]{/imagenes/Relacion_precio_piso.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -2225,32 +2145,17 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Como se puede observar, a medida que aumenta el precio por metro cuadrado
- los pisos son cada vez más bajos, por lo que podemos concluir que cuanto
- más alto se encuentra el departamento más barato será.
+Como se puede observar, a medida que aumenta piso los precios tienden a
+ disminuir, por lo que podemos concluir que cuanto más alto se encuentra
+ el departamento más barato será.
  
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Cantidad de habitaciones 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 También analizaremos cómo afecta al precio la cantidad de habitaciones que
  tiene la propiedad.
  Es esperable que a mayor cantidad de habitaciones mayor sea el precio de
@@ -2259,17 +2164,6 @@ También analizaremos cómo afecta al precio la cantidad de habitaciones que
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -2284,11 +2178,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/cantidad_habitaciones_y_precio.png}
+includegraphics[scale=0.75]{/imagenes/cantidad_habitaciones_y_precio.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -2304,35 +2198,17 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Se puede observar que las propiedades más baratas no tienen más de 5 habitacione
-s, aunque igualmente son muy pocas las que tienen 6 o más.
- Como son muy pocas las propiedades con más de 6 habitaciones no podemos
- sacar conclusiones con respecto a eso.
- Lo que sí se puede decir es que para cualquier rango de precios hay cualquier
- cantidad de habitaciones entre 1 y 5.
- 
+Se puede observar que a medida que aumenta la cantidad de habitaciones el
+ precio tiende a ser mayor, pero son muy pocas las que tienen más de seis.
+ Creemos que esto se debe a que cuantas más habitaciones tiene generalmente
+ tiene mayor superficie, lo que aumenta el precio total.
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Cercanía a los subtes 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Luego, analizamos cómo afecta al precio la cercanía a una estación de subte.
  Creemos que estar cerca del subte podría ser un valor agregado que aumente
  el precio.
@@ -2340,17 +2216,6 @@ Luego, analizamos cómo afecta al precio la cercanía a una estación de subte.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -2365,11 +2230,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/Relacion_precio_distancia_subte.png}
+includegraphics[scale=0.75]{/imagenes/Relacion_precio_distancia_subte.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -2385,17 +2250,6 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 El valor de distancia representa la menor distancia que hay entre la propiedad
  y alguna estacion de subte.
  Debido a que solo hay subte en Capital Federal, solo se tuvieron en cuenta
@@ -2404,8 +2258,6 @@ El valor de distancia representa la menor distancia que hay entre la propiedad
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -2413,24 +2265,18 @@ El valor de distancia representa la menor distancia que hay entre la propiedad
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Se puede observar que en las propiedades que se encuentran alejadas del
- subte tienen mayormente precios bajos.
- Mientras que las propiedades con precios más altos se ubican entre 0 y
- 1 km , comprobando la hipótesis planteada.
+Se puede observar que a medida que aumenta la distancia las propiedades
+ con precio alto son cada vez menos, mientras que las propiedades con precios
+ más altos se ubican entre 0 y 1 km del subte, comprobando la hipótesis
+ planteada.
  
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Cercanía a monumentos o lugares turísticos 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Otro factor que puede influir en el precio de una propiedad es la cercanía
  a algún monumento o lugar turístico.
  Creemos que las propiedades que se encuentran cerca de centros turísticos
@@ -2439,8 +2285,6 @@ Otro factor que puede influir en el precio de una propiedad es la cercanía
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -2448,16 +2292,12 @@ Otro factor que puede influir en el precio de una propiedad es la cercanía
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Algunos lugares elegidos para realizar este análisis son: Obelisco, Cabildo,
  Planetario, Catedral Metropolitana, museos y shoppings.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -2465,25 +2305,12 @@ Algunos lugares elegidos para realizar este análisis son: Obelisco, Cabildo,
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Solo se utilizaron lugares de Capital Federal, por lo que solo se analizaran
  propiedades que se encuentren en esa zona.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -2498,12 +2325,12 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/Relacion_precio_distancia_lugares_importante
-s.png}
+includegraphics[scale=0.75]{/imagenes/Relacion_precio_distancia_lugares_important
+es.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -2519,25 +2346,12 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 El valor de distancia representa la menor distancia que hay entre la propiedad
  y alguno de los lugares mencionados anteriormente.
  
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -2545,12 +2359,11 @@ El valor de distancia representa la menor distancia que hay entre la propiedad
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Efectivamente, cuanto más grande es la distancia entre la propiedad y algún
- lugar turístico, el precio es cada vez más bajo.
- Asimismo, la mayoría de las propiedades con mayor precio se encuentran
- a menos de 3 km.
+ lugar turístico, la cantidad de propiedades con precios altos comienza
+ a disminuir.
+ Asimismo, la mayoría de las propiedades con mayor precio tienen distancia
+ menor a 3,5 km.
  
 \end_layout
 
@@ -2563,8 +2376,8 @@ Ahora analizaremos cómo influye en el precio de una propiedad la cercanía
  a algún estadio.
  Creemos que las propiedades que se encuentran cerca de estadios deberían
  ser más baratas, debido a la gran cantidad de gente que puede ir a ellos
- y porque generalmente se cierran los alrededores a los transportes.
- 
+ y porque generalmente se cierran los alrededores a los transportes cuando
+ hay algún evento en ellos.
 \end_layout
 
 \begin_layout Standard
@@ -2575,199 +2388,12 @@ Ahora analizaremos cómo influye en el precio de una propiedad la cercanía
 \end_layout
 
 \begin_layout Standard
-Solo se utilizaron estadios de Capital Federal, por lo que solo se analizaran
+Solo se utilizaron estadios de Capital Federal, por lo que solo se analizarán
  propiedades que se encuentren en esa zona.
  
 \end_layout
 
 \begin_layout Standard
-
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-PEGAR IMAGEN
-\end_layout
-
-\begin_layout Standard
-
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-El valor de distancia representa la menor distancia que hay entre la propiedad
- y alguno de los estadios.
- 
-\end_layout
-
-\begin_layout Standard
-
-Contrariamente a lo pensado en un primer momento, podemos ver que cuanto
- más cerca se encuentra la propiedad de algún estadio mayor es el precio
- por metro cuadrado, y que va disminuyendo a medida que se agranda la distancia.
- 
-\end_layout
-
-\begin_layout Subsection
-
-Cercania a los trenes
-\end_layout
-
-\begin_layout Standard
-
-Por otro lado analizaremos cómo influye en el precio de una propiedad la
- cercanía al tren.
- En este caso no sabemos qué esperar, ya que estar muy cerca del tren puede
- ser malo ya que las zonas de vías generalmente son mas feas, pero por otro
- lado puede ser bueno porque se está cerca de un medio de transporte que
- cruza toda la ciudad.
- 
-\end_layout
-
-\begin_layout Standard
-
-Solo se utilizaron trenes de Capital Federal, por lo que solo se analizaran
- propiedades que se encuentren en esa zona.
- 
-\end_layout
-
-\begin_layout Standard
-
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-PEGAR IMAGEN
-\end_layout
-
-\begin_layout Standard
-
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-El valor de distancia representa la menor distancia que hay entre la propiedad
- y alguna estacion de tren.
- 
-\end_layout
-
-\begin_layout Standard
-
-Se puede observar en el gráfico que ocurre la segunda hipótesis.
- Las propiedades más cercanas tienen mayor precio por metro cuadrado que
- aquellas que están más lejos.
- 
-\end_layout
-
-\begin_layout Subsection
-
-Zona inundación
-\end_layout
-
-\begin_layout Standard
-
-La zona en la que se encuentra la propiedad es importante y seguramente
- influye en el precio.
- En este caso veremos como afecta al precio encontrarse en una zona con
- mayor posibilidad de inundación.
- Esperamos que el precio de las propiedades en zona inundable se vea afectado
- debido a las consecuencias que una inundación conlleva.
- 
-\end_layout
-
-\begin_layout Standard
-
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-PEGAR IMAGEN
-\end_layout
-
-\begin_layout Standard
-
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-Como se puede observar en el gráfico, no hay una diferencia notable entre
- las propiedades que están en zona inundable y las que no, aunque estas
- últimas tienen un promedio de precio un poco mayor aunque no apreciable.
- 
-\end_layout
-
-\begin_layout Subsection
-
-\lang english
-Oferta/demanda 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Como en todo negocio, la oferta y la demanda influyen el los precios de
- los productos.
- Si la demanda excede a la oferta entonces el precio aumenta, si la oferta
- excede a la demanda entonces el precio disminuye.
- Si el precio aumenta entonces se ve una disminución en la demanda y un
- aumento en la oferta.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-Por esto realizamos un análisis en la cantidad de publicaciones nuevas que
- se realizaron en cada año para tener un indicador de la oferta, obteniéndose
- el siguiente gráfico.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -2782,11 +2408,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/cantidad_publicaciones_nuevas_por_anio.png}
+includegraphics[scale=0.75]{/imagenes/Relacion_distancia_estadios_precio_m2.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -2802,8 +2428,208 @@ end{center}
 \end_layout
 
 \begin_layout Standard
+El valor de distancia representa la menor distancia que hay entre la propiedad
+ y alguno de los estadios.
+ 
+\end_layout
 
-\lang english
+\begin_layout Standard
+Contrariamente a lo pensado en un primer momento, podemos ver que cuanto
+ más cerca se encuentra la propiedad de algún estadio mayor es el precio
+ por metro cuadrado, y que va disminuyendo a medida que se agranda la distancia.
+ 
+\end_layout
+
+\begin_layout Subsection
+Cercania a los trenes
+\end_layout
+
+\begin_layout Standard
+Por otro lado analizaremos cómo influye en el precio de una propiedad la
+ cercanía al tren.
+ En este caso no sabemos qué esperar, ya que estar muy cerca del tren puede
+ ser malo ya que las zonas de vías generalmente son más feas y ruidosas,
+ pero por otro lado puede ser bueno porque se está cerca de un medio de
+ transporte que cruza toda la ciudad.
+ 
+\end_layout
+
+\begin_layout Standard
+Solo se utilizaron trenes de Capital Federal, por lo que solo se analizarán
+ propiedades que se encuentren en esa zona.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/Relacion_distancia_ferrocarril_precio_m2.png
+}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El valor de distancia representa la menor distancia que hay entre la propiedad
+ y alguna estacion de tren.
+ 
+\end_layout
+
+\begin_layout Standard
+Como se puede observar en el gráfico, las propiedades más cercanas (entre
+ 1 y 2 cuadras) tienen menor precio por metro cuadrado, y éste va aumentando
+ a medida que lo hace la distancia.
+\end_layout
+
+\begin_layout Subsection
+Zona de inundación
+\end_layout
+
+\begin_layout Standard
+La zona en la que se encuentra la propiedad es importante y seguramente
+ influye en el precio.
+ En este caso veremos como afecta al precio encontrarse en una zona con
+ mayor posibilidad de inundación.
+ Esperamos que el precio de las propiedades en zona inundable se vea afectado
+ debido a las consecuencias que una inundación conlleva.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/Precio_m2_en_zonas_inundables.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se puede observar en el gráfico, no hay una diferencia notable entre
+ las propiedades que están en zona inundable y las que no, aunque estas
+ últimas tienen un promedio de precio un poco mayor aunque no apreciable.
+ 
+\end_layout
+
+\begin_layout Subsection
+Cercanía a villas o asentamientos
+\end_layout
+
+\begin_layout Standard
+Como se dijo anteriormente, la zona en la que se encuentra la propiedad
+ influye en el precio.
+ En este caso veremos cómo afecta al precio la cercanía de la propiedad
+ a los asentamientos.
+ Esperamos que el precio de las propiedades en estas zonas se vea disminuído.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/Relacion_distancia_villa_precio_m2.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede observar en el gráfico que las propiedades de menor distancia son
+ muy baratas, y que el precio comienza a aumentar a medida que se va agrandando
+ la distancia.
+\end_layout
+
+\begin_layout Subsection
+Oferta/demanda 
+\end_layout
+
+\begin_layout Standard
+Como en todo negocio, la oferta y la demanda influyen el los precios de
+ los productos.
+ Si la demanda excede a la oferta entonces el precio aumenta, si la oferta
+ excede a la demanda entonces el precio disminuye.
+ Si el precio aumenta entonces se ve una disminución en la demanda y un
+ aumento en la oferta.
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset space ~
 \end_inset
 
@@ -2811,8 +2637,47 @@ end{center}
 \end_layout
 
 \begin_layout Standard
+Por esto realizamos un análisis en la cantidad de publicaciones nuevas que
+ se realizaron en cada año para tener un indicador de la oferta, obteniéndose
+ el siguiente gráfico.
+ 
+\end_layout
 
-\lang english
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/cantidad_publicaciones_nuevas_por_anio.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Se puede ver que el 2015 fue el año con mayor oferta.
  Teniendo en cuenta este dato y el gráfico en donde se muestra la evolución
  del precio por metro cuadrado a lo largo de los años, se puede inferir
@@ -2822,8 +2687,6 @@ Se puede ver que el 2015 fue el año con mayor oferta.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -2834,7 +2697,6 @@ Se puede ver que el 2015 fue el año con mayor oferta.
 
 \series bold
 \bar under
-\lang english
 Conclusiones
 \series default
 \bar default
@@ -2848,48 +2710,27 @@ Conclusiones
 \end_layout
 
 \begin_layout Section
-
-\lang english
-Otros datos 
+Comodidades
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-A continuación presentaremos algunos gráficos que realizamos con la información
- del set de datos, y que podrían ser de interés.
- 
+Queremos ver cómo la presencia o ausencia de ciertas comodidades en la propiedad
+ pueden afectar el precio de ésta.
+ Para ello, tomaremos algunos de los datos propuestos en las descripciones
+ de las publicaciones para contrastarlos con los precios.
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
-Expensas 
+Pileta y similares
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Cuando se desea comprar una propiedad, no solo hay que tener en cuenta el
- precio que cuesta comprarla, sino que también hay que averiguar cómo serán
- los costos posteriores que se tendrán que afrontar al poseer la misma.
- En este caso analizaremos cómo cambian las expensas de la propiedad a medida
- que aumenta su precio de venta.
- 
+Las propiedades que presentan piletas y jacuzzis suelen ser sinónimo de
+ propiedades caras.
+ El resultado obtenido se presenta en el siguiente gráfico.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -2904,11 +2745,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/Relacion_precio_expensas.png}
+includegraphics[scale=0.75]{/imagenes/precio_m2_pileta.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -2924,8 +2765,221 @@ end{center}
 \end_layout
 
 \begin_layout Standard
+Se puede observar que en las propiedades que presentan piletas o jacuzzis
+ pueden llegar a alcanzar un precio por metro cuadrado más elevado pero
+ no distan mucho del precio de las propiedades que no presentan esta comodidad.
+\end_layout
 
-\lang english
+\begin_layout Subsection
+Elementos de climatización
+\end_layout
+
+\begin_layout Standard
+Existen distintos aparatos para mantener la propiedad a una temperatura
+ agradable.
+ Algunos de estos son: aires acondicionados, splits, radiadores, losa radiante,
+ entre otros.
+ La presencia de estos elementos en la propiedad podría llegar a aumentar
+ el precio de venta de la propiedad.
+ El resultado obtenido es el siguiente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_climatizacion.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que se alcanzan precios más altos con la presencia de estos
+ elementos.
+ Por lo que si se desea comprar una casa que presente estos elementos, se
+ deberá pagar un precio más elevado.
+\end_layout
+
+\begin_layout Subsection
+Presencia de cochera
+\end_layout
+
+\begin_layout Standard
+La presencia de una cochera en la propiedad puede ser importante para un
+ comprador puesto que el vehículo quedará resguardado de posibles robos
+ o factores clímaticos.
+ Es por esto que la presencia de la cochera podría llegar a afectar el precio
+ de la propiedad.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_cochera.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que el rango de precios entre ambos casos es similar, con la
+ única diferencia que en los casos que se tiene cochera, se alcanzan precios
+ un poco más elevados.
+\end_layout
+
+\begin_layout Subsection
+Presencia de un gimnasio
+\end_layout
+
+\begin_layout Standard
+Se encontró que algunas propiedades presentaban gimnasios.
+ Un servicio como este puede aumentar significativamente el precio, especialment
+e por las máquinas y el mantenimiento que un gimnasio requiere.
+ Al analizarlo se obtuvo el siguiente resultado:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_gimnasio.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que las propiedades que presentan gimnasios pueden alcanzar
+ precios por metro cuadrado de aproximadamente el doble que en los casos
+ que no.
+\end_layout
+
+\begin_layout Subsection
+Seguridad
+\end_layout
+
+\begin_layout Standard
+Una propiedad segura puede atraer a un comprador, pero la presencia de estos
+ servicios podrían llegar a aumentar mucho el precio.
+ Se analizaron las propiedades que poseían vigilancia, alarmas, guardias,
+ entre otras cosas, y se obtuvo el siguiente gráfico:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/precio_m2_vigilancia.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede ver que el precio en las propiedades que presentan elementos de
+ seguridad suelen ser más caras en promedio.
+\end_layout
+
+\begin_layout Standard
 \begin_inset space ~
 \end_inset
 
@@ -2934,7 +2988,76 @@ end{center}
 
 \begin_layout Standard
 
-\lang english
+\series bold
+\bar under
+Conclusiones
+\series default
+\bar default
+: Mostramos algunas comodidades que puede presentar la propiedad y que creemos
+ que pueden influir en el precio, y comprobamos de qué manera lo afectan.
+ En algunos casos el aumento del precio fue más notorio, pero en general,
+ la presencia de alguna de estas comodidades provocan un aumento en el precio
+ de la propiedad.
+\end_layout
+
+\begin_layout Section
+Otros datos 
+\end_layout
+
+\begin_layout Standard
+A continuación presentaremos algunos gráficos que realizamos con la información
+ del set de datos, y que podrían ser de interés.
+ 
+\end_layout
+
+\begin_layout Subsection
+Expensas 
+\end_layout
+
+\begin_layout Standard
+Cuando se desea comprar una propiedad, no solo hay que tener en cuenta el
+ precio que cuesta comprarla, sino que también hay que averiguar cómo serán
+ los costos posteriores que se tendrán que afrontar al poseer la misma.
+ En este caso analizaremos cómo cambian las expensas de la propiedad a medida
+ que aumenta su precio de venta.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/Relacion_precio_expensas.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Como era de esperarse, hay una relación casi lineal entre el precio y las
  expensas, ya que a medida que aumenta uno aumenta el otro.
  Esto podría deberse a que las propiedades más caras generalmente tienen
@@ -2947,8 +3070,6 @@ Como era de esperarse, hay una relación casi lineal entre el precio y las
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset space ~
 \end_inset
 
@@ -2956,24 +3077,11 @@ Como era de esperarse, hay una relación casi lineal entre el precio y las
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Para el caso de los departamentos, también analizamos cómo son las expensas
  en función del piso en que se encuentra.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -2988,11 +3096,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/Relacion_expensas_piso.png}
+includegraphics[scale=0.75]{/imagenes/Relacion_expensas_piso.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -3008,17 +3116,6 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 Se puede ver que los departamentos en pisos más altos tienen expensas más
  bajas.
  Esto va en concordancia con uno de los gráficos presentados anteriormente,
@@ -3029,28 +3126,15 @@ Se puede ver que los departamentos en pisos más altos tienen expensas más
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Duración de las publicaciones 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Para la empresa que vende propiedades puede ser interesante conocer cual
  es la duración promedio de cada publicación.
  Para eso, calculamos la cantidad de meses que estuvo publicada cada propiedad,
  restando a la fecha de publicación la fecha de creación.
  El resultado obtenido es el siguiente: 
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3068,11 +3152,11 @@ begin{center}
 
 
 \backslash
-includegraphics[scale=0.5]{/imagenes/Duracion_publicaciones_en_meses.png}
+includegraphics[scale=0.75]{/imagenes/Duracion_publicaciones_en_meses.png}
 \backslash
 
 \backslash
-[1.5cm]    
+[1cm]    
 \end_layout
 
 \begin_layout Plain Layout
@@ -3088,32 +3172,73 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 A partir del gráfico se puede ver que la gran mayoría de las publicaciones
  de venta de propiedades duraron menos de 5 meses, mientras que son muy
  pocas las que duran más de dos años.
  
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
+Zonas más céntricas
+\end_layout
 
-\lang english
+\begin_layout Standard
+Es interesante saber si la zona de la propiedad es una zona céntrica o no.
+ Consideramos que una zona es céntrica si en ella hay muchos negocios.
+ Hay que tener en cuenta que los datos que tenemos son únicamente de negocios
+ en venta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.75]{/imagenes/negocios_capital.png}
+\backslash
+
+\backslash
+[1cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como puede verse, los barrios con mayor cantidad de negocios en venta, para
+ Capital Federal, se encuentran al norte y al este.
+ Interesantemente, son las mismas zonas que eran más oscuras en el mapa
+ donde se mostró el precio para cada barrio.
+ A su vez, al principio del análisis mostramos que los negocios podían ser
+ más caros que el resto de las propiedades.
+ Teniendo ambas cosas en cuenta, podemos decir que los negocios influyen
+ en gran medida en el precio promedio de un barrio.
+\end_layout
+
+\begin_layout Section
 Apéndice: Cálculos de distancia 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 En varias oportunidades calculamos la distancia entre dos lugares.
  Debido a que tenemos los datos de latitud y longitud, utilizamos para el
  cálculo la fórmula de Haversine.
@@ -3146,8 +3271,6 @@ https://es.wikipedia.org/wiki/F%C3%B3rmula_del_haversine
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 La función utilizada es la siguiente: 
 \end_layout
 
@@ -3195,7 +3318,7 @@ def haversine(lat1,long1,lat2,long2):
 
 \begin_layout Plain Layout
 
-	a = ( sin(dlat * 0.5)**2 + cos(lat1) * cos(lat2) * sin(dlon * 0.5)**2 )
+	a = (sin(dlat * 0.5)**2 + cos(lat1) * cos(lat2) * sin(dlon*0.5)**2)
 \end_layout
 
 \begin_layout Plain Layout
@@ -3221,14 +3344,9 @@ key "key-1"
 \end_inset
 
 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://www.carles.com.ar/nota-54-factores-que-influyen-en-el-precio-de-un-inmueble.h
-tm 
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.carles.com.ar/nota-54-factores-que-influyen-en-el-precio-de-un-inmueble.htm "
 
 \end_inset
 
@@ -3243,14 +3361,9 @@ key "key-2"
 \end_inset
 
 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://www.lanacion.com.ar/1799289-efectos-que-impactan-en-el-valor-de-los-inmueble
-s
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.lanacion.com.ar/1799289-efectos-que-impactan-en-el-valor-de-los-inmuebles"
 
 \end_inset
 
@@ -3265,14 +3378,9 @@ key "key-3"
 \end_inset
 
 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://www.protectora.org.ar/economia-y-finanzas/inmuebles-como-se-determina-el-pre
-cio/230/
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.protectora.org.ar/economia-y-finanzas/inmuebles-como-se-determina-el-precio/230/"
 
 \end_inset
 
@@ -3325,6 +3433,27 @@ https://data.buenosaires.gob.ar
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 key "key-5"
+
+\end_inset
+
+Datos de villas y asentamientos: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+relevamiento.techo.org.ar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
 
 \end_inset
 
