@@ -10,13 +10,14 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{esint}
-\numberwithin{figure}{section}
-\numberwithin{table}{section}
-\numberwithin{equation}{section}
+%\numberwithin{figure}{section}
+%\numberwithin{table}{section}
+%\numberwithin{equation}{section}
 \usepackage[T1]{fontenc}
 \usepackage{charter}
 \usepackage{xcolor}
 \hypersetup{urlcolor=blue}
+
 
 %-------------------------------------------------------------------------------
 %Modificaciones de leyendas en figuras
@@ -86,6 +87,7 @@ customHeadersFooters
 \suppress_date false
 \justification true
 \use_refstyle 1
+\boxbgcolor #0000ff
 \index Index
 \shortcut idx
 \color #008000
@@ -281,6 +283,15 @@ end{center}
 \backslash
 end{titlepage}
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
 \end_inset
 
@@ -601,39 +612,57 @@ nte son diferentes, y pueden destinarse a distintos usos o a distintos tipos
  de compradores, pudiendo variar los precios.
  Primero analizamos los distintos tipos de propiedades que presentaba el
  set de datos, y cuáles de ellos son los que más se ofrecen en venta.
- En el siguiente gráfico se puede apreciar que el set de datos tiene cuatro
- tipos diferentes de propiedades, donde los departamentos y las casas son
- mayoría.
+ En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Publicaciones por tipo de propiedad"
+
+\end_inset
+
+ se puede apreciar que el set de datos tiene cuatro tipos diferentes de
+ propiedades, donde los departamentos y las casas son mayoría.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/publicaciones_por_tipo_propiedad.png
+	scale 70
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Publicaciones por tipo de propiedad"
+
+\end_inset
+
+Publicaciones por tipo de propiedad
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/publicaciones_por_tipo_propiedad.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -644,37 +673,62 @@ end{center}
 \begin_layout Standard
 Luego, se agruparon datos según el tipo de propiedad y se evaluaron los
  datos para cada uno.
- En los siguientes gráficos se muestran los resultados.
+ En las figuras 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precio-según-tipo-propiedad"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precio-m2-según-tipo-propiedad"
+
+\end_inset
+
+ se muestran los resultados.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_segun_tipo_propiedad.png
+	scale 70
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-según-tipo-propiedad"
+
+\end_inset
+
+Precio según tipo de propiedad
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_segun_tipo_propiedad.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -683,32 +737,43 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_m2_segun_tipo_propiedad.png
+	scale 70
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-m2-según-tipo-propiedad"
+
+\end_inset
+
+Precio m2 según tipo de propiedad
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2_segun_tipo_propiedad.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -750,32 +815,43 @@ El set de datos incluye publicaciones únicamente de Capital Federal y Gran
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_m2.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-m2"
+
+\end_inset
+
+Precio por m2
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2.png}
-\backslash
-
-\backslash
-[1cm]
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -805,32 +881,43 @@ Ahora realizaremos el mismo análisis pero con el precio total:
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio__por_zona.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-zona"
+
+\end_inset
+
+Precio por zona
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio__por_zona.png}
-\backslash
-
-\backslash
-[1cm]
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -839,10 +926,24 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Se puede ver que en promedio, GBA zona oeste y zona sur son muy similares
+En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precio-por-zona"
+
+\end_inset
+
+ se puede ver que en promedio, GBA zona oeste y zona sur son muy similares
  y a su vez son los más bajos.
- Sin embargo, a diferencia del gráfico anterior, GBA zona norte supera por
- mucho a Capital Federal, tanto en promedio como en los precios más altos.
+ Sin embargo, a diferencia de la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precio-por-m2"
+
+\end_inset
+
+, GBA zona norte supera por mucho a Capital Federal, tanto en promedio como
+ en los precios más altos.
  Esto significa que en zona norte las propiedades tienen mayor superficie
  que en Capital, haciendo que el precio sea más alto a pesar de que el precio
  por metro cuadrado sea más bajo.
@@ -862,32 +963,43 @@ ntos en cada zona.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/distribucion_casas_deptos.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Distribución-de-casas-departamentos"
+
+\end_inset
+
+Distribución de casas y departamentos
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/distribucion_casas_deptos.png}
-\backslash
-
-\backslash
-[1cm]
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -896,9 +1008,15 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Como se puede observar, Capital Federal es una zona con muchos más departamentos
- que casas, mientras que en Gran Buenos Aires, aunque están parejos, hay
- mayor cantidad de casas.
+Como se puede observar en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Distribución-de-casas-departamentos"
+
+\end_inset
+
+, Capital Federal es una zona con muchos más departamentos que casas, mientras
+ que en Gran Buenos Aires, aunque están parejos, hay mayor cantidad de casas.
  Esto significa que Gran Buenos Aires es una zona más residencial en comparación
  con Capital.
  Se puede notar que la cantidad de casas en Capital es muy baja comparado
@@ -967,32 +1085,43 @@ Los resultados obtenidos son los siguientes:
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_m2_capital.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:precio m2 capital"
+
+\end_inset
+
+Precio por metro cuadrado en capital.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2_capital.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1001,8 +1130,14 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Como se puede observar en el gráfico los barrios Puerto Madero y Villa Santa
- Rita son los barrios más caros.
+Como se puede observar en el gráfico de la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:precio m2 capital"
+
+\end_inset
+
+, los barrios Puerto Madero y Villa Santa Rita son los barrios más caros.
  Por otro lado, se puede observar que los precios para los otros barrios
  se mantiene con valores similares.
  
@@ -1024,38 +1159,56 @@ Se puede ver que al igual que en los alquileres Puerto Madero es el barrio
 \end_layout
 
 \begin_layout Standard
-A continuación se muestra un mapa de Capital Federal, donde los barrios
- más oscuros son los que tienen mayor promedio de precio en dolares.
+En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mapa-del-precio-Capital"
+
+\end_inset
+
+ se muestra un mapa de Capital Federal, donde los barrios más oscuros son
+ los que tienen mayor promedio de precio en dolares.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/mapa_promedio_precios_Capital.png
+	scale 50
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Mapa-del-precio-Capital"
+
+\end_inset
+
+Mapa del precio promedio en Capital Federal
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.5]{/imagenes/mapa_promedio_precios_Capital.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1075,37 +1228,54 @@ Por otro lado, Puerto Madero aparece como el barrio más caro, al igual que
 \end_layout
 
 \begin_layout Standard
-En el siguiente gráfico se muestra lo mismo pero en función del precio por
- metro cuadrado.
+En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mapa-del-precio-m2-capital"
+
+\end_inset
+
+ se muestra lo mismo pero en función del precio por metro cuadrado.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/mapa_promedio_precios_m2_Capital.png
+	scale 50
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Mapa-del-precio-m2-capital"
+
+\end_inset
+
+Mapa del precio por m2 promedio en Capital Federal
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.5]{/imagenes/mapa_promedio_precios_m2_Capital.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1134,8 +1304,22 @@ Se puede ver que en general es muy similar al anterior, pero con algunas
 \begin_layout Standard
 Por otro lado, como se vio en el primer análisis, teniendo en cuenta el
  precio por metro cuadrado los departamentos son más caros que las casas.
- En los siguientes gráficos se podrá analizar si para el promedio influyen
- más las casas o los departamentos.
+ En las figuras 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Comparación-casas-deptos-barrio-caro"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Comparación-casas-deptos-barrio-barato"
+
+\end_inset
+
+ se podrán analizar si para el promedio influyen más las casas o los departament
+os.
 \end_layout
 
 \begin_layout Standard
@@ -1143,32 +1327,47 @@ Barrios más caros:
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
+\begin_inset Float figure
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/comparacion_casas_deptos.png
+	scale 70
+
+\end_inset
 
 
-\backslash
-begin{center}
 \end_layout
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Comparación-casas-deptos-barrio-caro"
+
+\end_inset
 
 
-\backslash
-includegraphics[scale=0.7]{/imagenes/comparacion_casas_deptos.png}
-\backslash
+\size small
+Comparación entre cantidad de casas y departamentos en barrios caros
+\end_layout
 
-\backslash
-[1cm]    
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1181,32 +1380,45 @@ Barrios más baratos:
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
+\begin_inset Float figure
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/comparacion_casas_deptos2.png
+	scale 70
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Comparación-casas-deptos-barrio-barato"
+
+\end_inset
+
+
+\size small
+Comparación entre cantidad de casas y departamentos en barrios baratos
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.7]{/imagenes/comparacion_casas_deptos2.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1239,32 +1451,43 @@ Por último, queremos analizar por qué Puerto Madero es mucho más caro que
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/puerto_madero.png
+	scale 70
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precios-según-tipo-propiedad-madero"
+
+\end_inset
+
+Precios según tipo de propiedad en Puerto Madero
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.7]{/imagenes/puerto_madero.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1324,36 +1547,55 @@ html
 \end_layout
 
 \begin_layout Standard
-Analizando los datos se obtuvo el siguiente gráfico: 
+Analizando los datos se obtuvo el resultado mostrado en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precio-por-m2-zona-norte"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_m2_norte.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-m2-zona-norte"
+
+\end_inset
+
+Precio por m2 en zona Norte
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2_norte.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1402,7 +1644,7 @@ Analizando el siguiente artículo:
 
 \size small
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1433,32 +1675,43 @@ El gráfico obtenido es el siguiente:
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precios_m2_oeste.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-m2-zona-oeste"
+
+\end_inset
+
+Precio por m2 en zona Oeste
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precios_m2_oeste.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1536,32 +1789,43 @@ El gráfico obtenido es el siguiente:
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precios_m2_sur.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-m2-zona-sur"
+
+\end_inset
+
+Precio m2 en zona Sur
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precios_m2_sur.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1624,39 +1888,57 @@ Debido a que el set de datos contiene publicaciones desde el año 2013 hasta
 \end_layout
 
 \begin_layout Standard
-En el primer gráfico, se muestra como fue la evolución del precio por metro
- cuadrado a través de los años.
+En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolución-del-precio-m2-largo-anios"
+
+\end_inset
+
+, se muestra como fue la evolución del precio por metro cuadrado a través
+ de los años.
  Para ello, se calculó el promedio para cada uno de los años.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/evolucion_pecio_m2.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Evolución-del-precio-m2-largo-anios"
+
+\end_inset
+
+Evolución del precio por m2 a lo largo de los años
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/evolucion_pecio_m2.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1685,32 +1967,45 @@ Para desglosar estos datos, analizamos lo mismo pero para los distintos
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
+\begin_inset Float figure
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/evolucion_precio_m2_por_tipo.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Evolución-del-precio-m2-por-tipo-propiedad"
+
+\end_inset
+
+
+\size small
+Evolución del precio por m2 a lo largo de los años según el tipo de propiedad
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/evolucion_precio_m2_por_tipo.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1732,32 +2027,43 @@ También queremos ver cómo se comportaron los precios para las distintas
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/evolucion_precio_m2_por_zona.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Evolución-del-precio-m2-por-zona-anios"
+
+\end_inset
+
+Evolución del precio por m2 a lo largo de los años según la zona
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/evolucion_precio_m2_por_zona.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1782,38 +2088,56 @@ Se puede ver que tanto en Capital como en GBA zona norte y zona oeste los
 \end_layout
 
 \begin_layout Standard
-Siguiendo con el análisis, en el siguiente gráfico se muestra como fue la
- evolución del precio de las propiedades a través de los años.
+Siguiendo con el análisis, en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolución-del-precio-largo-anios"
+
+\end_inset
+
+ se muestra como fue la evolución del precio de las propiedades a través
+ de los años.
  Para ello, se calculó el promedio para cada uno de los años.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/evolucion_precio.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Evolución-del-precio-largo-anios"
+
+\end_inset
+
+Evolución del precio a lo largo de los años
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/evolucion_precio.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1832,32 +2156,43 @@ Se puede observar que evolucionó muy diferente con respecto a los precios
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/evolucion_superficie.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:evolucion-superficie-anios"
+
+\end_inset
+
+Evolución de la superficie a lo largo de los años
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/evolucion_superficie.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1883,32 +2218,43 @@ Ahora veremos lo mismo por zona, para ver si ocurrió lo mismo:
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/evolucion_precio_total_por_zona.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Evolución-del-precio-largo-anios-zona"
+
+\end_inset
+
+Evolución del precio a lo largo de los años según la zona
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/evolucion_precio_total_por_zona.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -1917,8 +2263,8 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Efectivamente, excepto para GBA zona sur que tuvo una leve bajada ente 2015
- y 2016, en todos los casos los precios se mantienen constantes o crecen.
+Efectivamente, excepto para GBA zona sur que tuvo una leve bajada entre
+ 2015 y 2016, en todos los casos los precios se mantienen constantes o crecen.
  Se puede ver que el aumento de precios es mucho más notorio para Capital
  y zona norte, especialmente entre 2015 y 2017, ya que tienen una pendiente
  mayor.
@@ -1932,39 +2278,56 @@ Efectivamente, excepto para GBA zona sur que tuvo una leve bajada ente 2015
 \end_layout
 
 \begin_layout Standard
-A continuación se mostrará la misma información del primer gráfico, es decir
- la evolución del precio por metro cuadrado, pero mostrando la evolución
- mes a mes.
+A continuación se mostrará la misma información que la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolución-del-precio-m2-por-zona-anios"
+
+\end_inset
+
+, es decir la evolución del precio por metro cuadrado, pero mostrando la
+ evolución mes a mes.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/evolucion_precio_m2_por_mes.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Evolución-del-precio-m2-por-mes"
+
+\end_inset
+
+Evolución del precio por m2 a lo largo de los meses
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/evolucion_precio_m2_por_mes.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2009,32 +2372,43 @@ Los resultados obtenidos son los siguientes:
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/evolucion_precio_m2_algunos_barrios.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Evolución-del-precio-m2-algunos-barrios"
+
+\end_inset
+
+Evolución del precio por m2 para algunos barrios
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/evolucion_precio_m2_algunos_barrios.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2043,44 +2417,68 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-En el gráfico se puede ver cómo se comportan aproximadamente igual al promedio
- general.
+En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolución-del-precio-m2-algunos-barrios"
+
+\end_inset
+
+ se puede ver cómo se comportan aproximadamente igual al promedio general.
  Es decir, que disminuyen entre 2014 y 2015 y luego aumentan.
  También se puede ver lo que se concluyó en el primer y segundo análisis,
  ya que el barrio correspondiente a Capital Federal tiene precios más altos
  que los demás, mientras que los de GBA son más similares entre sí, con
  zona oeste y sur casi iguales y zona norte un poco más arriba.
- Todo esto puede apreciarse más detalladamente en el siguiente gráfico:
+ Todo esto puede apreciarse más detalladamente en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precio-por-m2-algunos-barrios"
+
+\end_inset
+
+.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_m2_algunos_barrios.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-m2-algunos-barrios"
+
+\end_inset
+
+Precio por m2 para algunos barrios
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2_algunos_barrios.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2111,32 +2509,43 @@ Primero analizaremos cómo afecta al precio en que piso del edificio se encuentr
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/Relacion_precio_piso.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relación-precio-piso"
+
+\end_inset
+
+Relación entre el piso y el precio por m2
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/Relacion_precio_piso.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2164,32 +2573,43 @@ También analizaremos cómo afecta al precio la cantidad de habitaciones que
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/cantidad_habitaciones_y_precio.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relación-entre-cant-habitaciones-precio"
+
+\end_inset
+
+Relación entre la cantidad de habitaciones y el precio
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/cantidad_habitaciones_y_precio.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2198,8 +2618,15 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Se puede observar que a medida que aumenta la cantidad de habitaciones el
- precio tiende a ser mayor, pero son muy pocas las que tienen más de seis.
+Se puede observar en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Relación-entre-cant-habitaciones-precio"
+
+\end_inset
+
+ que a medida que aumenta la cantidad de habitaciones el precio tiende a
+ ser mayor, pero son muy pocas las que tienen más de seis.
  Creemos que esto se debe a que cuantas más habitaciones tiene generalmente
  tiene mayor superficie, lo que aumenta el precio total.
 \end_layout
@@ -2212,36 +2639,55 @@ Cercanía a los subtes
 Luego, analizamos cómo afecta al precio la cercanía a una estación de subte.
  Creemos que estar cerca del subte podría ser un valor agregado que aumente
  el precio.
- Comprobaremos esto con el siguiente gráfico: 
+ Comprobaremos esto en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Relación-dist-subte-precio-m2"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/Relacion_precio_distancia_subte.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relación-dist-subte-precio-m2"
+
+\end_inset
+
+Relación entre la distancia al subte y el precio por m2
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/Relacion_precio_distancia_subte.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2311,33 +2757,43 @@ Solo se utilizaron lugares de Capital Federal, por lo que solo se analizaran
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/Relacion_precio_distancia_lugares_importantes.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relación-dist-lugares-import-precio-m2"
+
+\end_inset
+
+Relación entre la distancia a algún lugar turístico y el precio por m2
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/Relacion_precio_distancia_lugares_important
-es.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2394,32 +2850,43 @@ Solo se utilizaron estadios de Capital Federal, por lo que solo se analizarán
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/Relacion_distancia_estadios_precio_m2.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relación-dist-estadios-precio-m2"
+
+\end_inset
+
+Relación entre la distancia a estadio y el precio por m2
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/Relacion_distancia_estadios_precio_m2.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2461,33 +2928,43 @@ Solo se utilizaron trenes de Capital Federal, por lo que solo se analizarán
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/Relacion_distancia_ferrocarril_precio_m2.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relación-dist-ferrocarril-precio-m2"
+
+\end_inset
+
+Relación entre la distancia al ferrocarril y el precio por m2
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/Relacion_distancia_ferrocarril_precio_m2.png
-}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2522,32 +2999,43 @@ La zona en la que se encuentra la propiedad es importante y seguramente
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/Precio_m2_en_zonas_inundables.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-m2-zona-inundable"
+
+\end_inset
+
+Precio por m2 en zonas inundables y no inundables
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/Precio_m2_en_zonas_inundables.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2556,9 +3044,16 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Como se puede observar en el gráfico, no hay una diferencia notable entre
- las propiedades que están en zona inundable y las que no, aunque estas
- últimas tienen un promedio de precio un poco mayor aunque no apreciable.
+Como se puede observar en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Precio-por-m2-zona-inundable"
+
+\end_inset
+
+, no hay una diferencia notable entre las propiedades que están en zona
+ inundable y las que no, aunque estas últimas tienen un promedio de precio
+ un poco mayor aunque no apreciable.
  
 \end_layout
 
@@ -2576,32 +3071,43 @@ Como se dijo anteriormente, la zona en la que se encuentra la propiedad
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/Relacion_distancia_villa_precio_m2.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relación-dist-villa-precio-m2"
+
+\end_inset
+
+Relación entre la distancia a las villas y el precio por m2
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/Relacion_distancia_villa_precio_m2.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2610,9 +3116,15 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-Se puede observar en el gráfico que las propiedades de menor distancia son
- muy baratas, y que el precio comienza a aumentar a medida que se va agrandando
- la distancia.
+Se puede observar en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Relación-dist-villa-precio-m2"
+
+\end_inset
+
+ que las propiedades de menor distancia son muy baratas, y que el precio
+ comienza a aumentar a medida que se va agrandando la distancia.
 \end_layout
 
 \begin_layout Subsection
@@ -2644,32 +3156,43 @@ Por esto realizamos un análisis en la cantidad de publicaciones nuevas que
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/cantidad_publicaciones_nuevas_por_anio.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cantidad-de-publicaciones-nuevas-por-anio"
+
+\end_inset
+
+Cantidad de publicaciones nuevas por año
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/cantidad_publicaciones_nuevas_por_anio.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2679,10 +3202,16 @@ end{center}
 
 \begin_layout Standard
 Se puede ver que el 2015 fue el año con mayor oferta.
- Teniendo en cuenta este dato y el gráfico en donde se muestra la evolución
- del precio por metro cuadrado a lo largo de los años, se puede inferir
- que fue un año con poca demanda y mucha oferta, provocando que el precio
- disminuya.
+ Teniendo en cuenta este dato y la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Evolución-del-precio-m2-largo-anios"
+
+\end_inset
+
+ en donde se muestra la evolución del precio por metro cuadrado a lo largo
+ de los años, se puede inferir que fue un año con poca demanda y mucha oferta,
+ provocando que el precio disminuya.
  
 \end_layout
 
@@ -2731,32 +3260,43 @@ Las propiedades que presentan piletas y jacuzzis suelen ser sinónimo de
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_m2_pileta.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-m2-pileta"
+
+\end_inset
+
+Precio por m2 según la presencia de pileta
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2_pileta.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2785,32 +3325,43 @@ Existen distintos aparatos para mantener la propiedad a una temperatura
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_m2_climatizacion.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-m2-climatizacion"
+
+\end_inset
+
+Precio por m2 según la presencia de elementos de climatización
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2_climatizacion.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2839,32 +3390,43 @@ La presencia de una cochera en la propiedad puede ser importante para un
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_m2_cochera.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-m2-cochera"
+
+\end_inset
+
+Precio por m2 según la presencia de una cochera
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2_cochera.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2890,32 +3452,43 @@ e por las máquinas y el mantenimiento que un gimnasio requiere.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_m2_gimnasio.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-m2-gimansio"
+
+\end_inset
+
+Precio por m2 según la presencia de un gimnasio
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2_gimnasio.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -2941,32 +3514,43 @@ Una propiedad segura puede atraer a un comprador, pero la presencia de estos
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/precio_m2_vigilancia.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Precio-por-m2-vigilancia"
+
+\end_inset
+
+Precio por m2 según la presencia de vigilancia
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/precio_m2_vigilancia.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -3024,32 +3608,43 @@ Cuando se desea comprar una propiedad, no solo hay que tener en cuenta el
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/Relacion_precio_expensas.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relación-entre-precio-expensas"
+
+\end_inset
+
+Relación entre el precio y las expensas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/Relacion_precio_expensas.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -3082,32 +3677,43 @@ Para el caso de los departamentos, también analizamos cómo son las expensas
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/Relacion_expensas_piso.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Relación-entre-piso-expensas"
+
+\end_inset
+
+Relación entre el piso y las expensas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/Relacion_expensas_piso.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -3138,32 +3744,43 @@ Para la empresa que vende propiedades puede ser interesante conocer cual
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/Duracion_publicaciones_en_meses.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Duración-de-las-publicaciones-mese"
+
+\end_inset
+
+Duración de las publicaciones en meses
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/Duracion_publicaciones_en_meses.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -3172,9 +3789,16 @@ end{center}
 \end_layout
 
 \begin_layout Standard
-A partir del gráfico se puede ver que la gran mayoría de las publicaciones
- de venta de propiedades duraron menos de 5 meses, mientras que son muy
- pocas las que duran más de dos años.
+A partir de la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Duración-de-las-publicaciones-mese"
+
+\end_inset
+
+ se puede ver que la gran mayoría de las publicaciones de venta de propiedades
+ duraron menos de 5 meses, mientras que son muy pocas las que duran más
+ de dos años.
  
 \end_layout
 
@@ -3190,32 +3814,43 @@ Es interesante saber si la zona de la propiedad es una zona céntrica o no.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/negocios_capital.png
+	scale 75
+
+\end_inset
 
 
-\backslash
-begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cantidad-de-negocios-capital"
+
+\end_inset
+
+Cantidad de negocios en barrios de Capital Federal
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-includegraphics[scale=0.75]{/imagenes/negocios_capital.png}
-\backslash
-
-\backslash
-[1cm]    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
 \end_layout
 
 \end_inset
@@ -3227,7 +3862,14 @@ end{center}
 Como puede verse, los barrios con mayor cantidad de negocios en venta, para
  Capital Federal, se encuentran al norte y al este.
  Interesantemente, son las mismas zonas que eran más oscuras en el mapa
- donde se mostró el precio para cada barrio.
+ donde se mostró el precio para cada barrio (figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Mapa-del-precio-Capital"
+
+\end_inset
+
+).
  A su vez, al principio del análisis mostramos que los negocios podían ser
  más caros que el resto de las propiedades.
  Teniendo ambas cosas en cuenta, podemos decir que los negocios influyen
@@ -3258,7 +3900,7 @@ En varias oportunidades calculamos la distancia entre dos lugares.
 
 \lang english
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -3287,7 +3929,7 @@ La función utilizada es la siguiente:
 
 \lang english
 \begin_inset listings
-lstparams "language=Python,basicstyle={\small\ttfamily},keywordstyle={\color{blue}}"
+lstparams "language=Python,numbers=left,basicstyle={\small\ttfamily},keywordstyle={\color{blue}}"
 inline false
 status open
 
@@ -3396,7 +4038,7 @@ key "key-3"
 
 Datos de propiedades obtenidos de: 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -3417,7 +4059,7 @@ key "key-4"
 
 Datos de Capital Federal obtenidos de: 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -3438,7 +4080,7 @@ key "key-5"
 
 Datos de villas y asentamientos: 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -3459,7 +4101,7 @@ key "key-1"
 
 Análisis exploratorio realizado en: 
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
