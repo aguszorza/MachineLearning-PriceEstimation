@@ -16,8 +16,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{charter}
 \usepackage{xcolor}
-\hypersetup{urlcolor=blue}
-\hypersetup{linkcolor=blue}
+\hypersetup{urlcolor=blue, linkcolor=black}
 
 %-------------------------------------------------------------------------------
 %Modificaciones de leyendas en figuras
