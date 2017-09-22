@@ -16,7 +16,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{charter}
 \usepackage{xcolor}
-\hypersetup{urlcolor=blue}
+\hypersetup{urlcolor=blue, linkcolor=blue}
 
 
 %-------------------------------------------------------------------------------
@@ -283,6 +283,15 @@ end{center}
 \backslash
 end{titlepage}
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
 \end_inset
 
