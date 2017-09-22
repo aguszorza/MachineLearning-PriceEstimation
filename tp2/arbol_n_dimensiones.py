@@ -46,7 +46,7 @@ class Nodo_hoja:
 class Arbol_n_dimensiones:
 	
 	def __init__(self, dataframe, columnas, minimo_datos_en_hoja):
-		self.raiz = crear_nodos(dataframe,columnas,0)
+		self.raiz = crear_nodos(dataframe,columnas,0, minimo_datos_en_hoja)
 		
 	def obtener_dataframe(self, dato):
 		return buscar_nodos(self.raiz,dato)
