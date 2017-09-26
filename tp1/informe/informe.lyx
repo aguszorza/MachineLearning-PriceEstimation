@@ -18,7 +18,6 @@
 \usepackage{xcolor}
 \hypersetup{urlcolor=blue, linkcolor=black}
 
-
 %-------------------------------------------------------------------------------
 %Modificaciones de leyendas en figuras
 %\usepackage[footnotesize, labelsep=quad]{caption}
@@ -1176,7 +1175,7 @@ reference "fig:Mapa-del-precio-Capital"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1243,7 +1242,7 @@ reference "fig:Mapa-del-precio-m2-capital"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1331,7 +1330,7 @@ Barrios más caros:
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1384,7 +1383,7 @@ Barrios más baratos:
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
