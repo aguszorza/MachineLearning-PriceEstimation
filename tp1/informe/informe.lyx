@@ -1182,7 +1182,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename imagenes/mapa_promedio_precios_Capital.png
-	scale 50
+	scale 60
 
 \end_inset
 
@@ -1249,7 +1249,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename imagenes/mapa_promedio_precios_m2_Capital.png
-	scale 50
+	scale 60
 
 \end_inset
 
@@ -1331,7 +1331,7 @@ Barrios más caros:
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -1384,7 +1384,7 @@ Barrios más baratos:
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center

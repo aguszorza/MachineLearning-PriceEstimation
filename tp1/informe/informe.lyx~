@@ -16,7 +16,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{charter}
 \usepackage{xcolor}
-\hypersetup{urlcolor=blue, linkcolor=blue}
+\hypersetup{urlcolor=blue, linkcolor=black}
 
 
 %-------------------------------------------------------------------------------
