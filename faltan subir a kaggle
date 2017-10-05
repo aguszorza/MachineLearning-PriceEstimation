@@ -1,5 +1,6 @@
-Gradient Bossting 1
-Gradient Bossting 2
 
 
-Mejor resultado hasta ahora:   Bagging Regressor
+
+Mejor resultado hasta ahora:    1 - Bagging Regressor
+                                2 - KNN
+                                3 - Perceptron
