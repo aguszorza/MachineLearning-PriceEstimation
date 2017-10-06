@@ -17,13 +17,19 @@ def calcular_promedio(lista, set_pruebas):
 	error = ..................
 	return error
 
+def combinaciones(lista, minimo):
+	comb = []
+	for x in lista:
+		comb = comb + [c + [x] for c in comb]
+	res = [c for c in comb if len(c) >= minimo
+	return res
+
 errores = []
-for j in range(len(algoritmos)):
-	for k in range(j + 1,len(algoritmos)):
-		l = algoritmos[j] + algoritmos[k:]
-		error = calcular_promedio(l,set_pruebas)
-		errores.append((error,l))
-		print("Error = {}, algoritmos = {}".format(error,l))
+combinaciones_posibles = combinaciones(algoritmos,2)
+for comb in combinaciones_posibles:
+	error = calcular_promedio(comb,set_pruebas)
+	errores.append((error,comb))
+	print("Error = {}, algoritmos = {}".format(error,comb))
 
 min_error = float("inf")
 min_e = ()
