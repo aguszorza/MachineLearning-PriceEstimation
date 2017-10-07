@@ -1,5 +1,6 @@
 XGBboost_resultados_1
 XGBboost_resultados_2
+catboost_resultados
 
 Mejor resultado hasta ahora:    1 - Bagging Regressor
                                 2 - KNN
