@@ -1,7 +1,9 @@
-XGBboost_resultados_1
-XGBboost_resultados_2
 catboost_resultados
 
 Mejor resultado hasta ahora:    1 - Bagging Regressor
                                 2 - KNN
-                                3 - Perceptron
+                                3 - Perceptron (standard scaler)
+                                4 - Decision Tree
+                                5 - Ada Boost
+                                
+            Gradient boosting y xgboost un desastre
