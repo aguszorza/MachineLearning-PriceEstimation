@@ -1,5 +1,7 @@
 catboost_resultados
-ensamble_con_promedio
+ensamble_con_promedios
+ensamble_con_promedios_2
+ensamble_con_promedios_3
 
 Mejor resultado hasta ahora:    1 - Bagging Regressor
                                 2 - KNN
