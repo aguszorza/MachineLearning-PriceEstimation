@@ -1,9 +1,16 @@
+ensambles_con_promedios_2
+ensambles_con_promedios_3
+ensambles_con_promedios_4
 
 
 Mejor resultado hasta ahora:    1 - Bagging Regressor
-                                2 - KNN
-                                3 - Perceptron (standard scaler)
-                                4 - Decision Tree
-                                5 - Ada Boost
+                                2 - Extra Trees
+                                3 - Catboost
+                                4 - KNN
+                                5 - Perceptron (standard scaler)
+                                6 - Decision Tree
+                                7 - Ada Boost
                                 
             Gradient boosting y xgboost un desastre
+            
+            FALTA ACTUALIZAR IMAGEN DE RESULTADOS
