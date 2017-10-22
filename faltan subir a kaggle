@@ -1,13 +1,12 @@
 ensambles_con_promedios_2
 ensambles_con_promedios_3
 ensambles_con_promedios_4
-Random_Forest_standard_scaler_resultados
 KNN_standard_scaler_resultados
-extra_trees_2
 Catboost_lat_lon_resultados
 
 
-Mejor resultado hasta ahora:    1 - Bagging Regressor
+Mejor resultado hasta ahora:    0 - Extra Trees con lat lon
+                                1 - Bagging Regressor
                                 2 - Extra Trees
                                 3 - Catboost
                                 4 - KNN
