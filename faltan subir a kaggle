@@ -8,6 +8,7 @@ knn_2
 knn_standard_scaler_2
 Ada_boost_latlon_resultados
 decision_tree_2
+random_forest_2
 
 Mejor resultado hasta ahora:    0 - Extra Trees con lat lon
                                 1 - Bagging Regressor
