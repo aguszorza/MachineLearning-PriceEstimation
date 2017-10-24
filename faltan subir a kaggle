@@ -5,8 +5,6 @@ KNN_standard_scaler_resultados
 knn_2
 knn_standard_scaler_2
 Ada_boost_latlon_resultados
-decision_tree_2
-random_forest_2
 lightgb_resultados # por ahora tiene aprox 60% de precision pero voy a recalcular con mas estimadores a ver si mejora mas
 lightgb_latlon_resultados # por ahora tiene aprox 60% de precision pero voy a recalcular con mas estimadores a ver si mejora mas
 
