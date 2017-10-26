@@ -7,6 +7,10 @@ lightgb_resultados # por ahora tiene aprox 60% de precision pero voy a recalcula
 lightgb_latlon_resultados # por ahora tiene aprox 60% de precision pero voy a recalcular con mas estimadores a ver si mejora mas
 cross_descomposition_latlon (ultimo es malo)
 
+-decision_tree_cross_validation
+-decision_tree_gridsearch_menosdatos
+-decision_tree_cross_validation_menos_datos
+
 
 Mejor resultado hasta ahora:    0 - Extra Trees con lat lon
                                 1 - Bagging Regressor
