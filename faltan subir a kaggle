@@ -7,9 +7,13 @@ lightgb_resultados # por ahora tiene aprox 60% de precision pero voy a recalcula
 lightgb_latlon_resultados # por ahora tiene aprox 60% de precision pero voy a recalcular con mas estimadores a ver si mejora mas
 cross_descomposition_latlon (ultimo es malo)
 
--decision_tree_cross_validation
 -decision_tree_gridsearch_menosdatos
--decision_tree_cross_validation_menos_datos
+
+
+EL MEJOR ALGORITMO HASTA AHORA ES DECISION TREE HACIENDO MI CROSS VALIDATION PERO CON TODOS LOS DATOS (Pero no mejoro mucho)
+Voy a probar con mas iteraciones (ahora son 10) y tambien reduciendo mas los datos. 
+En funcion de esto, maniana vemos como seguimos con los demas algoritmos.
+
 
 
 Mejor resultado hasta ahora:    0 - Extra Trees con lat lon
