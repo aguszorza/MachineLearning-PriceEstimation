@@ -8,6 +8,8 @@ lightgb_latlon_resultados # por ahora tiene aprox 60% de precision pero voy a re
 cross_descomposition_latlon (ultimo es malo)
 
 -decision_tree_gridsearch_menosdatos
+-decision_tree_cross_validation    (con 25 iteraciones)
+-decision_tree_cross_validation_menos_datos
 
 
 EL MEJOR ALGORITMO HASTA AHORA ES DECISION TREE HACIENDO MI CROSS VALIDATION PERO CON TODOS LOS DATOS (Pero no mejoro mucho)
