@@ -12,17 +12,11 @@ gradient_boosting_latlon
 -decision_tree_gridsearch_menosdatos
 -bagging_regressor_gridsearch
 -random_forest_grid_search
+-knn_gridsearch
+
 -decision_tree_cross_validation
 -random_forest_cross_validation
-
-
-
-EL MEJOR ALGORITMO HASTA AHORA ES DECISION TREE HACIENDO MI CROSS VALIDATION PERO CON TODOS LOS DATOS (Pero no mejoro mucho)
-Voy a probar con mas iteraciones (ahora son 10) y tambien reduciendo mas los datos. 
-En funcion de esto, maniana vemos como seguimos con los demas algoritmos.
-
-No Mejoro nada, por lo tanto por ahora voy a seguir haciendo grid search con todos los datos
-y luego un cross validation con 10 iteraciones.
+-knn_cross_validation
 
 
 
