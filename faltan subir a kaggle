@@ -14,11 +14,13 @@ gradient_boosting_latlon
 -random_forest_grid_search
 -knn_gridsearch
 -gradient_boosting_gridsearch
+-ada_boost_gredsearch
 
 -decision_tree_cross_validation
 -random_forest_cross_validation
 -knn_cross_validation
 -gradient_boosting_cross_validation
+-ada_boost_cross_validation
 
 
 
