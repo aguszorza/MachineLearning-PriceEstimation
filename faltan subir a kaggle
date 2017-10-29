@@ -13,8 +13,6 @@ gradient_boosting_latlon
 -bagging_regressor_gridsearch
 -random_forest_grid_search
 -decision_tree_cross_validation
--extra_trees_cross_validation
--bagging_regressor_cross_validation
 -random_forest_cross_validation
 
 
