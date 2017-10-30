@@ -18,11 +18,10 @@ gradient_boosting_latlon
 
 -decision_tree_cross_validation
 -random_forest_cross_validation
--knn_cross_validation
 -gradient_boosting_cross_validation
 -ada_boost_cross_validation
 
-
+Probe decision tree con las fechas, no fue el mejor pero mas o menos bien
 
 Mejor resultado hasta ahora:    0 - Extra Trees con lat lon
                                 1 - Bagging Regressor
