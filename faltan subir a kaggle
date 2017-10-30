@@ -9,7 +9,6 @@ cross_descomposition_latlon (ultimo es malo)
 XGBoost_latlon
 gradient_boosting_latlon
 
--decision_tree_gridsearch_menosdatos
 -bagging_regressor_gridsearch
 -random_forest_grid_search
 -knn_gridsearch
@@ -21,6 +20,9 @@ gradient_boosting_latlon
 -knn_cross_validation
 -gradient_boosting_cross_validation
 -ada_boost_cross_validation
+
+-decision_tree_gridsearch_menosdatos
+-decision_tree_cross_validation_menos_datos
 
 Probe decision tree con las fechas, no fue el mejor pero mas o menos bien
 
