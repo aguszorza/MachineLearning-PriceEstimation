@@ -21,20 +21,18 @@ gradient_boosting_latlon
 -gradient_boosting_cross_validation
 -ada_boost_cross_validation
 
--decision_tree_gridsearch_menosdatos
--decision_tree_cross_validation_menos_datos
 
-Probe decision tree con las fechas, no fue el mejor pero mas o menos bien
+MEJORES RESULTADOS:
 
-Mejor resultado hasta ahora:    0 - Extra Trees con lat lon
-                                1 - Bagging Regressor
-                                2 - Extra Trees
-                                3 - Catboost
-                                4 - KNN
-                                5 - Perceptron (standard scaler)
-                                6 - Decision Tree
-                                7 - Ada Boost
-                                
-            Gradient boosting y xgboost un desastre
-            
+
+Decision_tree_Cross_Validation.csv
+Extra_trees_2.csv
+Decision_tree_Cross_Validation_fechas.csv
+Decision_tree_Cross_Validation_menos_datos.csv
+Decision_tree_GridSearch_menosDatos.csv
+Bagging_Regresor_resultados.csv
+Decision_tree_Cross_Validation_menos_datos.csv
+Extra_trees_GridSearch.csv
+Decision_tree_GridSearch_fechas.csv
+Ensamble_con_Promedios.csv
 
