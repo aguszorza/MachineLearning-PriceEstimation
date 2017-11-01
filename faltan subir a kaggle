@@ -23,8 +23,6 @@ gradient_boosting_latlon
 -ada_boost_cross_validation
 
 
-Decision_tree_Cross_Validation_mas_columnas_menos_datos
-Decision_tree_Cross_Validation_mas_columnas
 Decision_tree_gridsearch_mas_columnas_menos_datos
 Decision_tree_gridsearch_mas_columnas
 
