@@ -14,6 +14,7 @@ gradient_boosting_latlon
 -gradient_boosting_gridsearch
 -ada_boost_gredsearch
 -Lightgbm_gridsearch (Probablemente sea malo)
+-Perceptron_gridsearch (Probablemente sea malo)
 
 -decision_tree_cross_validation
 -random_forest_cross_validation
