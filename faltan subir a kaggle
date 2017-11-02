@@ -1,8 +1,6 @@
 ensambles_con_promedios_2
 ensambles_con_promedios_3
 ensambles_con_promedios_4
-KNN_standard_scaler_resultados
-knn_standard_scaler_2
 lightgb_resultados # por ahora tiene aprox 60% de precision pero voy a recalcular con mas estimadores a ver si mejora mas
 cross_descomposition_latlon (ultimo es malo)
 XGBoost_latlon
@@ -28,6 +26,7 @@ Decision_tree_gridsearch_mas_columnas
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:      (light gbm tiene buenos resultados con lat lon, habria que probar grid search con mas estimadores)
 
+KNN_standard_scaler_resultados (dio buenos resultados)
 
 Decision_tree_Cross_Validation.csv
 lightgbm_latlon_resultados.csv
