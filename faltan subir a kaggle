@@ -4,6 +4,7 @@ ensambles_con_promedios_4
 lightgb_resultados # por ahora tiene aprox 60% de precision pero voy a recalcular con mas estimadores a ver si mejora mas
 cross_descomposition_latlon (ultimo es malo)
 XGBoost_latlon
+knn_menos_datos_standard_scaler
 
 -bagging_regressor_gridsearch
 -random_forest_grid_search
