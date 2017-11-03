@@ -17,7 +17,6 @@ gradient_boosting_latlon
 -decision_tree_cross_validation
 -random_forest_cross_validation
 -knn_cross_validation
--gradient_boosting_cross_validation
 -ada_boost_cross_validation
 
 Decision_tree_gridsearch_mas_columnas_menos_datos
