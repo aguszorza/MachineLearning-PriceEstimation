@@ -7,6 +7,8 @@ XGBoost_latlon
 knn_menos_datos_standard_scaler
 knn_svd
 knn_svd_standar_scaler
+knn_menos_datos_svd_agregada
+knn_menos_datos_svd_2_dim
 
 -bagging_regressor_gridsearch
 -random_forest_grid_search
