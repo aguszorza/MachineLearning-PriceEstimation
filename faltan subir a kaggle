@@ -5,6 +5,8 @@ lightgb_resultados # por ahora tiene aprox 60% de precision pero voy a recalcula
 cross_descomposition_latlon (ultimo es malo)
 XGBoost_latlon
 knn_menos_datos_standard_scaler
+knn_svd
+knn_svd_standar_scaler
 
 -bagging_regressor_gridsearch
 -random_forest_grid_search
