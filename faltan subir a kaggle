@@ -6,8 +6,6 @@ cross_descomposition_latlon (ultimo es malo)
 XGBoost_latlon
 knn_menos_datos_standard_scaler
 knn_svd
-knn_menos_datos_svd_agregada
-knn_menos_datos_svd_2_dim
 
 -bagging_regressor_gridsearch
 -random_forest_grid_search
@@ -44,5 +42,7 @@ MEJORES RESULTADOS:
 
 KNN_standard_scaler_resultados.csv
 Lightgbm_gridsearch.csv
+KNN_menos_datos_svd_agregada.csv
 gradient_boosting_latlon.csv
+KNN_menos_datos_svd_2_dim.csv
 KNN_standard_scaler_2.csv
