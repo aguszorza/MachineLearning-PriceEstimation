@@ -6,7 +6,6 @@ cross_descomposition_latlon (ultimo es malo)
 XGBoost_latlon
 knn_menos_datos_standard_scaler
 knn_svd
-knn_svd_standar_scaler
 knn_menos_datos_svd_agregada
 knn_menos_datos_svd_2_dim
 
@@ -20,7 +19,6 @@ knn_menos_datos_svd_2_dim
 -decision_tree_cross_validation
 -random_forest_cross_validation
 -knn_cross_validation
--ada_boost_cross_validation
 -Perceptron_validation (Probablemente sea malo)
 
 Decision_tree_gridsearch_mas_columnas_menos_datos
@@ -37,15 +35,9 @@ Decision_tree_Cross_Validation_menos_datos.csv
 Decision_tree_GridSearch_menosDatos.csv
 Bagging_Regresor_resultados.csv
 Lightgbm_Cross_Validation.csv
+Lightgbm_menosDatos_250kEst.csv
 Decision_tree_Cross_Validation_menos_datos.csv
 Extra_trees_GridSearch.csv
-Decision_tree_Cross_Validation_mas_columnas_menos_datos.csv
-Decision_tree_GridSearch_fechas.csv
-Ensamble_con_Promedios.csv
-Decision_tree_Cross_Validation_menos_datos.csv
-Ensamble_con_Promedios_3.csv
-Decision_tree_Cross_Validation.csv
-
 
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:
