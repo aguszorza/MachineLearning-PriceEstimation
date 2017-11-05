@@ -7,6 +7,10 @@ XGBoost_latlon
 knn_svd
 Decision_tree_svd
 decision_tree_menos_datos_svd_agregada
+lasso_gridsearch    (lineales y malos)
+ridge_gridsearch    (lineales y malos)
+lasso_crossvalidation   (lineales y malos)
+ridge_crossvalidation    (lineales y malos)
 
 
 -random_forest_grid_search
