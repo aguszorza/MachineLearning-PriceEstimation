@@ -8,8 +8,7 @@ knn_menos_datos_standard_scaler
 knn_svd
 Decision_tree_svd
 decision_tree_menos_datos_svd_agregada
-Extra_trees_svd
-Extra_trees_menos_datos_svd_agregada
+
 
 -bagging_regressor_gridsearch
 -random_forest_grid_search
