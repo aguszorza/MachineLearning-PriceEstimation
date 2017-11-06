@@ -11,6 +11,8 @@ ridge_gridsearch    (lineales y malos)
 lasso_crossvalidation   (lineales y malos)
 ridge_crossvalidation    (lineales y malos)
 Lightgbm_menos_datos_svd_agregada (100000 estimadores)
+Bagging_Regressor_svd
+Bagging_Regressor_menos_datos_svd_agregada
 
 
 -random_forest_grid_search
