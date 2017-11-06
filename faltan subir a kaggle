@@ -1,5 +1,3 @@
-###SUBIR PRIMERO ESTE ARCHIVO    pruebas_decision_tree_datos_modificados.csv  ######es para probar algo
-
 ensambles_con_promedios_2
 ensambles_con_promedios_3
 ensambles_con_promedios_4
@@ -8,11 +6,11 @@ cross_descomposition_latlon (ultimo es malo)
 XGBoost_latlon
 knn_svd
 Decision_tree_svd
-decision_tree_menos_datos_svd_agregada
 lasso_gridsearch    (lineales y malos)
 ridge_gridsearch    (lineales y malos)
 lasso_crossvalidation   (lineales y malos)
 ridge_crossvalidation    (lineales y malos)
+Lightgbm_menos_datos_svd_agregada (100000 estimadores)
 
 
 -random_forest_grid_search
@@ -46,11 +44,13 @@ Lightgbm_Cross_Validation.csv
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:
 
-KNN_standard_scaler_resultados.csv
-Lightgbm_gridsearch.csv
-Bagging_Regressor_GridSearch.csv
-KNN_menos_datos_standard_scaler.csv
-KNN_menos_datos_svd_agregada.csv
-gradient_boosting_latlon.csv
-KNN_menos_datos_svd_2_dim.csv
-KNN_standard_scaler_2.csv
+KNN_standard_scaler_resultados.csv            945263999846.57300
+Lightgbm_gridsearch.csv                       952668468106.34400
+Decision_tree_menos_datos_svd_agregada.csv    961251123941.33000
+Bagging_Regressor_GridSearch.csv              962327994688.91600
+prueba_decisionTree_datos_modificados.csv     962765813977.49400
+KNN_menos_datos_standard_scaler.csv           963679103397.89900
+KNN_menos_datos_svd_agregada.csv              965609867958.13800
+gradient_boosting_latlon.csv                  965773767028.96700
+KNN_menos_datos_svd_2_dim.csv                 993028547845.59300
+KNN_standard_scaler_2.csv                     1015282654454.68000
