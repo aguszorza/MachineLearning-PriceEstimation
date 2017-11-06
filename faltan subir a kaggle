@@ -1,3 +1,11 @@
+#Archivos para probar cosas:
+-prueba_decisiontree_sin_superficie   (lo corri con las 10 columnas de descripciones pero sin superficie)
+-prueba_precios_mas_bajos            (dividi todos los precios por 10)
+-prueba_precios_mas_altos             (multiplique todos los precios por 10)
+
+
+
+
 ensambles_con_promedios_2
 ensambles_con_promedios_3
 ensambles_con_promedios_4
