@@ -1,6 +1,4 @@
 #Archivos para probar cosas:
--prueba_decisiontree_sin_superficie   (lo corri con las 10 columnas de descripciones pero sin superficie)
--prueba_decisiontree_sin_superficie_menos_datos       (igual con menos datos)
 -prueba_precios_mas_bajos            (dividi todos los precios por 10)
 -prueba_precios_mas_altos             (multiplique todos los precios por 10)
 
@@ -52,6 +50,10 @@ Decision_tree_Cross_Validation_menos_datos.csv
 Decision_tree_GridSearch_menosDatos.csv
 Bagging_Regresor_resultados.csv
 Lightgbm_Cross_Validation.csv
+ 
+ no dieron buenos resultados:
+-prueba_decisiontree_sin_superficie   (lo corri con las 10 columnas de descripciones pero sin superficie)
+-prueba_decisiontree_sin_superficie_menos_datos       (igual con menos datos)
 
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:
