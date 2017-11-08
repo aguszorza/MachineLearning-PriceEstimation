@@ -1,7 +1,7 @@
 #Archivos para probar cosas:
 
-prueba_decision_tree_con_superficie_y_fecha_menos_menos_datos_datasetModificado1.csv   (igual con superficie y fecha datos modificados originales)
-prueba_decision_tree_con_superficie_y_fecha_menos_menos_datos_datasetModificado2.csv   (igual con superficie y fecha datos modificados superficie en rango)
+prueba_decision_tree_con_superficie_y_fecha_menos_menos_datos_datasetModificado1.csv   (dejar para despues)
+prueba_decision_tree_con_superficie_y_fecha_menos_menos_datos_datasetModificado2.csv   (dejar para despues)
 
 
 ensambles_con_promedios_2
@@ -51,18 +51,15 @@ Decision_tree_GridSearch_menosDatos.csv
 Bagging_Regresor_resultados.csv
 Lightgbm_Cross_Validation.csv
   _____________________________________________________________________________
-PRUEBAS QUE NO DIERON BUENOS RESULTADOS:
+PRUEBAS QUE NO DIERON BUENOS RESULTADOS:  (BUenos rersultados == 94 o menos)
 -prueba_decisiontree_sin_superficie   (lo corri con las 10 columnas de descripciones pero sin superficie)
 -prueba_decisiontree_sin_superficie_menos_datos       (igual con menos datos)
 -prueba_precios_mas_bajos            (dividi todos los precios por 10)
 -prueba_precios_mas_altos             (multiplique todos los precios por 10)
-prueba_decision_tree_sin_superficie_menos_menos_datos.csv      (restrinjo aun mas los datos->>    50k < precio < 500k)
-prueba_decision_tree_con_superficie_sin_fecha_menos_menos_datos_datasetModificado1.csv (igual sin fecha datosoriginales)
-
-
-PRUEBAS QUE PODRIAN SERVIR:
-prueba_decision_tree_sin_superficie_ni_fecha_menos_menos_datos.csv   (igual pero saco la columna de fecha)  978849340011.38800
-prueba_decision_tree_con_superficie_sin_fecha_menos_menos_datos_datasetModificado2.csv  (igual datos modificados) 964858338505.33900
+prueba_decision_tree_sin_superficie_menos_menos_datos.csv   
+prueba_decision_tree_con_superficie_sin_fecha_menos_menos_datos_datasetModificado1.csv 
+prueba_decision_tree_sin_superficie_ni_fecha_menos_menos_datos.csv   
+prueba_decision_tree_con_superficie_sin_fecha_menos_menos_datos_datasetModificado2.csv 
 
 
 ________________________________________________________________________________________________
