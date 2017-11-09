@@ -1,7 +1,5 @@
 #Archivos para probar cosas:  (En principio no sirve sin la superficie)
 
-prueba_con_superficie_fecha_mas_menos_datos_datasetModificado1.csv
-prueba_con_superficie_fecha_mas_menos_datos_datasetModificado2.csv
 prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado1.csv
 prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado2.csv
 prueba_decision_tree_sin_superficie_mas_menos_datos.csv
@@ -57,7 +55,7 @@ Decision_tree_GridSearch_menosDatos.csv
 Bagging_Regresor_resultados.csv
 Lightgbm_Cross_Validation.csv
   _____________________________________________________________________________
-PRUEBAS QUE NO DIERON BUENOS RESULTADOS:  (BUenos rersultados == 94 o menos)
+PRUEBAS QUE NO DIERON BUENOS RESULTADOS:  (Buenos rersultados == 94 o menos)
 -prueba_decisiontree_sin_superficie   (lo corri con las 10 columnas de descripciones pero sin superficie)
 -prueba_decisiontree_sin_superficie_menos_datos       (igual con menos datos)
 -prueba_precios_mas_bajos            (dividi todos los precios por 10)
@@ -67,6 +65,11 @@ prueba_decision_tree_con_superficie_sin_fecha_menos_menos_datos_datasetModificad
 prueba_decision_tree_sin_superficie_ni_fecha_menos_menos_datos.csv   
 prueba_decision_tree_con_superficie_sin_fecha_menos_menos_datos_datasetModificado2.csv 
 
+  _____________________________________________________________________________
+PRUEBAS QUE DIERON BUENOS RESULTADOS:  (Buenos rersultados == 94 o menos)
+
+prueba_con_superficie_fecha_mas_menos_datos_datasetModificado1.csv 933257717064.04800
+prueba_con_superficie_fecha_mas_menos_datos_datasetModificado2.csv 932959086105.73100
 
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:
