@@ -31,6 +31,10 @@ Bagging_Regressor_svd
 Bagging_Regressor_menos_datos_svd_agregada
 
 
+Extra_Trees_con_Kmeans.csv
+Gradient_Boosting_con_Kmeans.csv
+
+
 -random_forest_grid_search
 -knn_gridsearch
 -gradient_boosting_gridsearch
