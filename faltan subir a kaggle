@@ -1,16 +1,7 @@
 #Archivos para probar cosas:  (En orden para subir)
 	
 	
-  prueba_aumento_preciomin_supmax_datasetModificado2_sinfecha.csv
-	prueba_aumento_preciomin_datasetModificado2_sinfecha.csv 	
-  prueba_aumento_supmax_datasetModificado2_sinfecha.csv	
-	prueba_aumento_preciomin_supmax_datasetModificado1_confecha.csv 	
-	prueba_aumento_preciomin_supmax_datasetModificado1_sinfecha.csv 	
-  prueba_aumento_preciomin_datasetModificado1_confecha.csv 	
-	prueba_aumento_preciomin_datasetModificado1_sinfecha.csv 
-	prueba_aumento_supmax_datasetModificado1_con_fecha.csv 	
-	prueba_aumento_supmax_datasetModificado1_sinfecha.csv 	
-prueba_mas_menos_datos_datasetmodificado2.csv
+  
 
 ______________________________________________________________________________________________________________________________
 PRUEBAS QUE DIERON BUENOS RESULTADOS:  (en orden de error)
