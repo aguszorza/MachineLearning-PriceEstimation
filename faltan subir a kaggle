@@ -1,18 +1,18 @@
-#Archivos para probar cosas:  (En orden para subir)
+#Archivos para probar cosas:  (En orden para subir)	
 	
-	
-  prueba_preciomin_20k
-  prueba_preciomin_30k
   prueba_supmax_350
   prueba_supmax_250
 
 ______________________________________________________________________________________________________________________________
 PRUEBAS QUE DIERON BUENOS RESULTADOS:  (en orden de error)
 
+prueba_preciomin_30k                                                       930606996554.15800
 prueba_con_superficie_fecha_mas_menos_datos_datasetModificado2.csv         932959086105.73100
+prueba_preciomin_20k                                                       933049291486.11300
 prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado2.csv     933136890306.06900
 prueba_con_superficie_fecha_mas_menos_datos_datasetModificado1.csv         933257717064.04800
 prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado1.csv     933600052681.15700
+
 _____________________________________________________________________________________________________________________________
 
 ensambles_con_promedios_2
