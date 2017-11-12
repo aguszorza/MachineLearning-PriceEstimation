@@ -1,7 +1,16 @@
-#Archivos para probar cosas:  (En orden para subir)	
+RESTRICCIONES DEFINITIVAS (probar gridsearch o otras cosas con esto)
 
-prueba_2015
-prueba_2016
+sup_min = 10
+sup_max = 300
+lat_min = -35
+lat_max = -34
+lon_min = -59
+lon_max = -58
+precio_min = 30000
+precio_max = 3000000
+
+anio >= 2017
+
 
 ______________________________________________________________________________________________________________________________
 PRUEBAS QUE DIERON BUENOS RESULTADOS:  (en orden de error)
@@ -13,6 +22,7 @@ prueba_preciomin_20k                                                       93304
 prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado2.csv     933136890306.06900
 prueba_con_superficie_fecha_mas_menos_datos_datasetModificado1.csv         933257717064.04800
 prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado1.csv     933600052681.15700
+prueba_2015.csv                                                            934638698093.45100
 prueba_mitad_2016                                                          948646658700.28300
 
 _____________________________________________________________________________________________________________________________
