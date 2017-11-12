@@ -11,7 +11,7 @@ precio_max = 3000000
 
 anio >= 2017
 
-
+En principio con el dataset 2 y se puede probar con la columna fecha
 ______________________________________________________________________________________________________________________________
 PRUEBAS QUE DIERON BUENOS RESULTADOS:  (en orden de error)
 
@@ -77,20 +77,7 @@ Decision_tree_Cross_Validation_menos_datos.csv
 Decision_tree_GridSearch_menosDatos.csv
 Bagging_Regresor_resultados.csv
 Lightgbm_Cross_Validation.csv
-  _____________________________________________________________________________
-PRUEBAS QUE NO DIERON BUENOS RESULTADOS:  (Buenos rersultados == 94 o menos)
--prueba_decisiontree_sin_superficie   (lo corri con las 10 columnas de descripciones pero sin superficie)
--prueba_decisiontree_sin_superficie_menos_datos       (igual con menos datos)
--prueba_precios_mas_bajos            (dividi todos los precios por 10)
--prueba_precios_mas_altos             (multiplique todos los precios por 10)
-prueba_decision_tree_sin_superficie_menos_menos_datos.csv   
-prueba_decision_tree_con_superficie_sin_fecha_menos_menos_datos_datasetModificado1.csv 
-prueba_decision_tree_sin_superficie_ni_fecha_menos_menos_datos.csv   
-prueba_decision_tree_con_superficie_sin_fecha_menos_menos_datos_datasetModificado2.csv 
-  prueba_aumento_preciomin_supmax_datasetModificado2_confecha.csv 
-  prueba_aumento_supmax_datasetModificado2_confecha.csv 
-  prueba_aumento_preciomin_datasetModificado2_confecha.csv
-  prueba_decision_tree_sin_superficie_mas_menos_datos.csv
+ 
 
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:
