@@ -26,9 +26,11 @@ prueba_2015.csv                                                            93463
 prueba_mitad_2016                                                          948646658700.28300
 
 _____________________________________________________________________________________________________________________________
+PARA SUBIR:
 
 bagging_regressor-gridsearch_definitivo
 bagging_regressor_bagging_definitivo
+
 cross_descomposition_latlon (ultimo es malo)
 XGBoost_latlon
 knn_svd
