@@ -27,10 +27,8 @@ prueba_mitad_2016                                                          94864
 
 _____________________________________________________________________________________________________________________________
 
-ensambles_con_promedios_2
-ensambles_con_promedios_3
-ensambles_con_promedios_4
-lightgb_resultados # por ahora tiene aprox 60% de precision pero voy a recalcular con mas estimadores a ver si mejora mas
+bagging_regressor-gridsearch_definitivo
+bagging_regressor_bagging_definitivo
 cross_descomposition_latlon (ultimo es malo)
 XGBoost_latlon
 knn_svd
