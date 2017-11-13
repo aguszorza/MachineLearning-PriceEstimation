@@ -39,16 +39,13 @@ lasso_gridsearch    (lineales y malos)
 ridge_gridsearch    (lineales y malos)
 lasso_crossvalidation   (lineales y malos)
 ridge_crossvalidation    (lineales y malos)
-Lightgbm_menos_datos_svd_agregada (100000 estimadores)
 Gradient_Boosting_svd
 Gradient_Boosting_menos_datos_svd_agregada
 Bagging_Regressor_svd
-Bagging_Regressor_menos_datos_svd_agregada
 
 
-Extra_Trees_con_Kmeans.csv
-Gradient_Boosting_con_Kmeans.csv
-
+Extra_Trees_con_Kmeans.csv  (No subir) hay que volver a correrlos
+Gradient_Boosting_con_Kmeans.csv (NO subir) hay que volver a correrlos
 
 -random_forest_grid_search
 -knn_gridsearch
@@ -84,6 +81,7 @@ MEJORES RESULTADOS:
 
 KNN_standard_scaler_resultados.csv            945263999846.57300
 Lightgbm_gridsearch.csv                       952668468106.34400
+Lightgbm_menos_datos_svd_agregada             955375446054.00700
 Decision_tree_menos_datos_svd_agregada.csv    961251123941.33000
 Bagging_Regressor_GridSearch.csv              962327994688.91600
 prueba_decisionTree_datos_modificados.csv     962765813977.49400
