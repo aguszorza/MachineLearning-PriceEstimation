@@ -1,7 +1,6 @@
 ARCHIVOS NUEVOS PARA SUBIR:
 
-decision_tree_gridsearch_definitivo
-decision_tree_gridsearch_definitivo_sinfecha
+
 decision_tree_bagging_definitivo_sinfecha
 knn_gridsearch_definitivo
 knn_bagging_definitivo
@@ -57,7 +56,9 @@ Extra_trees_GridSearch_definitivo.csv        941932233454.84000
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:
 
+decision_tree_gridsearch_definitivo           933445860339.39300
 KNN_standard_scaler_resultados.csv            945263999846.57300
+decision_tree_gridsearch_definitivo_sinfecha  947501465287.41300
 Gradient_Boosting_con_Kmeans.csv              950287141048.03000
 Lightgbm_gridsearch.csv                       952668468106.34400
 Lightgbm_menos_datos_svd_agregada             955375446054.00700
