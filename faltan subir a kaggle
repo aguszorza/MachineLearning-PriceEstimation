@@ -1,28 +1,10 @@
-RESTRICCIONES DEFINITIVAS (probar gridsearch o otras cosas con esto)
-
-sup_min = 10
-sup_max = 300
-lat_min = -35
-lat_max = -34
-lon_min = -59
-lon_max = -58
-precio_min = 30000
-precio_max = 3000000
-
-anio >= 2017
-
-En principio con el dataset 2 y se puede probar con la columna fecha
-______________________________________________________________________________________________________________________________
-
 ARCHIVOS NUEVOS PARA SUBIR:
 
 decision_tree_gridsearch_definitivo
-decision_tree_bagging_definitivo
 decision_tree_gridsearch_definitivo_sinfecha
 decision_tree_bagging_definitivo_sinfecha
 knn_gridsearch_definitivo
 knn_bagging_definitivo
-knn_bagging_definitivo_StandardScaler
 
 ______________________________________________________________________________________________________________________________
 
