@@ -38,18 +38,20 @@ Decision_tree_gridsearch_mas_columnas_menos_datos
 Decision_tree_gridsearch_mas_columnas
 
 ________________________________________________________________________________________________
-MEJORES RESULTADOS:      (light gbm tiene buenos resultados con lat lon, habria que probar grid search con mas estimadores)
+MEJORES RESULTADOS:   
 
-promedios_10_mejores_archivos.csv       930412289374.07500
-Decision_tree_Cross_Validation.csv      930698367476.89300
-promedios_5_mejores_archivos.csv        931254608576.62500
-lightgbm_latlon_resultados.csv          936066893374.12100
-Extra_trees_2.csv                       943802369671.44300
-Decision_tree_Cross_Validation_fechas.csv
-Decision_tree_Cross_Validation_menos_datos.csv
-Decision_tree_GridSearch_menosDatos.csv
-Bagging_Regresor_resultados.csv
-Lightgbm_Cross_Validation.csv
+Decision_tree_Cross_Validation.csv              930698367476.89300
+Decision_tree_bagging_definitivo.csv            930998120685.14600
+Bagging_Regressor_GridSearch_definitivo.csv     931119081047.13400
+promedios_5_mejores_archivos.csv                931254608576.62500
+Bagging_regressor_bagging_definitivo.csv        932976783769.04500
+prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado2.csv     933136890306.06900
+prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado1.csv     933600052681.15700
+prueba_2015.csv                              934638698093.45100
+lightgbm_latlon_resultados.csv               936066893374.12100
+Extra_Trees_Bagging_definitivo.csv           937380101059.27200
+Extra_trees_GridSearch_definitivo.csv        941932233454.84000
+
  
 
 ________________________________________________________________________________________________
