@@ -1,6 +1,6 @@
 ARCHIVOS NUEVOS PARA SUBIR:
 
-
+####### Revisar que xgboost no de valores negativos
 knn_gridsearch_definitivo
 knn_bagging_definitivo
 Knn_bagging_definitivo_conFecha.csv
