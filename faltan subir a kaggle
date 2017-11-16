@@ -1,7 +1,6 @@
 ARCHIVOS NUEVOS PARA SUBIR:
 
-####### Revisar que xgboost no de valores negativos
-Jaja en el predict le agregue el abs
+
 knn_gridsearch_definitivo
 knn_bagging_definitivo
 Knn_bagging_definitivo_conFecha.csv
@@ -39,7 +38,7 @@ Decision_tree_gridsearch_mas_columnas_menos_datos
 Decision_tree_gridsearch_mas_columnas
 
 ________________________________________________________________________________________________
-MEJORES RESULTADOS:   
+MEJORES RESULTADOS:   				(XGBoost con 5k estimadores 937)Lo voy a correr con mas
 
 Decision_tree_Cross_Validation.csv              930698367476.89300
 Decision_tree_bagging_definitivo.csv            930998120685.14600
