@@ -1,11 +1,15 @@
-ARCHIVOS NUEVOS PARA SUBIR:
+ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)
 
+Extra_trees_GridSearch_5kEst.csv
 Decision_tree_separando_capital.csv
 Decision_tree_separando_capital_y_tipos.csv
 knn_gridsearch_definitivo
 knn_bagging_definitivo
 Knn_bagging_definitivo_conFecha.csv
 Knn_GridSearch_definitivo_conFecha
+Extra_Trees_Bagging_definitivo_sin_fecha.csv
+Extra_trees_GridSearch_definitivo_sin_fecha.csv
+
 
 ______________________________________________________________________________________________________________________________
 
