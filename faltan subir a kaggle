@@ -1,7 +1,5 @@
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)
 
-Extra_trees_GridSearch_5kEst.csv
-knn_gridsearch_definitivo
 knn_bagging_definitivo
 Knn_bagging_definitivo_conFecha.csv
 Knn_GridSearch_definitivo_conFecha
@@ -66,6 +64,7 @@ MEJORES RESULTADOS:
 
 decision_tree_bagging_definitivo_sinfecha              929438253409.98400
 decision_tree_gridsearch_definitivo                    933445860339.39300
+Extra_trees_GridSearch_5kEst.csv                       941203336325.58900
 Knn_bagging_definitivo_conFecha_StandardScaler.csv     943523746157.03000
 KNN_standard_scaler_resultados.csv                     945263999846.57300
 decision_tree_gridsearch_definitivo_sinfecha           947501465287.41300
@@ -73,6 +72,7 @@ Gradient_Boosting_con_Kmeans.csv                       950287141048.03000
 Lightgbm_gridsearch.csv                                952668468106.34400
 Lightgbm_menos_datos_svd_agregada                      955375446054.00700
 Extra_Trees_con_Kmeans.csv                             956144992939.28000
+knn_gridsearch_definitivo                              961182849504.09700
 Decision_tree_menos_datos_svd_agregada.csv             961251123941.33000
 Bagging_Regressor_GridSearch.csv                       962327994688.91600
 prueba_decisionTree_datos_modificados.csv              962765813977.49400
