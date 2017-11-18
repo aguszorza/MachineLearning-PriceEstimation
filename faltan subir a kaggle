@@ -1,5 +1,6 @@
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   FALTA CORRER LIGHTGBM, yo voy a ponerme a 									calcular distancias
 
+XGBoost_15kEst_sinfecha.csv
 Lightgbm_200kEst_definitivo_sinfecha.csv
 Bagging_Regressor_1kEst.csv
 Bagging_Regressor_1kEst_sinfecha.csv
