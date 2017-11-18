@@ -1,8 +1,11 @@
-ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   FALTA CORRER LIGHTGBM, yo voy a ponerme a 									calcular distancias
+ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
+
+
+Bagging_Regressor_1kEst.csv  (subir primero)
+Ridge_bagging_definitivo_sinFecha.csv  (habria que subir alguno haber que tal)
 
 XGBoost_15kEst_sinfecha.csv
 Lightgbm_200kEst_definitivo_sinfecha.csv
-Bagging_Regressor_1kEst.csv
 Bagging_Regressor_1kEst_sinfecha.csv
 knn_bagging_definitivo
 Knn_bagging_definitivo_conFecha.csv
@@ -21,7 +24,7 @@ Lasso_bagging_definitivo_sinFecha.csv
 Ridge_GridSearch_definitivo_conFecha.csv
 Ridge_GridSearch_definitivo_sinFecha.csv
 Ridge_bagging_definitivo_conFecha.csv
-Ridge_bagging_definitivo_sinFecha.csv
+
 
 
 ______________________________________________________________________________________________________________________________
