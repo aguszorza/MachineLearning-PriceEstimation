@@ -1,6 +1,6 @@
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   FALTA CORRER LIGHTGBM, yo voy a ponerme a 									calcular distancias
 
-XGBoost_15kEst_confecha.csv
+Lightgbm_200kEst_definitivo_sinfecha.csv
 Bagging_Regressor_1kEst.csv
 Bagging_Regressor_1kEst_sinfecha.csv
 knn_bagging_definitivo
@@ -10,6 +10,7 @@ Extra_Trees_Bagging_definitivo_sin_fecha.csv
 Extra_trees_GridSearch_definitivo_sin_fecha.csv
 Bagging_Regressor_GridSearch_definitivo_sin_fecha.csv
 Bagging_regressor_bagging_definitivo_sinfecha.csv
+
 
 # No creo que sean buenos
 Lasso_GridSearch_definitivo_conFecha.csv
@@ -79,6 +80,8 @@ MEJORES RESULTADOS:
 
 decision_tree_bagging_definitivo_sinfecha              929438253409.98400
 decision_tree_gridsearch_definitivo                    933445860339.39300
+Lightgbm_200kEst_definitivo_confecha.csv               937334617743.01100
+XGBoost_15kEst_confecha.csv                            939726039412.69000
 Extra_trees_GridSearch_5kEst.csv                       941203336325.58900
 Knn_bagging_definitivo_conFecha_StandardScaler.csv     943523746157.03000
 KNN_standard_scaler_resultados.csv                     945263999846.57300
