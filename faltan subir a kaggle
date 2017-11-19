@@ -1,8 +1,8 @@
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
 
 
-Bagging_Regressor_1kEst.csv  (subir primero)
-Ridge_bagging_definitivo_sinFecha.csv  (habria que subir alguno haber que tal)
+
+Ridge_bagging_definitivo_sinFecha.csv        959776140640.31700
 
 XGBoost_15kEst_sinfecha.csv
 Lightgbm_200kEst_definitivo_sinfecha.csv
@@ -83,6 +83,7 @@ ________________________________________________________________________________
 MEJORES RESULTADOS:
 
 decision_tree_bagging_definitivo_sinfecha              929438253409.98400
+Bagging_Regressor_1kEst.csv                            930920026780.45900
 decision_tree_gridsearch_definitivo                    933445860339.39300
 Lightgbm_200kEst_definitivo_confecha.csv               937334617743.01100
 XGBoost_15kEst_confecha.csv                            939726039412.69000
@@ -94,6 +95,7 @@ Gradient_Boosting_con_Kmeans.csv                       950287141048.03000
 Lightgbm_gridsearch.csv                                952668468106.34400
 Lightgbm_menos_datos_svd_agregada                      955375446054.00700
 Extra_Trees_con_Kmeans.csv                             956144992939.28000
+Ridge_bagging_definitivo_sinFecha.csv                  959776140640.31700
 knn_gridsearch_definitivo                              961182849504.09700
 Decision_tree_menos_datos_svd_agregada.csv             961251123941.33000
 Bagging_Regressor_GridSearch.csv                       962327994688.91600
