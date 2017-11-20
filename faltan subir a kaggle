@@ -1,12 +1,8 @@
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
 
-
-
-Ridge_bagging_definitivo_sinFecha.csv        959776140640.31700
-
-XGBoost_15kEst_sinfecha.csv
 Lightgbm_200kEst_definitivo_sinfecha.csv
 Bagging_Regressor_1kEst_sinfecha.csv
+XGBoost_15kEst_sinfecha.csv
 knn_bagging_definitivo
 Knn_bagging_definitivo_conFecha.csv
 Knn_GridSearch_definitivo_conFecha
