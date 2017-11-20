@@ -10,6 +10,10 @@ Extra_Trees_Bagging_definitivo_sin_fecha.csv
 Extra_trees_GridSearch_definitivo_sin_fecha.csv
 Bagging_Regressor_GridSearch_definitivo_sin_fecha.csv
 Bagging_regressor_bagging_definitivo_sinfecha.csv
+Decision_tree_con_indice.csv
+Decision_tree_gridsearch_con_indice.csv
+Extra_trees_con_indice.csv
+Extra_trees_gridsearch_con_indice.csv
 
 
 # No creo que sean buenos
