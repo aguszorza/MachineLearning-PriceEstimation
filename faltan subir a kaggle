@@ -20,6 +20,8 @@ Lasso_bagging_definitivo_sinFecha.csv
 Ridge_GridSearch_definitivo_conFecha.csv
 Ridge_GridSearch_definitivo_sinFecha.csv
 Ridge_bagging_definitivo_conFecha.csv
+Decision_tree_menosColumnas_sup500.csv
+
 
 
 
