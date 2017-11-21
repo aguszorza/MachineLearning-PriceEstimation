@@ -8,6 +8,19 @@ ________________________________________________________________________________
 
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
 
+Extra_trees_gridsearch_con_indice.csv
+Extra_Trees_Bagging_definitivo_menos_columnas.csv
+Knn_bagging_definitivo_menos_columnas.csv
+
+
+
+
+
+______________________________________________________________________________________________________________________________
+
+ARCHIVOS VIEJOS PARA (no) SUBIR:
+
+
 XGBoost_15kEst_sinfecha.csv
 knn_bagging_definitivo
 Knn_bagging_definitivo_conFecha.csv
@@ -18,26 +31,6 @@ Bagging_Regressor_GridSearch_definitivo_sin_fecha.csv
 Bagging_regressor_bagging_definitivo_sinfecha.csv
 Decision_tree_con_indice.csv
 Extra_trees_con_indice.csv
-Extra_trees_gridsearch_con_indice.csv
-Extra_Trees_Bagging_definitivo_menos_columnas.csv
-Knn_bagging_definitivo_menos_columnas.csv
-
-
-# No creo que sean buenos
-Lasso_GridSearch_definitivo_conFecha.csv
-Lasso_GridSearch_definitivo_sinFecha.csv
-Lasso_bagging_definitivo_conFecha.csv
-Lasso_bagging_definitivo_sinFecha.csv
-Ridge_GridSearch_definitivo_conFecha.csv
-Ridge_GridSearch_definitivo_sinFecha.csv
-Ridge_bagging_definitivo_conFecha.csv
-
-
-
-
-______________________________________________________________________________________________________________________________
-
-ARCHIVOS VIEJOS PARA (no) SUBIR:
 
 cross_descomposition_latlon (ultimo es malo)
 XGBoost_latlon
