@@ -1,8 +1,7 @@
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
 
-Decision_tree_gridsearch_con_indice.csv    (me gusto la idea, lo pongo arriba)
 
-Lightgbm_200kEst_definitivo_sinfecha.csv
+
 XGBoost_15kEst_sinfecha.csv
 knn_bagging_definitivo
 Knn_bagging_definitivo_conFecha.csv
@@ -16,6 +15,7 @@ Extra_trees_con_indice.csv
 Extra_trees_gridsearch_con_indice.csv
 Extra_Trees_Bagging_definitivo_menos_columnas.csv
 Knn_bagging_definitivo_menos_columnas.csv
+Lightgbm_200kEst_definitivo_menos_columnas.csv
 
 
 # No creo que sean buenos
@@ -85,11 +85,13 @@ Extra_trees_GridSearch_definitivo.csv        941932233454.84000
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:
 
+Decision_tree_gridsearch_con_indice.csv                927333673625.00300
 decision_tree_bagging_definitivo_sinfecha              929438253409.98400
 Bagging_Regressor_1kEst.csv                            930920026780.45900
 Bagging_Regressor_1kEst_sinfecha.csv                   930921142919.86200
 decision_tree_gridsearch_definitivo                    933445860339.39300
 Lightgbm_200kEst_definitivo_confecha.csv               937334617743.01100
+Lightgbm_200kEst_definitivo_sinfecha.csv               937823163868.17400
 XGBoost_15kEst_confecha.csv                            939726039412.69000
 Extra_trees_GridSearch_5kEst.csv                       941203336325.58900
 Knn_bagging_definitivo_conFecha_StandardScaler.csv     943523746157.03000
