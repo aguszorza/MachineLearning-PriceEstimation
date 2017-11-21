@@ -15,7 +15,6 @@ Extra_trees_con_indice.csv
 Extra_trees_gridsearch_con_indice.csv
 Extra_Trees_Bagging_definitivo_menos_columnas.csv
 Knn_bagging_definitivo_menos_columnas.csv
-Lightgbm_200kEst_definitivo_menos_columnas.csv
 
 
 # No creo que sean buenos
@@ -62,25 +61,23 @@ Decision_tree_gridsearch_mas_columnas_menos_datos
 Decision_tree_gridsearch_mas_columnas
 
 ________________________________________________________________________________________________
-MEJORES RESULTADOS:   				(XGBoost con 5k estimadores 937)Lo voy a correr con mas
+MEJORES RESULTADOS:   				
 
-Decision_tree_separando_capital.csv           944910504451.95600
-Decision_tree_separando_capital_y_tipos.csv     943604086044.22500
+Decision_tree_bagging_menosColumnas.csv       928634070573.83500
+promedios_10_mejores_archivos.csv             930412289374.07500
+Decision_tree_Cross_Validation.csv            930698367476.89300
+Decision_tree_bagging_definitivo.csv          930998120685.14600
+Bagging_Regressor_GridSearch_definitivo.csv   931119081047.13400
+promedios_5_mejores_archivos.csv              931254608576.62500
+Bagging_regressor_bagging_definitivo.csv      932976783769.04500
+prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado2.csv          933136890306.06900
+prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado1.csv          933600052681.15700
+prueba_2015.csv                                        934638698093.45100
+Decision_tree_bagging_definitivo_sinstores.csv         935249585837.34700
+lightgbm_latlon_resultados.csv                         936066893374.12100
+Decision_tree_separandoCapital_bagging.csv             936701733762.74500
+Ensamble_con_Promedios_definitivo.csv                  937077228581.68300
 
-
-Decision_tree_Cross_Validation.csv              930698367476.89300
-Decision_tree_bagging_definitivo.csv            930998120685.14600
-Bagging_Regressor_GridSearch_definitivo.csv     931119081047.13400
-promedios_5_mejores_archivos.csv                931254608576.62500
-Bagging_regressor_bagging_definitivo.csv        932976783769.04500
-prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado2.csv     933136890306.06900
-prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado1.csv     933600052681.15700
-prueba_2015.csv                              934638698093.45100
-lightgbm_latlon_resultados.csv               936066893374.12100
-Extra_Trees_Bagging_definitivo.csv           937380101059.27200
-Extra_trees_GridSearch_definitivo.csv        941932233454.84000
-
- 
 
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:
