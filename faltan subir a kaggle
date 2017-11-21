@@ -1,6 +1,11 @@
+ALGUNAS COSAS PARA PROBAR QUE SE ME OCURREN:
+-decision tree con indice de preprocesamiento pero con menos columnas
+-igual pero agregando la columna state name, con otro one hot encoder
+-probar decision tree normal con la columna state_name
+-bagging regressor con indice(500 o 1k estimadores) (despues de las de arriba, hacer solo la opcion que mejor da para decision tree)
+-superficie cubierta  y total
+
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
-
-
 
 XGBoost_15kEst_sinfecha.csv
 knn_bagging_definitivo
