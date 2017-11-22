@@ -7,8 +7,6 @@ ________________________________________________________________________________
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
 
 Extra_trees_gridsearch_con_indice.csv
-Decision_tree_HotEncoder_menos_columnas.csv
-Decision_tree_HotEncoder_StateName.csv
 
 Extra_Trees_Bagging_definitivo_menos_columnas.csv
 Bagging_Regressor_menosColumnas.csv
@@ -82,6 +80,10 @@ Ensamble_con_Promedios_definitivo.csv                  937077228581.68300
 
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:
+
+
+Decision_tree_HotEncoder_menos_columnas.csv            928620779381.68900
+Decision_tree_HotEncoder_StateName.csv                 946564180856.76600
 
 Decision_tree_gridsearch_con_indice.csv                927333673625.00300
 decision_tree_bagging_definitivo_sinfecha              929438253409.98400
