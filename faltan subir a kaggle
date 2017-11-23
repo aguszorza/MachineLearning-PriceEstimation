@@ -8,6 +8,10 @@ Knn_bagging_definitivo_menos_columnas.csv
 
 
 
+Decision_tree_SuperficieHotEncoder.csv        950850791567.55800
+
+# Teniendo en cuenta que con gridsearch la precision era mala, si logro mejorar esto podria 
+darnos mejor
 
 
 ______________________________________________________________________________________________________________________________
