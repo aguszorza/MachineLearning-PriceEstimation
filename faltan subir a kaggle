@@ -1,8 +1,10 @@
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
 
+Decision_tree_GridSearch_ColumnasDescripcion.csv'
 tp2/resultados/Decision_tree_bagging_OneHotEncoder.csv
-	tp2/resultados/Decision_tree_bagging_OneHotEncoder_2En2.csv
-	tp2/resultados/Decision_tree_gridsearch_oneHotEncoder.csv
+tp2/resultados/Decision_tree_bagging_OneHotEncoder_2En2.csv
+tp2/resultados/Decision_tree_gridsearch_oneHotEncoder.csv
+Decision_tree_bagging_ColumnasDescripcion.csv
 
 
 ________________________________________________________________________________________________
