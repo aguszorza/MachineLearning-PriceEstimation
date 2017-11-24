@@ -23,51 +23,6 @@ Decision_tree_SuperficieHotEncoder2.csv       94...
 
 # Teniendo en cuenta que con gridsearch la precision era mala, si logro mejorar esto podria 
 darnos mejor
-
-
-______________________________________________________________________________________________________________________________
-
-ARCHIVOS VIEJOS PARA (no) SUBIR:
-
-
-XGBoost_15kEst_sinfecha.csv
-knn_bagging_definitivo
-Knn_bagging_definitivo_conFecha.csv
-Knn_GridSearch_definitivo_conFecha
-Extra_Trees_Bagging_definitivo_sin_fecha.csv
-Extra_trees_GridSearch_definitivo_sin_fecha.csv
-Bagging_Regressor_GridSearch_definitivo_sin_fecha.csv
-Bagging_regressor_bagging_definitivo_sinfecha.csv
-Decision_tree_con_indice.csv
-Extra_trees_con_indice.csv
-
-cross_descomposition_latlon (ultimo es malo)
-XGBoost_latlon
-knn_svd
-Decision_tree_svd
-lasso_gridsearch    (lineales y malos)
-ridge_gridsearch    (lineales y malos)
-lasso_crossvalidation   (lineales y malos)
-ridge_crossvalidation    (lineales y malos)
-Gradient_Boosting_svd
-Gradient_Boosting_menos_datos_svd_agregada
-Bagging_Regressor_svd
-
-Extra_Trees_con_Kmeans.csv  (No subir) hay que volver a correrlos
-Gradient_Boosting_con_Kmeans.csv (NO subir) hay que volver a correrlos
-
--random_forest_grid_search
--knn_gridsearch
--gradient_boosting_gridsearch
--ada_boost_gredsearch
--Perceptron_gridsearch (Probablemente sea malo)
--decision_tree_cross_validation
--random_forest_cross_validation
--knn_cross_validation
--Perceptron_validation (Probablemente sea malo)
-Decision_tree_gridsearch_mas_columnas_menos_datos
-Decision_tree_gridsearch_mas_columnas
-
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:   				
 
