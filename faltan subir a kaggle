@@ -1,30 +1,7 @@
-ESTOY CORRIENDO ONE HOT ENCODER CON LAS NUEVAS SUPERFICIES
-
-COSAS PARA HACER: superficie con mediana, bagging con OneHotEncoder, Bagging de dos en dos, palabras de descripcion
-
-De descripcion si pongo con mas de 1000 apariciones son como 80 pero unas cuantas son palabras como "traves" y cosas asi.
-Mantengo esos limites y elijo las palabras a mano? En ese caso le agrego ademas sinonimos como haciamos antes?
-Hace como quieras, si lo haces a mano seria mejor pero me da lo mismo
-
-
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
 
 
-Decision_tree_bagging_OneHotEncoder.csv
-Decision_tree_bagging_OneHotEncoder_2En2.csv # Fijate si te parece bien
 
-
-Extra_Trees_Bagging_definitivo_menos_columnas.csv
-Bagging_Regressor_menosColumnas.csv
-Knn_bagging_definitivo_menos_columnas.csv
-
-
-
-Decision_tree_SuperficieHotEncoder.csv        950850791567.55800
-Decision_tree_SuperficieHotEncoder2.csv       94...
-
-# Teniendo en cuenta que con gridsearch la precision era mala, si logro mejorar esto podria 
-darnos mejor
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:   				
 
