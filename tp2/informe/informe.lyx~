@@ -1,0 +1,1517 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\usepackage{float}
+\usepackage{units}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{esint}
+%\numberwithin{figure}{section}
+%\numberwithin{table}{section}
+%\numberwithin{equation}{section}
+\usepackage[T1]{fontenc}
+\usepackage{charter}
+\usepackage{xcolor}
+\hypersetup{urlcolor=blue, linkcolor=black}
+
+%-------------------------------------------------------------------------------
+%Modificaciones de leyendas en figuras
+%\usepackage[footnotesize, labelsep=quad]{caption}
+%\captionsetup{width=0.8\textwidth }
+\usepackage{caption}
+\captionsetup[figure]{margin=40pt,font=normalsize,labelfont=bf}
+\captionsetup[table]{margin=40pt,font=normalsize,labelfont=bf} 
+%-------------------------------------------------------------------------------
+% Added by lyx2lyx
+\end_preamble
+\use_default_options true
+\begin_modules
+customHeadersFooters
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf2
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_author "Agustín Zorzano"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\boxbgcolor #0000ff
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 1.5cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Left Header
+Organización de Datos (75.06)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.5]{fiuba.png}
+\backslash
+
+\backslash
+[1.5cm]    
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+Large Facultad de Ingeniería - U.B.A.}
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+Large 75.06 Organización de Datos}
+\backslash
+
+\backslash
+[.05cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+small 2do.
+ Cuatrimestre de 2017}
+\backslash
+
+\backslash
+[3cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+ { 
+\backslash
+Huge 
+\backslash
+bfseries Trabajo práctico 2}
+\backslash
+
+\backslash
+[.5cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+{ 
+\backslash
+huge Machine Learning}
+\backslash
+
+\backslash
+[3cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+small Matias Leandro Feld, Padrón: 99170}
+\backslash
+
+\backslash
+[.05cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+feldmatias@gmail.com
+\backslash
+
+\backslash
+[.5cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+small Agustín Zorzano, Padrón: 99224}
+\backslash
+
+\backslash
+[.05cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+aguszorza@gmail.com
+\backslash
+
+\backslash
+[.5cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+small Grupo de Kaggle: grupo doble}
+\backslash
+
+\backslash
+[.05cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
+small Github: https://github.com/feldmatias/tpDatos}
+\backslash
+
+\backslash
+[.05cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vfill
+\end_layout
+
+\begin_layout Plain Layout
+
+% Bottom of the page {
+\backslash
+large 
+\backslash
+today}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introducción
+\end_layout
+
+\begin_layout Standard
+El objetivo del trabajo es predecir el precio de algunas propiedades en
+ venta, aplicando algoritmos de Machine Learning, y teniendo como datos
+ las ventas de propiedades de los últimos años proporcionados por la empresa
+ properati.
+ Para ello, se utilizara el lenguaje Python, ya que cuenta con la librería
+ sklearn que contiene varios algoritmos ya implementados.
+\end_layout
+
+\begin_layout Section
+Análisis previo y preparación del set de datos 
+\end_layout
+
+\begin_layout Standard
+El set de pruebas que contiene las propiedades para adivinar el precio tiene
+ las siguientes columnas: Tipo de propiedad, dirección, latitud, longitud,
+ superficie, fecha, descripcion, piso, habitaciones y expensas.
+ Analizando los datos, se puede ver que hay muchas propiedades con datos
+ importantes faltantes, como la superficie o la latitud y longitud.
+ Teniendo en cuenta lo analizado en el TP anterior, sabemos que ambos datos
+ son importantes e influyen en el precio.
+ Por eso, creemos necesario calcularlos de alguna forma para poder utilizarlos.
+ Decidimos que lo más conveniente sería obtenerlos con un promedio.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para el caso de la latitud y la longitud, los calculamos como el promedio
+ de aquellos que estén en la misma zona.
+ Por ejemplo, si la propiedad esta en Villa Crespo, en caso de que no tenga
+ su latitud o longitud las calcularemos como el promedio de todas las latitudes
+ o longitudes de propiedades de Villa Crespo.
+ Esto lo hacemos así porque los valores no varían mucho con pequeñas distancias.
+ Para el caso de la superficie realizamos un promedio de las propiedades
+ que estén en la misma zona y además sean del mismo tipo (casa, departamento,
+ etc).
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con respecto a los datos utilizados para entrenar los algoritmos, utilizaremos
+ los mismos datos utilizados en el TP anterior.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Analizando los resultados del TP anterior, donde analizamos que las distintas
+ comodidades (pileta, gimnasio, seguridad, etc) pueden influir en el precio,
+ decidimos tenerlas en cuenta, ya que contamos con las descripciones de
+ las propiedades.
+ En un principio utilizaremos los mismos datos analizados en el TP anterior:
+ presencia de seguridad, gimnasio, pileta, aire o elementos de climatización,
+ y cochera.
+ En algunos casos agregamos algunas características más para ver como varían
+ los resultados.
+ Entre ellas, agregamos si tiene parrilla, jardin o quincho, si la propiedad
+ tiene más de un piso, o si está cerca de algún hospital, clínica, shopping,
+ centro comercial o estación de tren.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con respecto a las distancias a distintos lugares, la idea era utilizarlas
+ también, pero en principio no las usamos debido a que no logramos conseguir
+ estos datos para propiedades que no sean de Capital Federal.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por último, hay que tener en cuenta que los algoritmos no aceptan strings
+ como parámetros, por lo que fue necesario transformar los tipos de propiedad
+ y lugares a números.
+ Para ello, se utilizó el Label Encoder, proporcionado por la librería.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Otro tema analizado, también en el tp anterior, es la presencia de puntos
+ anómalos.
+ Se puede ver que en el set de datos hay propiedades con superficie de 44000
+ metros cuadrados o longitud -122, lo que claramente no es posible en la
+ realidad.
+ Para ello decidimos eliminar estos casos utilizando las siguientes restriccione
+s: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+10\leq superficie\leq300
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-35\leq latitud\leq-34
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-59\leq longitud\leq-58
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+30000\leq precio(usd)\leq3*10^{6}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Linealidad de los datos
+\end_layout
+
+\begin_layout Standard
+Otro tema a analizar en los datos, previo a la ejecución de los algoritmos,
+ es ver si los datos son lineales o no.
+ Esto nos permitirá saber si podremos aplicar SVD para reducir las dimensiones
+ o no, y además debemos tenerlo en cuenta para algunos algoritmos que requieren
+ únicamente datos lineales.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Utilizando las siguientes columnas: Superficie, place name, tipo de propiedad,
+ seguridad, gimnasio, aire, pileta y cochera, aplicamos SVD para reducirlo
+ a dos dimensiones y obtuvimos el siguiente resultado: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/SVD_1.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SVD inicial"
+
+\end_inset
+
+SVD inicial
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Según lo observado en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SVD inicial"
+
+\end_inset
+
+ se puede concluir que utilizando estas columnas los datos no son lineales.
+ 
+\end_layout
+
+\begin_layout Standard
+Sin embargo, si en lugar de place_name utilizamos la latitud y longitud,
+ obtenemos el siguiente resultado: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/SVD_2.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SVD segundo conjunto"
+
+\end_inset
+
+SVD con el segundo grupo de columnas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde se puede ver que los datos son más o menos lineales.
+ Por último, teniendo en cuenta la eliminación de los puntos anómalos, obtuvimos
+ el siguiente gráfico, donde se ve claramente que los datos se ubican en
+ una recta.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/SVD_3.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SVD menos datos"
+
+\end_inset
+
+SVD con menos datos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Algoritmos utilizados 
+\end_layout
+
+\begin_layout Standard
+Cuando se intenta resolver un problema mediante el uso de machine learning
+ se debe analizar qué tipo de problema es.
+ Este podría ser de clasificación o de regresión.
+ En este caso, nos encontramos con un problema de regresión, pues no se
+ trata de decir si la propiedad es de un tipo o de otro, sino que se intenta
+ obtener su precio a través de las características que tiene.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, hay que tener en cuenta que cada algoritmo recibe distintos
+ parámetros, haciendo que el resultado sea diferente según cuáles sean estos.
+ Por eso, para cada algoritmo realizamos pruebas con distintas combinaciones
+ de parámetros, y nos quedamos con aquellos que nos dieron el mejor resultado.
+ 
+\end_layout
+
+\begin_layout Subsection
+Métricas utilizadas
+\end_layout
+
+\begin_layout Subsubsection
+Precisión
+\end_layout
+
+\begin_layout Standard
+Para calcular la precisión de un algoritmo se utilizó la siguiente fórmula:
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p=(1-\frac{\sum(y_{true}-y_{pred})^{2}}{\sum(y_{true}-y_{true}.mean())^{2}}*100
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Error
+\end_layout
+
+\begin_layout Standard
+Para calcular el error cometido al predecir utilizamos la misma métrica
+ utilizada por la competencia de Kaggle, que en este caso es MSE y responde
+ a la siguiente fórmula: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+e=\frac{1}{n}*\sum^{n}(y_{true}-y_{pred})^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Procedimiento de prueba de los algoritmos 
+\end_layout
+
+\begin_layout Standard
+El procedimiento que realizamos para probar los algoritmos es similar para
+ todos, por lo tanto lo describiremos a continuación.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En primer lugar realizamos pruebas utilizando los datos de las siguientes
+ columnas: Superficie, place name, tipo de propiedad, seguridad, gimnasio,
+ aire, pileta y cochera.
+ El objetivo es encontrar los mejores hiperparametros para predecir el precio
+ de las primeras propiedades de Julio de 2017, utilizando como set de datos
+ todas las demás propiedades.
+ Sabemos que se trata de un caso de overfitting porque intentamos que se
+ ajuste siempre a los mismos datos, pero nos sirvió para tener una intuición
+ de cómo funcionan los algoritmos y cuanto tardan, además de los parámetros
+ que reciben.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En un segundo paso, decidimos realizar lo mismo pero reemplazando la columna
+ place name por las de latitud y longitud.
+ En general, en la mayoría de los algoritmos obtuvimos mejores resultados
+ que antes.
+ Esto es debido a que la latitud y longitud son números, mientras que los
+ otros son cadenas de texto, por lo que dos lugares podrían tener nombres
+ parecidos pero estar muy lejos, haciendo que haya mas error.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego, utilizamos Grid Search y Cross Validation para encontrar los mejores
+ parámetros del algoritmo.
+ Para eso, utilizamos una función de la librería sklearn que usa K-fold,
+ es decir, divide a los datos en k bloques y realiza k iteraciones, cada
+ una con k-1 bloques como entrenamiento y el restante como validación.
+ Luego, toma como resultado el promedio de las mismas.
+ Además, recibe una lista con los valores de los parámetros que se quiere
+ probar, realizando pruebas con todas las combinaciones posibles y quedándose
+ con los que dan mejor resultado.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por último, basándonos en el principio de bagging, y utilizando los parámetros
+ encontrados por grid search, realizamos las predicciones calculando el
+ promedio de varias iteraciones, donde en cada una usamos una porción al
+ azar del set de datos.
+ 
+\end_layout
+
+\begin_layout Subsection
+Otras pruebas realizadas 
+\end_layout
+
+\begin_layout Subsubsection
+Normalizar los datos
+\end_layout
+
+\begin_layout Standard
+Consiste en normalizar las columnas, es decir, transformarlas para que tengan
+ promedio 0 y desviación estándar 1.
+ En general no obtuvimos mejores resultados.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+SVD
+\end_layout
+
+\begin_layout Standard
+Probamos aplicando SVD a los datos, en distintas dimensiones, para ver cómo
+ cambiaban los resultados obtenidos.
+ También probamos reducir los datos a dos dimensiones, y luego estas agregarlas
+ como columnas adicionales al set de datos original.
+ Por último, probamos normalizar los datos antes de aplicar SVD.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Agrupar por zonas y por tipo de propiedad
+\end_layout
+
+\begin_layout Standard
+Debido a que para las propiedades de Capital Federal tenemos calculadas
+ las distancias al subte, villas, estadios, etc (del tp1), pero para Gran
+ Buenos Aires no las tenemos, probamos separar el set de pruebas en dos
+ y predecir los precios por separado.
+ Para las propiedades de Gran Buenos Aires utilizamos las columnas mencionadas
+ anteriormente, y para las de Capital agregamos las distancias.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego, subdividimos nuevamente, pero por tipo de propiedad, utilizando para
+ las predicciones únicamente los datos que fueran del mismo tipo.
+\end_layout
+
+\begin_layout Subsubsection
+No completar datos faltantes
+\end_layout
+
+\begin_layout Standard
+Como se mencionó en la primer sección, muchas propiedades a predecir tienen
+ datos importantes incompletos, como la superficie o la latitud y la longitud.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sin embargo, esto significa que habrá un error en la predicción.
+ Por eso, probamos realizar la predicción de cada propiedad en función de
+ los datos con los que cuenta.
+ Por ejemplo, si una propiedad tiene latitud y longitud pero no superficie,
+ utilizamos un estimador que fue entrenado con datos sin tener en cuenta
+ la superficie.
+ En cambio, para otra propiedad que si tiene la superficie si se tuvo en
+ cuenta.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Encodear los datos de otra forma 
+\end_layout
+
+\begin_layout Standard
+Como se explicó anteriormente, los datos que son strings hay que convertirlos
+ a números.
+ Lo que hicimos en la mayoría de los casos es asignarle a cada cadena un
+ número distinto.
+ Pero otra forma sería usando One hot encoder.
+ Lo que hace es, teniendo n cadenas distintas, asignarle a cada una un vector
+ de n posiciones que tendrá todos 0 excepto en la posición correspondiente
+ a la cadena que será 1.
+ Esto lo utilizamos para encodear el tipo de propiedad, ya que tenía pocas
+ opciones distintas.
+\end_layout
+
+\begin_layout Subsubsection
+Utilizar datos de distintas fechas
+\end_layout
+
+\begin_layout Standard
+Como se analizó en el tp1, los precios fueron cambiando con el tiempo.
+ Por eso, los distintos algoritmos los fuimos probando utilizando como set
+ de entrenamiento únicamente los de 2017, o usando los de 2016 y 2017, etc.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En general, los mejores resultados se obtuvieron usando únicamente los de
+ 2017, ya que son los más cercanos temporalmente a los datos a predecir.
+ 
+\end_layout
+
+\begin_layout Subsection
+Algoritmos
+\end_layout
+
+\begin_layout Subsubsection
+Decision Tree
+\end_layout
+
+\begin_layout Standard
+El árbol de decisión se trata de tomar una decisión en cada paso según los
+ datos, y en función de ésta se continúa por alguna rama del mismo.
+ Cuando se llega a una hoja se obtienen los datos en ella y se calcula el
+ resultado.
+ Entre los parámetros que variamos se encuentra el criterio de split, que
+ puede ser mse (mean squared error) o friedman_mse que es una mejora.
+ Por otro lado, también está la profundidad máxima del árbol, la cantidad
+ mínima de datos para realizar un split, la cantidad mínima de datos que
+ puede haber en una hoja, y la cantidad máxima de features a utilizar.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Realizando Grid Search obtuvimos que los mejores parámetros son: criterio
+ mse, 40% de features, 3 datos mínimos por split y sin máxima profundidad
+ del árbol, con una precisión de 95,69%.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Random Forest
+\end_layout
+
+\begin_layout Standard
+Este algoritmo consiste en realizar varios árboles de decisión con una fracción
+ de los datos al azar, y luego obtener el resultado final promediando los
+ resultados de cada árbol.
+ Los parámetros que se pueden variar son los mismos de los arboles de decision,
+ ademas de la cantidad de árboles a usar.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El mejor resultado lo obtuvimos con 20 árboles y 40% de features, obteniendo
+ una precisión de 93,72%.
+\end_layout
+
+\begin_layout Subsubsection
+Extra Trees
+\end_layout
+
+\begin_layout Standard
+Este algoritmo es muy similar al anterior, aunque tiene algunas diferencias
+ que lo hacen aún más randomizado.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con grid search obtuvimos los siguientes valores de los parametros: criterio
+ mse, 10 arboles, sin máximo de profundidad del árbol y utilizando todos
+ los features.
+ En este caso obtuvimos una precisión de 96,28%.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+KNN
+\end_layout
+
+\begin_layout Standard
+Se trata de un algoritmo que obtiene los K vecinos más cercanos y luego
+ su resultado, en el caso de regresión, es el promedio de estos K vecinos.
+ Es decir, que si queremos estimar el precio de una propiedad, lo que se
+ hace es obtener las K propiedades más cercanas y calcular el promedio de
+ sus precios.
+ La librería Sklearn presenta un algoritmo específico para KNN de regresión,
+ al cual se le pueden variar ciertos parámetros y se puede obtener la precisión
+ de una estimación.
+ En nuestro caso, analizamos los resultados obtenidos para distintas cantidades
+ de vecinos y para distintos valores del parámetro p.
+ Este último parámetro, está relacionado con el cálculo de las distancias.
+ Si p es igual a 1, la distancia calculada se corresponde a la distancia
+ Manhattan, si p es igual a 2 se corresponde a la distancia Euclidiana,
+ para un valor arbitrario de p, la distancia calculada se denomina distancia
+ de Minkowski.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los mejores resultados los obtuvimos cuando p = 1 o 2 y k = 1 o 2, con una
+ precisión de 86.96%.
+ Este resultado es extraño puesto que la utilización de un único vecino
+ es un caso de overfitting debido a que no generaliza bien, sin embargo,
+ se puede ver que al aumentar la cantidad de vecinos la precisión disminuye
+ notablemente, llegando a menos de 70% cuando k = 5.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego se probó normalizando los datos, para ver si los resultados variaban,
+ pero se obtuvo un resultado similar.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Bagging regressor
+\end_layout
+
+\begin_layout Standard
+Consiste en dividir el dataset en varios grupos, tomando elementos al azar.
+ Luego, cada grupo obtiene su predicción y la predicción final se obtiene
+ como el promedio de estas o bien se obtiene por votación.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los parámetros utilizados fueron la cantidad de estimadores, el máximo de
+ muestras y el máximo de features.
+ Por grid search se obtuvo el mejor resultado con 20 estimadores, y utilizando
+ todos los datos y features.
+ La precisión obtenida es de 95,03%.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Perceptrón multicapa
+\end_layout
+
+\begin_layout Standard
+Es un algoritmo que aprende una función 
+\begin_inset Formula $f(\cdotp):R^{m}\rightarrow R^{o}$
+\end_inset
+
+, donde m es la dimensión del dataset y o es la dimensión de la estimación.
+ La ventaja de este algoritmo es la capacidad de aprender modelos no lineales
+ y la capacidad de aprender modelos en tiempo real utilizando partial_fit.
+ Una de sus desventajas sería el tiempo de aprendizaje y la gran cantidad
+ de parámetros que hay que probar.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los parámetros utilizados son la función de activación, la función solver
+ y la tolerancia.
+ El mejor resultado obtenido fue utilizando la función solver “lbfgs”, la
+ función de activación logistic y una tolerancia de 10-10, con una precisión
+ de 16,6%.
+ Lamentablemente, en este caso el resultado obtenido no es muy preciso.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Ada Boost
+\end_layout
+
+\begin_layout Standard
+Consiste en entrenar un estimador en el dataset original y luego entrenar
+ copias adicionales del estimador con el mismo dataset pero los pesos de
+ la instancias son ajustadas de acuerdo al error de la predicción anterior.
+ Los parámetros utilizados fueron la cantidad de estimadores, la función
+ loss y el learning rate.
+ Con grid search los parámetros son 20 estimadores, un learning rate de
+ 0.1 y la función loss “exponential”, con una precisión de 46,13%.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Gradient Boosting
+\end_layout
+
+\begin_layout Standard
+Este algoritmo construye un modelo aditivo, en donde en cada etapa entrena
+ a un árbol de regresión.
+ Por lo tanto, uno de sus inconvenientes es su escalabilidad.
+ Los parámetros utilizados fueron la cantidad de estimadores, la función
+ loss, la profundidad y el learning rate.
+ Con grid search obtuvimos que la función loss a utilizar es “ls” con un
+ learning rate de 0,5.
+ El mejor resultado se obtuvo con 100 estimadores, siendo la precisión 75,65%.
+ Creemos que aumentando la cantidad de estimadores el resultado será mejor,
+ pero el tiempo requerido por el algoritmo también aumenta mucho.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Catboost
+\end_layout
+
+\begin_layout Standard
+En este caso se trata de un algoritmo que no está presente en la librería
+ de sklearn, pero está basado en el algoritmo de gradient boosting.
+ Los parámetros utilizados fueron la profundidad, el learning rate, la función
+ loss y el método de estimación de hoja.
+ El mejor resultado obtenido fue usando como parámetros una profundidad
+ de 9, un learning rate de 0.7, la función loss “RMSE” y el método de estimación
+ de hoja “Newton”.
+ 
+\end_layout
+
+\begin_layout Standard
+También probamos normalizando los datos con standard scaler, obteniendo
+ un resultado similar.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+XGBoost (Extreme Gradient Boosting)
+\end_layout
+
+\begin_layout Standard
+Se trata de otro algoritmo que no es parte de sklearn.
+ Este algoritmo está basado en el algoritmo de gradient boosting.
+ Los parámetros utilizados fueron la profundidad, el learning rate, la cantidad
+ de estimadores y la función booster.
+ El mejor resultado obtenido fue con una profundidad de 10, 15000 estimadores,
+ un learning rate de 0.5 y la función booster “gbtree”.
+ En este caso, no se pudo obtener la precisión del algoritmo, pero se obtuvo
+ el mean squared error el cual fue de 12974389431.9, el cual si lo comparamos
+ con uno de los resultados obtenidos con KNN, la precisión sería de aproximadame
+nte 88%.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+LightGBM
+\end_layout
+
+\begin_layout Standard
+Se trata de otro algoritmo que no es parte de sklearn y que está basado
+ en gradient boosting.
+ Se trata de una versión más optimizada de gradient boosting, tanto en performan
+ce como en uso de memoria.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los parámetros que recibe el algoritmos son el tipo de boost, el learning
+ rate y la cantidad de estimadores.
+ Utilizando el tipo de boosting “goss”, un learning rate de 0.5 y 250000
+ estimadores obtuvimos una precisión de 95,34%.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+SVR
+\end_layout
+
+\begin_layout Standard
+Support Vector Regression es la versión de SVM para problemas de regresión,
+ y es un algoritmo que se basa en encontrar un hiperplano que separe los
+ datos para obtener el resultado.
+ En este caso, con estos datos, el algoritmo tuvo una performance muy pobre,
+ tardando mucho y obteniendo malos resultados, utilizando cuatro kernels
+ distintos (‘linear’, ’poly’, ’rbf’ y ‘sigmoid’), por lo que decidimos abandonar
+lo.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Cross Decomposition
+\end_layout
+
+\begin_layout Standard
+Este algoritmo trabaja a los datos como matriz para obtener el resultado
+ final realizando algunas operaciones basadas en la reducción de dimensiones.
+ 
+\end_layout
+
+\begin_layout Standard
+Entre los parámetros que recibe están la tolerancia y la cantidad de componentes
+ con los que se queda.
+ En general los resultados no variaron al modificar los parámetros.
+\end_layout
+
+\begin_layout Subsubsection
+Algoritmos lineales
+\end_layout
+
+\begin_layout Standard
+Realizamos pruebas con distintos algoritmos lineales pero obtuvimos muy
+ malos resultados con todos ellos.
+ Por lo tanto, concluimos que con los datos que tenemos no podemos resolver
+ el problema linealmente.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los algoritmos lineales probados son Ridge, Stochastic Gradient Descent,
+ Lasso, Orthogonal Matching Pursuit y Elastic Net.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+K-means
+\end_layout
+
+\begin_layout Standard
+K-means no es un algoritmo de regresión, sino que es de clustering.
+ Sirve para agrupar los puntos en k clusters, en función de los datos de
+ cada uno.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El uso que le dimos a este algoritmo fue dividir el set de datos en varios
+ cluster, y para cada uno de ellos entrenar un estimador diferente.
+ Luego, cada punto del set de pruebas lo predecimos únicamente usando los
+ datos que pertenecen al mismo cluster.
+ Esto lo combinamos con otros algoritmos como Decision Tree o Gradient Boosting.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Ensambles con promedios de algoritmos
+\end_layout
+
+\begin_layout Standard
+Tomando la idea de algoritmos como Random Forests o Bagging Regresor que
+ utilizan varios estimadores y luego hacen un promedio, decidimos realizar
+ lo mismo con los algoritmos que probamos.
+ Es decir, agarramos todos los algoritmos y realizamos un promedio de los
+ resultados obtenidos.
+ Para ello, probamos todas las combinaciones posibles entre los algoritmos,
+ y nos quedamos con aquella que da menor error.
+\end_layout
+
+\begin_layout Subsubsection
+KNN propio
+\end_layout
+
+\begin_layout Standard
+Además de usar los algoritmos ya implementados en sklearn, decidimos implementar
+ nuestra propia versión de KNN.
+ Para calcular los vecinos más cercanos utilizamos la distancia usada en
+ el TP1, es decir la distancia de Haversine, que permite calcular la distancia
+ entre dos puntos dadas sus latitudes y longitudes.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Debido a que calcular las distancias todos contra todos es muy costoso,
+ decidimos realizar algunas optimizaciones.
+ Teniendo en cuenta el análisis del TP1, sabemos que el precio está muy
+ influido por el tipo de propiedad y la superficie de la misma.
+ Por eso, agrupamos los datos por tipo de propiedad, y dentro de cada grupo
+ los agrupamos por superficie.
+ Luego, dentro de cada grupo, guardamos los datos en un árbol de n dimensiones
+ (en este caso n = 2) implementado por nosotros, que lo que hace es en cada
+ nodo realizar un split según una de las n dimensiones.
+ En este caso los splits se realizaron por latitud y longitud.
+ Finalmente, se calcula la distancia con todos los datos agrupados en el
+ nodo hoja del árbol correspondiente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A pesar de no haber obtenido buenos resultados, nos dio mejores valores
+ que con algunos de los algoritmos implementados en la librería.
+\end_layout
+
+\begin_layout Section
+Algoritmo final
+\end_layout
+
+\begin_layout Section
+Conclusiones
+\end_layout
+
+\begin_layout Standard
+Luego de haber probado muchos algoritmos, podemos ver que en la mayoría
+ de ellos obtuvimos una precisión muy alta, lo que significa que la mayoría
+ de las propiedades las predecimos correctamente.
+ Sin embargo, analizando los errores obtenidos, vemos que son valores muy
+ grandes, ya que son del orden de 
+\begin_inset Formula $10^{10}$
+\end_inset
+
+.
+ Esto significa que las pocas propiedades que se predicen mal, se predicen
+ con mucho error, haciendo que el error cuadrático sea muy grande.
+ El alto valor de los errores se puede explicar teniendo en cuenta que los
+ precios de las propiedades pueden estar en un rango muy grande y variable
+ de precios, haciendo que pueda haber errores del orden de 
+\begin_inset Formula $10^{6}$
+\end_inset
+
+ aproximadamente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, podemos ver que los resultados con el set de datos que hay
+ que predecir tienen un error mayor, generalmente dos órdenes de magnitud
+ más, alrededor de 
+\begin_inset Formula $10^{12}$
+\end_inset
+
+.
+ Esto puede deberse a que,como explicamos en la primer sección, algunos
+ de los datos de las propiedades los tuvimos que completar manualmente.
+ También puede deberse a que los datos desconocidos no están tan relacionados
+ con los datos conocidos, o que hay mucho datos anómalos en el set de test
+ que obviamente no podemos filtrar porque los debemos predecir.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Información de Machine Learning: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+Libreria utilizada: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://scikit-learn.org/stable/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
