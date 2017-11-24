@@ -103,6 +103,7 @@ customHeadersFooters
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
+\bullet 0 0 9 -1
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -409,6 +410,10 @@ Viendo los resultados del TP anterior, donde analizamos que las distintas
  Entre ellas, agregamos si tiene parrilla, jardin o quincho, si la propiedad
  tiene más de un piso, o si está cerca de algún hospital, clínica, shopping,
  centro comercial o estación de tren.
+ Por último, se hizo un análisis de la cantidad de apariciones de cada palabra
+ en todas las descripciones y se tomaron algunas de ellas.
+ Con cada una de éstas se agregó un feature booleano nuevo que indicaba
+ si esa palabra estaba presente en la descripción o no.
  
 \end_layout
 
@@ -1397,6 +1402,21 @@ Tomando la idea de algoritmos como Random Forests o Bagging Regresor que
 \end_layout
 
 \begin_layout Subsubsection
+Ensambles utilizando Blending
+\end_layout
+
+\begin_layout Standard
+Blending consiste en entrenar un conjunto de estimadores los cuales serán
+ utilizados para predecir el precio del set de test, donde cada predicción
+ agregará un nuevo feature al set de test.
+ Luego se tomará el set de test con estos nuevos features y se lo utilizará
+ para entrenar otro estimador.
+ Este último estimador será el utilizado para predecir el precio de las
+ propiedades.
+ 
+\end_layout
+
+\begin_layout Subsubsection
 KNN propio
 \end_layout
 
@@ -1447,14 +1467,51 @@ A pesar de no haber obtenido buenos resultados, nos dio mejores valores
 Algoritmo final
 \end_layout
 
+\begin_layout Standard
+Como algoritmo final elegimos Decision Tree, debido a su gran performance
+ y los buenos resultados que obtuvimos.
+ Los hiperparametros utilizados son: 
+\end_layout
+
+\begin_layout Itemize
+criterion = 'mse' 
+\end_layout
+
+\begin_layout Itemize
+max_depth = None 
+\end_layout
+
+\begin_layout Itemize
+max_features = 0.9
+\end_layout
+
+\begin_layout Standard
+Las columnas utilizadas son: Superficie, latitud, longitud, property type,
+ seguridad, gimnasio, aire, pileta, cochera, transporte, comercio, servicios,
+ doble piso y jardín.
+ 
+\end_layout
+
+\begin_layout Standard
+Para el caso de la columna property type utilizamos One Hot encoder, generando
+ 4 columnas distintas correspondientes a cada tipo.
+\end_layout
+
+\begin_layout Standard
+La precisión obtenida con un set de validación al azar del 20% del set de
+ datos es ??????? y el error es ???????.
+ 
+\end_layout
+
 \begin_layout Section
 Conclusiones
 \end_layout
 
 \begin_layout Standard
 Luego de haber probado muchos algoritmos, podemos ver que en la mayoría
- de ellos obtuvimos una precisión muy alta, lo que significa que la mayoría
- de las propiedades las predecimos correctamente.
+ de ellos obtuvimos una precisión muy alta (haciendo cross validation mediante
+ K-fold), lo que significa que la mayoría de las propiedades las predecimos
+ correctamente.
  Sin embargo, analizando los errores obtenidos, vemos que son valores muy
  grandes, ya que son del orden de 
 \begin_inset Formula $10^{10}$
@@ -1492,6 +1549,20 @@ Por otro lado, podemos ver que los resultados con el set de datos que hay
  También puede deberse a que los datos desconocidos no están tan relacionados
  con los datos conocidos, o que hay mucho datos anómalos en el set de test
  que obviamente no podemos filtrar porque los debemos predecir.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con todo esto, podemos concluir que predecir el precio de una propiedad
+ es una tarea compleja, ya que hay que tener muchos factores en cuenta y
+ además el error de la predicción puede ser demasiado alto.
  
 \end_layout
 

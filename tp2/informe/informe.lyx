@@ -409,6 +409,10 @@ Viendo los resultados del TP anterior, donde analizamos que las distintas
  Entre ellas, agregamos si tiene parrilla, jardin o quincho, si la propiedad
  tiene más de un piso, o si está cerca de algún hospital, clínica, shopping,
  centro comercial o estación de tren.
+ Por último, se hizo un análisis de la cantidad de apariciones de cada palabra
+ en todas las descripciones y se tomaron algunas de ellas.
+ Con cada una de éstas se agregó un feature booleano nuevo que indicaba
+ si esa palabra estaba presente en la descripción o no.
  
 \end_layout
 
@@ -1397,6 +1401,21 @@ Tomando la idea de algoritmos como Random Forests o Bagging Regresor que
 \end_layout
 
 \begin_layout Subsubsection
+Ensambles utilizando Blending
+\end_layout
+
+\begin_layout Standard
+Blending consiste en entrenar un conjunto de estimadores los cuales serán
+ utilizados para predecir el precio del set de test, donde cada predicción
+ agregará un nuevo feature al set de test.
+ Luego se tomará el set de test con estos nuevos features y se lo utilizará
+ para entrenar otro estimador.
+ Este último estimador será el utilizado para predecir el precio de las
+ propiedades.
+ 
+\end_layout
+
+\begin_layout Subsubsection
 KNN propio
 \end_layout
 
@@ -1445,6 +1464,42 @@ A pesar de no haber obtenido buenos resultados, nos dio mejores valores
 
 \begin_layout Section
 Algoritmo final
+\end_layout
+
+\begin_layout Standard
+Como algoritmo final elegimos Decision Tree, debido a su gran performance
+ y los buenos resultados que obtuvimos.
+ Los hiperparametros utilizados son: 
+\end_layout
+
+\begin_layout Itemize
+criterion = 'mse' 
+\end_layout
+
+\begin_layout Itemize
+max_depth = None 
+\end_layout
+
+\begin_layout Itemize
+max_features = 0.9
+\end_layout
+
+\begin_layout Standard
+Las columnas utilizadas son: Superficie, latitud, longitud, property type,
+ seguridad, gimnasio, aire, pileta, cochera, transporte, comercio, servicios,
+ doble piso y jardín.
+ 
+\end_layout
+
+\begin_layout Standard
+Para el caso de la columna property type utilizamos One Hot encoder, generando
+ 4 columnas distintas correspondientes a cada tipo.
+\end_layout
+
+\begin_layout Standard
+La precisión obtenida con un set de validación al azar del 20% del set de
+ datos es ??????? y el error es ???????.
+ 
 \end_layout
 
 \begin_layout Section
