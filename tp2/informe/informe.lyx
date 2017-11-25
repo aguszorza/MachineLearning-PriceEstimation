@@ -409,10 +409,6 @@ Viendo los resultados del TP anterior, donde analizamos que las distintas
  Entre ellas, agregamos si tiene parrilla, jardin o quincho, si la propiedad
  tiene más de un piso, o si está cerca de algún hospital, clínica, shopping,
  centro comercial o estación de tren.
- Por último, se hizo un análisis de la cantidad de apariciones de cada palabra
- en todas las descripciones y se tomaron algunas de ellas.
- Con cada una de éstas se agregó un feature booleano nuevo que indicaba
- si esa palabra estaba presente en la descripción o no.
  
 \end_layout
 
@@ -1011,6 +1007,34 @@ Además de ir evolucionando año a año, los precios también evolucionaron
  
 \end_layout
 
+\begin_layout Subsubsection
+Agregar muchas más columnas a los datos
+\end_layout
+
+\begin_layout Standard
+Teóricamente, cuantos más datos y más columnas mejor serán los algoritmos.
+ La forma que encontramos de agregar muchas columnas fue tomar palabras
+ que aparecen en las descripciones de las propiedades.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para eso, se hizo un análisis de la cantidad de apariciones de cada palabra
+ en todas las descripciones de las propiedades del set de datos a predecir.
+ De todas las palabras se tomaron aquellas que más apariciones tienen y
+ que además tienen algún sentido.
+ Con cada una de éstas se agregó un feature booleano nuevo que indicaba
+ si esa palabra estaba presente en la descripción o no, además de utilizar
+ las mencionadas anteriormente.
+ 
+\end_layout
+
 \begin_layout Subsection
 Algoritmos
 \end_layout
@@ -1412,6 +1436,10 @@ Blending consiste en entrenar un conjunto de estimadores los cuales serán
  para entrenar otro estimador.
  Este último estimador será el utilizado para predecir el precio de las
  propiedades.
+ Para ello, utilizamos decision tree, KNN y Bagging Regressor como estimadores
+ aplicando en cada caso gridsearch.
+ Luego utilizamos el set de test para entrenar a otro Decision Tree con
+ gridsearch para obtener el estimador final.
  
 \end_layout
 

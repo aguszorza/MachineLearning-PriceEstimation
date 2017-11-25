@@ -103,7 +103,6 @@ customHeadersFooters
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
-\bullet 0 0 9 -1
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -1413,6 +1412,10 @@ Blending consiste en entrenar un conjunto de estimadores los cuales serán
  para entrenar otro estimador.
  Este último estimador será el utilizado para predecir el precio de las
  propiedades.
+ Para ello, utilizamos decision tree, KNN y Bagging Regressor como estimadores
+ aplicando en cada caso gridsearch.
+ Luego utilizamos el set de test para entrenar a otro Decision Tree con
+ gridsearch para obtener el estimador final.
  
 \end_layout
 
