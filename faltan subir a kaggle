@@ -1,11 +1,6 @@
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)  
 
-###################################
-SI EL MEJOR ES CON MAS MAS COLUMNAS YO NO GASTARIA UNA CHANCE CON KNN, PROBARIA TODAVIA CON MAS COLUMNAS
-#########################################
-#########################################
-#########################################
-ME VOY A PONER A BUSCAR MAS DESCRIPCIONES
+
 
 Knn_bagging_AunMasColumnasDescripcion.csv       # Supongo que vamos a tener que probar con uno de los dos al estar limitados en subidas
 Knn_bagging_AunMasColumnasDescripcion_StdSc.csv
@@ -16,4 +11,26 @@ MEJORES RESULTADOS:
 
 Decision_tree_bagging_ColumnasDescripcion.csv     92
 Decision_tree_bagging_AunMasColumnasDescripcion.csv     918954999010.00900
+
+_________________________________________________________________________________
+
+COLUMNAS:::
+
+Con estas dio el mejor resultado (18)
+comodidades = ['seguridad','gimnasio', 'aire', 'pileta', 'cochera','transporte','cocina','comedor',\
+'living', 'banos', 'balcon','ambientes','departamento', 'dormitorios','quincho', 'granito','porcelanato',\
+'completo', 'excelente', 'edificio','lavadero', 'amplio', 'planta', 'cuadras', 'placard', 'terraza', 'acceso',\
+'parrilla', 'luminoso','madera', 'credito', 'calidad', 'cucicba', 'amenities','expensas','mesada',\
+'responsable','muebles', 'espacio', 'diario', 'independiente', 'cubierta','contrafrente', 'integrada',\
+'recepcion','categoria', 'profesional', 'baulera', 'natural']
+
+comodidades = comodidades + ['unidades', 'principal', 'espacio', 'estacion', 'vestidor', 'solarium', 'central', \
+                             'parquet', 'estrenar', 'granito']
+
+(Con todas estas empeoro pero son muchas, tal vez con algunas mejora)
+['piso', 'pisos', 'apto', 'patio', 'sobre', 'casa', 'suite', 'vista', 'hall', 'agua', \
+                             'doble', 'marca', \
+        'lote', 'fondo', 'acero', 'torre', 'ideal', 'horno', 'nuevo', 'bacha', 'sala', 'salon', 'frente', 'excelente', \
+        'toilette']
+
 
