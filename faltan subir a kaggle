@@ -1,29 +1,13 @@
 ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
 
 Decision_tree_GridSearch_ColumnasDescripcion.csv'
-tp2/resultados/Decision_tree_bagging_OneHotEncoder.csv
-tp2/resultados/Decision_tree_bagging_OneHotEncoder_2En2.csv
-tp2/resultados/Decision_tree_gridsearch_oneHotEncoder.csv
 Decision_tree_bagging_ColumnasDescripcion.csv
 
 
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:   				
 
-Decision_tree_bagging_menosColumnas.csv       928634070573.83500
-promedios_10_mejores_archivos.csv             930412289374.07500
-Decision_tree_Cross_Validation.csv            930698367476.89300
-Decision_tree_bagging_definitivo.csv          930998120685.14600
-Bagging_Regressor_GridSearch_definitivo.csv   931119081047.13400
-promedios_5_mejores_archivos.csv              931254608576.62500
-Bagging_regressor_bagging_definitivo.csv      932976783769.04500
-prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado2.csv          933136890306.06900
-prueba_con_superficie_sin_fecha_mas_menos_datos_datasetModificado1.csv          933600052681.15700
-prueba_2015.csv                                        934638698093.45100
-Decision_tree_bagging_definitivo_sinstores.csv         935249585837.34700
-lightgbm_latlon_resultados.csv                         936066893374.12100
-Decision_tree_separandoCapital_bagging.csv             936701733762.74500
-Ensamble_con_Promedios_definitivo.csv                  937077228581.68300
+Decision_tree_bagging_ColumnasDescripcion.csv     92
 
 
 ________________________________________________________________________________________________
