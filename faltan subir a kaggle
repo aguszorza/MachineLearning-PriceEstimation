@@ -1,16 +1,4 @@
-ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)  
 
-
-
-Knn_bagging_AunMasColumnasDescripcion.csv       # Supongo que vamos a tener que probar con uno de los dos al estar limitados en subidas
-Knn_bagging_AunMasColumnasDescripcion_StdSc.csv
-
-
-________________________________________________________________________________________________
-MEJORES RESULTADOS:   				
-
-Decision_tree_bagging_ColumnasDescripcion.csv     92
-Decision_tree_bagging_AunMasColumnasDescripcion.csv     918954999010.00900
 
 _________________________________________________________________________________
 
@@ -22,10 +10,9 @@ comodidades = ['seguridad','gimnasio', 'aire', 'pileta', 'cochera','transporte',
 'completo', 'excelente', 'edificio','lavadero', 'amplio', 'planta', 'cuadras', 'placard', 'terraza', 'acceso',\
 'parrilla', 'luminoso','madera', 'credito', 'calidad', 'cucicba', 'amenities','expensas','mesada',\
 'responsable','muebles', 'espacio', 'diario', 'independiente', 'cubierta','contrafrente', 'integrada',\
-'recepcion','categoria', 'profesional', 'baulera', 'natural']
-
-comodidades = comodidades + ['unidades', 'principal', 'espacio', 'estacion', 'vestidor', 'solarium', 'central', \
-                             'parquet', 'estrenar', 'granito']
+'recepcion','categoria', 'profesional', 'baulera', 'natural','unidades', 'principal', 'espacio', 'estacion', 'vestidor', 'solarium', 'central', \
+             'parquet', 'estrenar', 'granito']
+             
 
 (Con todas estas empeoro pero son muchas, tal vez con algunas mejora)
 ['piso', 'pisos', 'apto', 'patio', 'sobre', 'casa', 'suite', 'vista', 'hall', 'agua', \
