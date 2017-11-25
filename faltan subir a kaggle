@@ -5,6 +5,7 @@ SI EL MEJOR ES CON MAS MAS COLUMNAS YO NO GASTARIA UNA CHANCE CON KNN, PROBARIA 
 #########################################
 #########################################
 #########################################
+ME VOY A PONER A BUSCAR MAS DESCRIPCIONES
 
 Knn_bagging_AunMasColumnasDescripcion.csv       # Supongo que vamos a tener que probar con uno de los dos al estar limitados en subidas
 Knn_bagging_AunMasColumnasDescripcion_StdSc.csv
