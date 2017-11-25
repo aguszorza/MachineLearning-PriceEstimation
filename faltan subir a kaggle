@@ -2,7 +2,13 @@ ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)
 
 Decision_tree_GridSearch_ColumnasDescripcion.csv
 
+#### Estoy tercero que seria segundo !!!!! Nos estamos acercandoooooo.
+Dejo corriendo KNN directamente con todas las columnas calculadas y manana agrego con oneHot encoder o si se te ocurre otra cosa.
 
+### Las nuevas columnas te las guarde en un csv para que directamente las unas
+ al que ya tenes. Yo lo hice con el de set_dato_superficie. Si usaste otro y no
+ podes unirlo directamente avisame y te paso tambien las viejas y agregas todas 
+a ese asi usamos el mismo y no tenes que perder tiempo calculando.
 
 blending  948270237835.30000 -> descartado
 ________________________________________________________________________________________________
@@ -13,6 +19,9 @@ Decision_tree_bagging_ColumnasDescripcion.csv     92
 
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:
+
+Decision_tree_bagging_AunMasColumnasDescripcion.csv     918954999010.00900
+
 
 
 Decision_tree_HotEncoder_menos_columnas.csv            928620779381.68900
