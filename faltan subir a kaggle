@@ -1,4 +1,10 @@
-ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)   
+ARCHIVOS NUEVOS PARA SUBIR: (en orden para subir)  
+
+###################################
+SI EL MEJOR ES CON MAS MAS COLUMNAS YO NO GASTARIA UNA CHANCE CON KNN, PROBARIA TODAVIA CON MAS COLUMNAS
+#########################################
+#########################################
+#########################################
 
 Knn_bagging_AunMasColumnasDescripcion.csv       # Supongo que vamos a tener que probar con uno de los dos al estar limitados en subidas
 Knn_bagging_AunMasColumnasDescripcion_StdSc.csv
@@ -18,43 +24,5 @@ ________________________________________________________________________________
 MEJORES RESULTADOS:   				
 
 Decision_tree_bagging_ColumnasDescripcion.csv     92
-
-
-________________________________________________________________________________________________
-MEJORES RESULTADOS:
-
 Decision_tree_bagging_AunMasColumnasDescripcion.csv     918954999010.00900
 
-
-
-Decision_tree_HotEncoder_menos_columnas.csv            928620779381.68900
-Decision_tree_HotEncoder_StateName.csv                 946564180856.76600
-
-Decision_tree_gridsearch_con_indice.csv                927333673625.00300
-decision_tree_bagging_definitivo_sinfecha              929438253409.98400
-Bagging_Regressor_1kEst.csv                            930920026780.45900
-Bagging_Regressor_1kEst_sinfecha.csv                   930921142919.86200
-decision_tree_gridsearch_definitivo                    933445860339.39300
-Lightgbm_200kEst_definitivo_confecha.csv               937334617743.01100
-Lightgbm_200kEst_definitivo_sinfecha.csv               937823163868.17400
-XGBoost_15kEst_confecha.csv                            939726039412.69000
-Extra_trees_GridSearch_5kEst.csv                       941203336325.58900
-Extra_trees_gridsearch_con_indice.csv                  943342395171.95200
-Knn_bagging_definitivo_conFecha_StandardScaler.csv     943523746157.03000
-KNN_standard_scaler_resultados.csv                     945263999846.57300
-decision_tree_gridsearch_definitivo_sinfecha           947501465287.41300
-Gradient_Boosting_con_Kmeans.csv                       950287141048.03000
-Lightgbm_gridsearch.csv                                952668468106.34400
-Decision_tree_separandoTODO.csv 	               954068221413.77000
-Lightgbm_menos_datos_svd_agregada                      955375446054.00700
-Extra_Trees_con_Kmeans.csv                             956144992939.28000
-Ridge_bagging_definitivo_sinFecha.csv                  959776140640.31700
-knn_gridsearch_definitivo                              961182849504.09700
-Decision_tree_menos_datos_svd_agregada.csv             961251123941.33000
-Bagging_Regressor_GridSearch.csv                       962327994688.91600
-prueba_decisionTree_datos_modificados.csv              962765813977.49400
-KNN_menos_datos_standard_scaler.csv                    963679103397.89900
-KNN_menos_datos_svd_agregada.csv                       965609867958.13800
-gradient_boosting_latlon.csv                           965773767028.96700
-KNN_menos_datos_svd_2_dim.csv                          993028547845.59300
-KNN_standard_scaler_2.csv                              1015282654454.68000
