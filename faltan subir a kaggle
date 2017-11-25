@@ -10,17 +10,7 @@ ME VOY A PONER A BUSCAR MAS DESCRIPCIONES
 Knn_bagging_AunMasColumnasDescripcion.csv       # Supongo que vamos a tener que probar con uno de los dos al estar limitados en subidas
 Knn_bagging_AunMasColumnasDescripcion_StdSc.csv
 
-Decision_tree_GridSearch_ColumnasDescripcion.csv
 
-#### Estoy tercero que seria segundo !!!!! Nos estamos acercandoooooo.
-Dejo corriendo KNN directamente con todas las columnas calculadas y manana agrego con oneHot encoder o si se te ocurre otra cosa.
-
-### Las nuevas columnas te las guarde en un csv para que directamente las unas
- al que ya tenes. Yo lo hice con el de set_dato_superficie. Si usaste otro y no
- podes unirlo directamente avisame y te paso tambien las viejas y agregas todas 
-a ese asi usamos el mismo y no tenes que perder tiempo calculando.
-
-blending  948270237835.30000 -> descartado
 ________________________________________________________________________________________________
 MEJORES RESULTADOS:   				
 
