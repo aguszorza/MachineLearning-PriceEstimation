@@ -1,4 +1,6 @@
 
+DecisionTree_88ColumnasDescripcion.csv
+
 
 _________________________________________________________________________________
 
@@ -19,5 +21,10 @@ comodidades = ['seguridad','gimnasio', 'aire', 'pileta', 'cochera','transporte',
                              'doble', 'marca', \
         'lote', 'fondo', 'acero', 'torre', 'ideal', 'horno', 'nuevo', 'bacha', 'sala', 'salon', 'frente', 'excelente', \
         'toilette']
+
+nuevas mias 
+
+['afip', 'auto',  'autos', 'super', 'mejor', 'ninos', 'sauna', 'lindo', 'caba', 'rio', 'gym', 'luz',\
+        'sol', 'spa']
 
 
