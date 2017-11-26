@@ -6,18 +6,14 @@ ________________________________________________________________________________
 
 COLUMNAS:::
 
-Con estas dio el mejor resultado (14)
+Con estas dio el mejor resultado (913)
 comodidades = ['seguridad','gimnasio', 'aire', 'pileta', 'cochera','transporte','cocina','comedor',\
 'living', 'banos', 'balcon','ambientes','departamento', 'dormitorios','quincho', 'granito','porcelanato',\
 'completo', 'excelente', 'edificio','lavadero', 'amplio', 'planta', 'cuadras', 'placard', 'terraza', 'acceso',\
 'parrilla', 'luminoso','madera', 'credito', 'calidad', 'cucicba', 'amenities','expensas','mesada',\
 'responsable','muebles', 'espacio', 'diario', 'independiente', 'cubierta','contrafrente', 'integrada',\
 'recepcion','categoria', 'profesional', 'baulera', 'natural','unidades', 'principal', 'espacio', 'estacion', 'vestidor', 'solarium', 'central', \
-             'parquet', 'estrenar', 'granito']
-             
-
-(Con todas estas empeoro pero son muchas, tal vez con algunas mejora)
-['piso', 'pisos', 'apto', 'patio', 'sobre', 'casa', 'suite', 'vista', 'hall', 'agua', \
+             'parquet', 'estrenar', 'granito','piso', 'pisos', 'apto', 'patio', 'sobre', 'casa', 'suite', 'vista', 'hall', 'agua', \
                              'doble', 'marca', \
         'lote', 'fondo', 'acero', 'torre', 'ideal', 'horno', 'nuevo', 'bacha', 'sala', 'salon', 'frente', 'excelente', \
         'toilette']
