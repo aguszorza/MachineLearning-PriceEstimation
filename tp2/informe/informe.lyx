@@ -1035,6 +1035,11 @@ Para eso, se hizo un análisis de la cantidad de apariciones de cada palabra
  
 \end_layout
 
+\begin_layout Standard
+Haciendo esto logramos los mejores resultados obtenidos.
+ 
+\end_layout
+
 \begin_layout Subsection
 Algoritmos
 \end_layout
@@ -1505,11 +1510,11 @@ criterion = 'mse'
 \end_layout
 
 \begin_layout Itemize
-max_depth = None 
+max_depth = 100 
 \end_layout
 
 \begin_layout Itemize
-max_features = 0.9
+max_features = 0.8
 \end_layout
 
 \begin_layout Standard
@@ -1520,8 +1525,16 @@ Las columnas utilizadas son: Superficie, latitud, longitud, property type,
 \end_layout
 
 \begin_layout Standard
-Para el caso de la columna property type utilizamos One Hot encoder, generando
- 4 columnas distintas correspondientes a cada tipo.
+Además, agregamos ???? columnas, obteniéndolas con palabras de las descripciones
+, como se explicó anteriormente.
+ 
+\end_layout
+
+\begin_layout Standard
+El resultado final se obtiene promediando el resultado de predecir el precio
+ 10 veces, donde en cada iteración se utiliza el 80% de las columnas de
+ descripciones.
+ 
 \end_layout
 
 \begin_layout Standard
