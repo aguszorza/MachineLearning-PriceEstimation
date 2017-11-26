@@ -1525,8 +1525,8 @@ Las columnas utilizadas son: Superficie, latitud, longitud, property type,
 \end_layout
 
 \begin_layout Standard
-Además, agregamos ???? columnas, obteniéndolas con palabras de las descripciones
-, como se explicó anteriormente.
+Además, agregamos 81 columnas, obteniéndolas con palabras de las descripciones,
+ como se explicó anteriormente.
  
 \end_layout
 
@@ -1539,7 +1539,7 @@ El resultado final se obtiene promediando el resultado de predecir el precio
 
 \begin_layout Standard
 La precisión obtenida con un set de validación al azar del 20% del set de
- datos es ??????? y el error es ???????.
+ datos es aproximadamente 95 %.
  
 \end_layout
 
