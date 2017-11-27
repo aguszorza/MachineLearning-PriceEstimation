@@ -344,13 +344,13 @@ Análisis previo y preparación del set de datos
 \end_layout
 
 \begin_layout Standard
-El set de pruebas que contiene las propiedades para adivinar el precio tiene
+El set de pruebas que contiene las propiedades para predecir el precio tiene
  las siguientes columnas: Tipo de propiedad, dirección, latitud, longitud,
  superficie, fecha, descripcion, piso, habitaciones y expensas.
  Analizando los datos, se puede ver que hay muchas propiedades con datos
  importantes faltantes, como la superficie o la latitud y longitud.
  Teniendo en cuenta lo analizado en el TP anterior, sabemos que estos datos
- son importantes e influyen en el precio.
+ son importantes e influyen en gran medida en el precio de la propiedad.
  Por eso, creemos necesario calcularlos de alguna forma para poder utilizarlos.
  Decidimos que lo más conveniente sería obtenerlos con un promedio.
  
@@ -365,8 +365,8 @@ El set de pruebas que contiene las propiedades para adivinar el precio tiene
 
 \begin_layout Standard
 Para el caso de la latitud y la longitud, los calculamos como el promedio
- de aquellos que estén en la misma zona.
- Por ejemplo, si la propiedad esta en Villa Crespo, en caso de que no tenga
+ de aquellas propiedades que estén en la misma zona.
+ Por ejemplo, si la propiedad está en Villa Crespo, en caso de que no tenga
  su latitud o longitud las calcularemos como el promedio de todas las latitudes
  o longitudes de propiedades de Villa Crespo.
  Esto lo hacemos así porque los valores no varían mucho con pequeñas distancias.
@@ -385,7 +385,7 @@ Para el caso de la latitud y la longitud, los calculamos como el promedio
 
 \begin_layout Standard
 Con respecto a los datos utilizados para entrenar los algoritmos, utilizaremos
- los mismos datos utilizados en el TP anterior.
+ los mismos datos utilizados en el TP anterior para el análisis exploratorio.
  
 \end_layout
 
@@ -546,7 +546,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename imagenes/SVD_1.png
-	scale 70
+	scale 60
 
 \end_inset
 
@@ -619,7 +619,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename imagenes/SVD_2.png
-	scale 70
+	scale 60
 
 \end_inset
 
@@ -675,7 +675,7 @@ status collapsed
 \align center
 \begin_inset Graphics
 	filename imagenes/SVD_3.png
-	scale 70
+	scale 60
 
 \end_inset
 
@@ -917,8 +917,9 @@ Debido a que para las propiedades de Capital Federal tenemos calculadas
 
 \begin_layout Standard
 Luego, subdividimos nuevamente, pero por tipo de propiedad, utilizando para
- las predicciones únicamente los datos que fueran del mismo tipo de propiedad
+ las predicciones únicamente los datos que son del mismo tipo de propiedad
  y además de la misma zona.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -928,7 +929,6 @@ No completar datos faltantes
 \begin_layout Standard
 Como se mencionó en la primer sección, muchas propiedades a predecir tienen
  datos importantes incompletos, como la superficie o la latitud y la longitud.
- 
 \end_layout
 
 \begin_layout Standard
@@ -939,7 +939,9 @@ Como se mencionó en la primer sección, muchas propiedades a predecir tienen
 \end_layout
 
 \begin_layout Standard
-Sin embargo, esto significa que habrá un error en la predicción.
+Sin embargo, esto significa que habrá un error en la predicción, ya que
+ los datos son completados con valores que posiblemente sean distintos a
+ los reales.
  Por eso, probamos realizar la predicción de cada propiedad en función de
  los datos con los que cuenta.
  Por ejemplo, si una propiedad tiene latitud y longitud pero no superficie,
@@ -947,7 +949,6 @@ Sin embargo, esto significa que habrá un error en la predicción.
  la superficie.
  En cambio, para otra propiedad que si tiene la superficie si se tuvo en
  cuenta.
- 
 \end_layout
 
 \begin_layout Subsubsection
@@ -999,10 +1000,14 @@ Agregar una columna correspondiente a la fecha
 Además de ir evolucionando año a año, los precios también evolucionaron
  mes a mes.
  Por eso, agregamos una columna a los datos que tenga en cuenta esto.
- El valor agregado es un número de 6 cifras con el formato aaaamm.
+ El valor agregado es un número de 6 cifras con el formato AAAAMM.
  De esta forma, los datos de Julio serán más cercanos a los de Junio que
- a los de Febrero.
- En general, los resultados fueron similares utilizando esta columna y sin
+ a los de Febrero del mismo año.
+ 
+\end_layout
+
+\begin_layout Standard
+En general, los resultados fueron similares utilizando esta columna y sin
  utilizarla.
  
 \end_layout
@@ -1015,6 +1020,7 @@ Agregar muchas más columnas a los datos
 Teóricamente, cuantos más datos y más columnas mejor serán los algoritmos.
  La forma que encontramos de agregar muchas columnas fue tomar palabras
  que aparecen en las descripciones de las propiedades.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1027,17 +1033,15 @@ Teóricamente, cuantos más datos y más columnas mejor serán los algoritmos.
 \begin_layout Standard
 Para eso, se hizo un análisis de la cantidad de apariciones de cada palabra
  en todas las descripciones de las propiedades del set de datos a predecir.
- De todas las palabras se tomaron aquellas que más apariciones tienen y
- que además tienen algún sentido.
+ De todas las palabras se tomaron aquellas que más veces aparecen y que
+ además tienen algún sentido.
  Con cada una de éstas se agregó un feature booleano nuevo que indicaba
- si esa palabra estaba presente en la descripción o no, además de utilizar
- las mencionadas anteriormente.
+ si esa palabra estaba presente en la descripción o no.
  
 \end_layout
 
 \begin_layout Standard
-Haciendo esto logramos los mejores resultados obtenidos.
- 
+Haciendo esto logramos los mejores resultados en las predicciones.
 \end_layout
 
 \begin_layout Subsection
@@ -1184,7 +1188,7 @@ Bagging regressor
 
 \begin_layout Standard
 Consiste en dividir el dataset en varios grupos, tomando elementos al azar.
- Luego, cada grupo obtiene su predicción y la predicción final se obtiene
+ Luego, cada grupo obtiene su predicción y el resultado final se obtiene
  como el promedio de estas o bien se obtiene por votación.
  
 \end_layout
@@ -1213,7 +1217,7 @@ Es un algoritmo que aprende una función
 \begin_inset Formula $f(\cdotp):R^{m}\rightarrow R^{o}$
 \end_inset
 
-, donde m es la dimensión del dataset y o es la dimensión de la estimación.
+, donde "m" es la dimensión del dataset y "o" es la dimensión de la estimación.
  La ventaja de este algoritmo es la capacidad de aprender modelos no lineales
  y la capacidad de aprender modelos en tiempo real utilizando partial_fit.
  Una de sus desventajas sería el tiempo de aprendizaje y la gran cantidad
@@ -1525,9 +1529,13 @@ Las columnas utilizadas son: Superficie, latitud, longitud, property type,
 \end_layout
 
 \begin_layout Standard
-Además, agregamos ???? columnas, obteniéndolas con palabras de las descripciones
-, como se explicó anteriormente.
+Además, agregamos 81 columnas, obteniéndolas con palabras de las descripciones,
+ como se explicó anteriormente.
  
+\end_layout
+
+\begin_layout Standard
+Como set de datos utilizamos únicamente las propiedades del año 2017.
 \end_layout
 
 \begin_layout Standard
@@ -1539,7 +1547,7 @@ El resultado final se obtiene promediando el resultado de predecir el precio
 
 \begin_layout Standard
 La precisión obtenida con un set de validación al azar del 20% del set de
- datos es ??????? y el error es ???????.
+ datos es aproximadamente 95 %.
  
 \end_layout
 
