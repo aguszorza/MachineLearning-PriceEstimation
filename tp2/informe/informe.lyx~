@@ -540,13 +540,13 @@ Utilizando las siguientes columnas: Superficie, place name, tipo de propiedad,
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename imagenes/SVD_1.png
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -613,13 +613,13 @@ Sin embargo, si en lugar de place_name utilizamos la latitud y longitud,
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename imagenes/SVD_2.png
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -669,13 +669,13 @@ Donde se puede ver que los datos son más o menos lineales.
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename imagenes/SVD_3.png
-	scale 60
+	scale 50
 
 \end_inset
 

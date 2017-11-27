@@ -259,6 +259,19 @@ aguszorza@gmail.com
 \backslash
 textsc{
 \backslash
+small Grupo: 20}
+\backslash
+
+\backslash
+[.05cm]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsc{
+\backslash
 small Grupo de Kaggle: grupo doble}
 \backslash
 
@@ -669,7 +682,7 @@ Donde se puede ver que los datos son más o menos lineales.
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
